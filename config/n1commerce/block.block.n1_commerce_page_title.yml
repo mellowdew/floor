@@ -1,0 +1,31 @@
+uuid: ce83b2b8-63c6-42fc-a561-3534a4f264c3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: n1_commerce_page_title
+theme: n1_commerce
+region: content
+weight: -19
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n"
+    negate: true
+    context_mapping: {  }

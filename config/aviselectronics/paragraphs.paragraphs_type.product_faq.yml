@@ -1,0 +1,16 @@
+uuid: 545106dc-72d7-4c4f-9ed6-01c81c1f76c9
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: product_faq
+label: FAQ
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available:
+      default: Default
+    override_default: default

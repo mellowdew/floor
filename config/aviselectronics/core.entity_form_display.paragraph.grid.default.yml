@@ -1,0 +1,43 @@
+uuid: 3e3225d3-4d10-43c3-b079-02a79ea39564
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.grid.field_grid_desktop
+    - field.field.paragraph.grid.field_grid_ldesktop
+    - field.field.paragraph.grid.field_grid_mobile
+    - field.field.paragraph.grid.field_grid_tablet
+    - paragraphs.paragraphs_type.grid
+id: paragraph.grid.default
+targetEntityType: paragraph
+bundle: grid
+mode: default
+content:
+  field_grid_desktop:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_grid_ldesktop:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_grid_mobile:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_grid_tablet:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

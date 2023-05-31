@@ -1,0 +1,18 @@
+uuid: 2f43d9b1-0a29-4059-ac63-d1c4a97d42fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: app_contact.person_contact
+target_entity_type_id: app_contact
+target_bundle: person_contact
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,60 @@
+uuid: 7c22e570-3eb2-48f1-9e2b-099951b60a4b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1b407c08-b8b9-47c1-9439-435dde5403c6'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: ikonkikitchen
+theme: aviselectronics
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:1b407c08-b8b9-47c1-9439-435dde5403c6'
+settings:
+  id: 'block_content:1b407c08-b8b9-47c1-9439-435dde5403c6'
+  label: 'Иконки kitchen'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /catalog/kitchen-tvs
+    negate: false
+    context_mapping: {  }

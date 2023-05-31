@@ -1,0 +1,20 @@
+uuid: 2cda339f-99e3-4bdb-86bd-3cc18967cc61
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.lesson
+id: commerce_product_variation.lesson.uid
+field_name: uid
+entity_type: commerce_product_variation
+bundle: lesson
+label: Author
+description: 'The variation author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\commerce_product\Entity\ProductVariation::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

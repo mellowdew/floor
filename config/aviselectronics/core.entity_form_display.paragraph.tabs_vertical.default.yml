@@ -1,0 +1,58 @@
+uuid: 9304a412-00f2-4284-b115-a916b3bab7d4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tabs_vertical.field_icon
+    - field.field.paragraph.tabs_vertical.field_lesson_content
+    - field.field.paragraph.tabs_vertical.field_title
+    - field.field.paragraph.tabs_vertical.field_visibility
+    - paragraphs.paragraphs_type.tabs_vertical
+  module:
+    - paragraphs
+_core:
+  default_config_hash: 5JMp6hy97AcRI4_JLQCxPUamtH4SrepigWqU1JThKrE
+id: paragraph.tabs_vertical.default
+targetEntityType: paragraph
+bundle: tabs_vertical
+mode: default
+content:
+  field_icon:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_lesson_content:
+    type: paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: all
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_visibility:
+    weight: 3
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

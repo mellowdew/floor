@@ -1,0 +1,20 @@
+uuid: a27e0803-0268-451f-ae5d-b6664a372ee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.grid.field_grid_desktop
+    - field.field.paragraph.grid.field_grid_ldesktop
+    - field.field.paragraph.grid.field_grid_mobile
+    - field.field.paragraph.grid.field_grid_tablet
+    - paragraphs.paragraphs_type.grid
+id: paragraph.grid.default
+targetEntityType: paragraph
+bundle: grid
+mode: default
+content: {  }
+hidden:
+  field_grid_desktop: true
+  field_grid_ldesktop: true
+  field_grid_mobile: true
+  field_grid_tablet: true

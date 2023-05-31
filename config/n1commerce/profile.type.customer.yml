@@ -1,0 +1,17 @@
+uuid: 43cda0dd-ba26-4174-95ba-3bc74a4ffa86
+langcode: ru
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+_core:
+  default_config_hash: PZl4AQDUouSVwavb0FNRlcbJx924n5FtCq8l73AMj5g
+id: customer
+label: Покупатель
+registration: false
+multiple: true
+roles: {  }
+weight: 0
+use_revisions: false
+description: null

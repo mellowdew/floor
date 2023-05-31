@@ -1,0 +1,23 @@
+uuid: 67e139bb-99f5-4e1a-8bc5-2d1f6b8572b4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+    - field.storage.block_content.field_link
+  module:
+    - link
+id: block_content.photo_video_slider.field_link
+field_name: field_link
+entity_type: block_content
+bundle: photo_video_slider
+label: 'Link to related content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

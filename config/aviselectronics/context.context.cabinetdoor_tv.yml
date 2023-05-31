@@ -1,0 +1,71 @@
+uuid: 82b44982-9ce9-4c1e-92b8-f40e71e08ef6
+langcode: en
+status: true
+dependencies:
+  module:
+    - request_data_conditions
+    - system
+name: cabinetdoor_tv
+label: 'Cabinet Door TV'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: /catalog/kitchen-tvs/cabinet-door-tv
+    negate: 0
+    uuid: 6106d579-f411-446f-bb7f-c882ac0a6f28
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: f
+        op: not_set
+        value: ''
+    require_all_params: 1
+    negate: 0
+    uuid: 5f487d8b-c2cd-43fe-afe9-52a91caf7a8c
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      9eb7628e-9f85-408c-8432-3f3e8f1642d8:
+        id: 'block_content:e196229c-c936-464e-a76f-bd8c287693fc'
+        label: 'Catalog description - Cabinet Door TV'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: cabinetdoor_tv
+        uuid: 9eb7628e-9f85-408c-8432-3f3e8f1642d8
+      42fc2314-5027-4985-9d8c-f64aef12ede8:
+        id: 'block_content:80a279a3-2574-4be3-890e-7cb84dc20b38'
+        label: 'landing - cabinet'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: cabinetdoor_tv
+        uuid: 42fc2314-5027-4985-9d8c-f64aef12ede8
+    id: blocks
+    saved: false
+    uuid: 17dc197e-5f97-4598-b162-cc3ad93abace
+    include_default_blocks: 1
+weight: -4

@@ -1,0 +1,24 @@
+uuid: 5ea7522f-55d1-429e-9432-329ae1631b87
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.horizontal_tabs.field_lesson_content
+    - paragraphs.paragraphs_type.horizontal_tabs
+  module:
+    - entity_reference_revisions
+id: paragraph.horizontal_tabs.default
+targetEntityType: paragraph
+bundle: horizontal_tabs
+mode: default
+content:
+  field_lesson_content:
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+hidden: {  }

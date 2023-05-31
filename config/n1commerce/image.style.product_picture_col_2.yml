@@ -1,0 +1,15 @@
+uuid: 0fc5285a-4774-447e-bcc5-7a08a8ed5b31
+langcode: ru
+status: true
+dependencies: {  }
+name: product_picture_col_2
+label: 'Product picture field auto x 625'
+effects:
+  5b12e5a9-01f9-41fe-a0a2-5d6307911f0d:
+    uuid: 5b12e5a9-01f9-41fe-a0a2-5d6307911f0d
+    id: image_scale
+    weight: 1
+    data:
+      width: 625
+      height: null
+      upscale: false

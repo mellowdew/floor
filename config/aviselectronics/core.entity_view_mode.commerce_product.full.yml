@@ -1,0 +1,10 @@
+uuid: e09737ce-d515-4b0a-8bb1-31978b9e72e2
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.full
+label: 'Карточка товара'
+targetEntityType: commerce_product
+cache: true

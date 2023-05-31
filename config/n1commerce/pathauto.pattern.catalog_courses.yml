@@ -1,0 +1,23 @@
+uuid: a1453f3d-de0c-4e96-b6a4-d3e4d37037d1
+langcode: ru
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: catalog_courses
+label: 'Catalog of courses'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'catalog/[term:parents:join-path]/[term:name]'
+selection_criteria:
+  2e47e976-ecc6-415a-9634-d06d619f05e9:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      catalog_of_cources: catalog_of_cources
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 2e47e976-ecc6-415a-9634-d06d619f05e9
+selection_logic: and
+weight: -5
+relationships: {  }

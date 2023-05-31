@@ -1,0 +1,7 @@
+uuid: 5115a618-22b3-4b09-83aa-45351392f863
+langcode: en
+status: true
+dependencies: {  }
+id: screen_size
+label: 'Screen size'
+elementType: select

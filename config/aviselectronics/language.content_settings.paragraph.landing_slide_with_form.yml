@@ -1,0 +1,18 @@
+uuid: 4548cbe5-8214-40c1-a33d-60d5d7b94df2
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.landing_slide_with_form
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.landing_slide_with_form
+target_entity_type_id: paragraph
+target_bundle: landing_slide_with_form
+default_langcode: site_default
+language_alterable: false

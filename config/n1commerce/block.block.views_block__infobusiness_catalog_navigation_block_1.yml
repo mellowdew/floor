@@ -1,0 +1,34 @@
+uuid: b55241e5-03c5-4845-b8be-fe2012a22ea5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.infobusiness_catalog_navigation
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__infobusiness_catalog_navigation_block_1
+theme: n1_commerce
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'views_block:infobusiness_catalog_navigation-block_1'
+settings:
+  id: 'views_block:infobusiness_catalog_navigation-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/infobusiness/*\r\n/infobusiness"
+    negate: false
+    context_mapping: {  }

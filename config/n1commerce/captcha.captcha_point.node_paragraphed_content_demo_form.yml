@@ -1,0 +1,7 @@
+uuid: 10fcfd19-0394-4b8d-8234-8d3e2f8bfb36
+langcode: ru
+status: false
+dependencies: {  }
+formId: node_paragraphed_content_demo_form
+captchaType: default
+label: null

@@ -1,0 +1,51 @@
+uuid: c0e311e3-c7cf-484d-8eec-7d9ab8324cb7
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - request_data_conditions
+    - smart_ip
+    - webform
+id: default
+label: Default
+weight: 0
+container_id: GTM-KWKVQ5V
+data_layer: dataLayer
+include_classes: false
+whitelist_classes: "google\nnonGooglePixels\nnonGoogleScripts\nnonGoogleIframes"
+blacklist_classes: "customScripts\ncustomPixels"
+include_environment: false
+environment_id: ''
+environment_token: ''
+path_toggle: 'exclude listed'
+path_list: "/admin*\n/batch*\n/node/add*\n/node/*/edit\n/node/*/delete\n/user/*/edit*\n/user/*/cancel*"
+role_toggle: 'exclude listed'
+role_list: {  }
+status_toggle: 'exclude listed'
+status_list: "403\n404"
+conditions:
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: 0
+  countries:
+    id: countries
+    countries: {  }
+    negate: '0'
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: 0
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: 0
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: 0

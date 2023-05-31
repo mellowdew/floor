@@ -1,0 +1,20 @@
+uuid: 50e76a8a-28c5-4e0e-bd06-a67a2fc6b93e
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog_of_cources
+  module:
+    - text
+id: taxonomy_term.catalog_of_cources.description
+field_name: description
+entity_type: taxonomy_term
+bundle: catalog_of_cources
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

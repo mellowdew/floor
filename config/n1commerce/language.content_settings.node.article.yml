@@ -1,0 +1,16 @@
+uuid: fc10156a-1ca4-4e0f-992a-d2a339e6a372
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: node.article
+target_entity_type_id: node
+target_bundle: article
+default_langcode: site_default
+language_alterable: false

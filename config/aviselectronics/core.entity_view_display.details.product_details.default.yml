@@ -1,0 +1,23 @@
+uuid: 58ce4827-d990-4c38-b553-90ef489a5901
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.details.product_details
+    - field.field.details.product_details.field_details
+id: details.product_details.default
+targetEntityType: details
+bundle: product_details
+mode: default
+content:
+  title:
+    label: hidden
+    type: string
+    weight: 0
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_details: true
+  langcode: true

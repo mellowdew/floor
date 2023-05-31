@@ -1,0 +1,15 @@
+uuid: 9a0f4857-9250-4c18-b729-6484ac6634d5
+langcode: ru
+status: true
+dependencies: {  }
+name: scale_and_crop_1920x1080
+label: 'scale and crop 1920x1080'
+effects:
+  669f7c6d-d5df-42f8-84ca-fe77321002fc:
+    uuid: 669f7c6d-d5df-42f8-84ca-fe77321002fc
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 1080
+      anchor: center-center

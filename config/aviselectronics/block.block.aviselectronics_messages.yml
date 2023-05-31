@@ -1,0 +1,22 @@
+uuid: 514ef166-84fa-4ee9-9d47-348bf75ef0af
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - aviselectronics
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: aviselectronics_messages
+theme: aviselectronics
+region: content
+weight: -33
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: ee9dfa0f-a394-4378-bc5b-1757594cfef1
+langcode: ru
+status: true
+dependencies: {  }
+id: landing_slide_with_form
+label: 'Landing slide with form'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

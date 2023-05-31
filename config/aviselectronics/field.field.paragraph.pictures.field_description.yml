@@ -1,0 +1,30 @@
+uuid: 86a20e99-f464-4ef7-8251-264deb6fb4df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.pictures
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    full_html: '0'
+    basic_html: '0'
+    restricted_html: '0'
+    plain_text: '0'
+    clean: '0'
+    teaser: '0'
+id: paragraph.pictures.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: pictures
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

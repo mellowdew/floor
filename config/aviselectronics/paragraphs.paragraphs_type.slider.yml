@@ -1,0 +1,23 @@
+uuid: a7c3aa02-bea7-49f7-8cd6-478a28a545a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: slider
+label: Slider
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    enabled: true
+    override_mode: default
+    override_available:
+      fullwidth_slider: fullwidth_slider
+      large_middle_slide: large_middle_slide
+      simple_carousel: simple_carousel
+      default: '0'
+      full: '0'
+      preview: '0'
+      token: '0'
+    override_default: fullwidth_slider

@@ -1,0 +1,25 @@
+uuid: 46833c07-ac9b-4fd5-a714-a86b2af500f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - commerce_cart
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: center
+id: cart
+theme: aviselectronics
+region: mobile_header
+weight: -25
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility: {  }

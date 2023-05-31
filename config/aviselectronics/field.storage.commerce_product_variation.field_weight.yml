@@ -1,0 +1,20 @@
+uuid: 00255a4b-7abd-4add-b027-db4373872c36
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.field_weight
+field_name: field_weight
+entity_type: commerce_product_variation
+type: decimal
+settings:
+  precision: 10
+  scale: 0
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

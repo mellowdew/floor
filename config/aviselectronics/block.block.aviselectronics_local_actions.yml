@@ -1,0 +1,20 @@
+uuid: 4de70700-942b-49df-a0f2-660f17479fc3
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - aviselectronics
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: aviselectronics_local_actions
+theme: aviselectronics
+region: content
+weight: -31
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

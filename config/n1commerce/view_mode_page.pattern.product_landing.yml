@@ -1,0 +1,24 @@
+uuid: 7b95f1b6-b596-4a7b-a76e-fa90b118911a
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+id: product_landing
+label: 'Product landing'
+type: 'canonical_entities:commerce_product'
+pattern: /%/landing
+view_mode: product_landing
+selection_criteria:
+  29b81ea7-9a37-48dc-ba14-9dd9aedfaf65:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      cource: cource
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: 29b81ea7-9a37-48dc-ba14-9dd9aedfaf65
+selection_logic: and
+weight: -5
+relationships: {  }

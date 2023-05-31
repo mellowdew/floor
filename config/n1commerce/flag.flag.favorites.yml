@@ -1,0 +1,31 @@
+uuid: 881e4d08-4f2f-4faa-b53d-9e6a60db1c05
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: favorites
+label: Favorites
+bundles:
+  - product
+  - product_app
+entity_type: commerce_product
+global: false
+weight: 0
+flag_short: '<span class="btn btn-floating waves-effect waves-light blue"><i class="material-icons">favorite</i></span>'
+flag_long: 'Добавить товар в избранное'
+flag_message: 'Товар добавлен в избранное'
+unflag_short: '<span class="btn btn-floating waves-effect waves-light grey"><i class="material-icons">favorite</i></span>'
+unflag_long: 'Удалить товар из избранного'
+unflag_message: 'Товар был удален из избранного'
+unflag_denied_text: ''
+flag_type: 'entity:commerce_product'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

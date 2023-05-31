@@ -1,0 +1,10 @@
+uuid: d9e10d04-40a0-42ca-854d-b93aa5e79aea
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.soputstvuusii_tovar
+label: 'Сопутствующий товар'
+targetEntityType: commerce_product
+cache: true

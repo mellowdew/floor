@@ -1,0 +1,11 @@
+uuid: 533f29f8-6541-4de4-82b9-424f4bd05e70
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.product_testimonials
+id: comment.product_testimonials
+target_entity_type_id: comment
+target_bundle: product_testimonials
+default_langcode: site_default
+language_alterable: false

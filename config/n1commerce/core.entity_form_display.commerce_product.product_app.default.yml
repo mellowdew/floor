@@ -1,0 +1,117 @@
+uuid: 45ba680e-e49e-4148-94b0-76281b671535
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product_app
+    - field.field.commerce_product.product_app.body
+    - field.field.commerce_product.product_app.field_3d_model
+    - field.field.commerce_product.product_app.field_additional_url
+    - field.field.commerce_product.product_app.field_default_view_type
+    - field.field.commerce_product.product_app.field_details
+    - field.field.commerce_product.product_app.field_image_gallery
+    - field.field.commerce_product.product_app.field_model_3d_scale
+    - field.field.commerce_product.product_app.stores
+    - field.field.commerce_product.product_app.variations
+    - image.style.thumbnail
+  module:
+    - file
+    - image
+    - inline_entity_form
+    - link
+    - text
+id: commerce_product.product_app.default
+targetEntityType: commerce_product
+bundle: product_app
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 10
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  field_3d_model:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_additional_url:
+    weight: 5
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_default_view_type:
+    weight: 6
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_image_gallery:
+    weight: 2
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_model_3d_scale:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 9
+    third_party_settings: {  }
+    region: content
+  stores:
+    type: options_buttons
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  variations:
+    type: inline_entity_form_complex
+    weight: 7
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: 'вариацию товара'
+      label_plural: 'вариации товара'
+      allow_new: true
+      match_operator: CONTAINS
+      allow_existing: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  field_details: true
+  langcode: true
+  path: true
+  uid: true

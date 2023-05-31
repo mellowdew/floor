@@ -1,0 +1,71 @@
+uuid: f670a552-945a-45e4-b0a7-9f3f86455842
+langcode: en
+status: true
+dependencies:
+  module:
+    - request_data_conditions
+    - system
+name: mirrortelevisions
+label: 'Mirror Televisions'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: f
+        op: not_set
+        value: ''
+    require_all_params: 1
+    negate: 0
+    uuid: f6e1ac79-858e-414b-83a3-90b9147e820e
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /catalog/mirror-tvs
+    negate: 0
+    uuid: de35ca9d-680a-4c40-837c-842817cef03b
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      d6328b85-cf45-4634-a740-5ca6ccaf4f76:
+        id: 'block_content:0f2bb6cc-3c87-46bd-9aee-2a73d0a368de'
+        label: 'Catalog description - Mirror Televisions'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: mirrortelevisions
+        uuid: d6328b85-cf45-4634-a740-5ca6ccaf4f76
+      36e855bd-510a-4e84-b92f-1b4d8d45032c:
+        id: 'block_content:c3bde27e-90a8-45d3-abd4-ef5d9733e456'
+        label: 'landing - mirror-tvs'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: mirrortelevisions
+        uuid: 36e855bd-510a-4e84-b92f-1b4d8d45032c
+    id: blocks
+    saved: false
+    uuid: 1604942b-0c55-4832-89e9-9f2c57cbbabd
+    include_default_blocks: 1
+weight: -7

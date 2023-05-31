@@ -1,0 +1,33 @@
+uuid: 8171c9cb-9f36-45c4-8487-0f4eea97de5b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: osnovnaanavigacia
+theme: n1_commerce
+region: sidebar_first
+weight: -18
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Основная навигация'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,9 @@
+uuid: 82af8455-0151-410d-af81-af4d85030cd2
+langcode: en
+status: true
+dependencies: {  }
+id: gallery_video_upload
+label: 'Gallery video upload'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

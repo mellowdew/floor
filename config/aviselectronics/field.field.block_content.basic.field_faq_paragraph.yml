@@ -1,0 +1,121 @@
+uuid: a9c492cb-5507-4ffb-96a9-9007d6716921
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_faq_paragraph
+    - paragraphs.paragraphs_type.product_faq
+  module:
+    - entity_reference_revisions
+id: block_content.basic.field_faq_paragraph
+field_name: field_faq_paragraph
+entity_type: block_content
+bundle: basic
+label: faq_paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      product_faq: product_faq
+    target_bundles_drag_drop:
+      about_course:
+        weight: 32
+        enabled: false
+      description:
+        weight: 33
+        enabled: false
+      document:
+        weight: 34
+        enabled: false
+      file_storage:
+        weight: 35
+        enabled: false
+      gallery_html:
+        weight: 36
+        enabled: false
+      gallery_image:
+        weight: 37
+        enabled: false
+      gallery_video:
+        weight: 38
+        enabled: false
+      gallery_video_upload:
+        weight: 39
+        enabled: false
+      grid:
+        weight: 40
+        enabled: false
+      horizontal_tab:
+        weight: 41
+        enabled: false
+      horizontal_tabs:
+        weight: 42
+        enabled: false
+      images:
+        weight: 43
+        enabled: false
+      image_text:
+        weight: 44
+        enabled: false
+      landing_form:
+        weight: 45
+        enabled: false
+      landing_gallery_slider:
+        weight: 46
+        enabled: false
+      landing_main_slider:
+        weight: 47
+        enabled: false
+      landing_slide:
+        weight: 48
+        enabled: false
+      landing_slide_with_form:
+        weight: 49
+        enabled: false
+      nested_paragraph:
+        weight: 50
+        enabled: false
+      pictures:
+        weight: 51
+        enabled: false
+      product_faq:
+        enabled: true
+        weight: 52
+      row:
+        weight: 53
+        enabled: false
+      slider:
+        weight: 54
+        enabled: false
+      table:
+        weight: 55
+        enabled: false
+      tabs_vertical:
+        weight: 56
+        enabled: false
+      text:
+        weight: 57
+        enabled: false
+      title:
+        weight: 58
+        enabled: false
+      user:
+        weight: 59
+        enabled: false
+      video:
+        weight: 60
+        enabled: false
+      vimeo_video:
+        weight: 61
+        enabled: false
+      webform:
+        weight: 62
+        enabled: false
+field_type: entity_reference_revisions

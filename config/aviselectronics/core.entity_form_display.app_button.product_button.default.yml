@@ -1,0 +1,28 @@
+uuid: a006bed8-9da1-4aea-a02d-1ec3adafc352
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_button.product_button
+    - field.field.app_button.product_button.field_button_action
+id: app_button.product_button.default
+targetEntityType: app_button
+bundle: product_button
+mode: default
+content:
+  field_button_action:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

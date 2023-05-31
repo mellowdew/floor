@@ -1,0 +1,16 @@
+uuid: 7c314ba9-64e5-4a81-9585-0a811b92f658
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.horizontal_tabs
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.horizontal_tabs
+target_entity_type_id: paragraph
+target_bundle: horizontal_tabs
+default_langcode: site_default
+language_alterable: false

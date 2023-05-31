@@ -1,0 +1,25 @@
+uuid: 93d3b68d-2927-4890-802c-51426b13027f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_video_upload.field_media_video
+    - paragraphs.paragraphs_type.gallery_video_upload
+  module:
+    - file
+id: paragraph.gallery_video_upload.default
+targetEntityType: paragraph
+bundle: gallery_video_upload
+mode: default
+content:
+  field_media_video:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

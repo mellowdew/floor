@@ -1,0 +1,23 @@
+uuid: 30279095-d7f5-417d-a011-9849428e9140
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_store
+    - file
+id: commerce_store.field_logo_2d
+field_name: field_logo_2d
+entity_type: commerce_store
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

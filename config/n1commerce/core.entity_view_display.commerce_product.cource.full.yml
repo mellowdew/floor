@@ -1,0 +1,42 @@
+uuid: 929bcc25-c0b1-40cc-9427-d943e2717f8c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.cource
+    - core.entity_view_mode.commerce_product.full
+    - field.field.commerce_product.cource.field_catalog_promo_image
+    - field.field.commerce_product.cource.field_lesson
+    - field.field.commerce_product.cource.field_product_landing
+    - field.field.commerce_product.cource.field_promo
+    - field.field.commerce_product.cource.field_teaser_image
+    - field.field.commerce_product.cource.stores
+    - field.field.commerce_product.cource.variations
+id: commerce_product.cource.full
+targetEntityType: commerce_product
+bundle: cource
+mode: full
+content:
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_catalog: true
+  field_catalog_promo_image: true
+  field_cource_tags: true
+  field_lesson: true
+  field_product_landing: true
+  field_promo: true
+  field_teaser_image: true
+  flag_comparison: true
+  langcode: true
+  share_everywhere: true
+  stores: true
+  uid: true
+  variations: true

@@ -1,0 +1,24 @@
+uuid: 9949ce38-a36f-4893-8b6f-e2cd96243db6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_class
+    - commerce_checkout_geo_restriction
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: 'hide-on-med-and-up center'
+id: changecountryblock_2
+theme: n1_commerce
+region: sidebar_first
+weight: -20
+provider: null
+plugin: commerce_checkout_geo_restriction_change_country_block
+settings:
+  id: commerce_checkout_geo_restriction_change_country_block
+  label: 'Change country block'
+  provider: commerce_checkout_geo_restriction
+  label_display: '0'
+visibility: {  }

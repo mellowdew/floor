@@ -1,0 +1,60 @@
+uuid: ae9aa979-f598-4688-a84f-ecd46681252b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ad92492a-f2eb-4565-9dd2-e2c3a81ad281'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: brands
+theme: aviselectronics
+region: content
+weight: 36
+provider: null
+plugin: 'block_content:ad92492a-f2eb-4565-9dd2-e2c3a81ad281'
+settings:
+  id: 'block_content:ad92492a-f2eb-4565-9dd2-e2c3a81ad281'
+  label: Brands
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

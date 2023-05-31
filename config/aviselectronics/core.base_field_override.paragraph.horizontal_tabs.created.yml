@@ -1,0 +1,18 @@
+uuid: 45dbf76f-cd65-41fc-add6-558f50e4794b
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.horizontal_tabs
+id: paragraph.horizontal_tabs.created
+field_name: created
+entity_type: paragraph
+bundle: horizontal_tabs
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

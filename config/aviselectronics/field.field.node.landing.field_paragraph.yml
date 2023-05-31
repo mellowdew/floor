@@ -1,0 +1,124 @@
+uuid: 531c00e0-5031-47c3-8b00-69a411cd11ce
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.landing
+    - paragraphs.paragraphs_type.landing_form
+    - paragraphs.paragraphs_type.landing_gallery_slider
+    - paragraphs.paragraphs_type.landing_main_slider
+    - paragraphs.paragraphs_type.landing_slide
+  module:
+    - entity_reference_revisions
+id: node.landing.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: landing
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      landing_slide: landing_slide
+      landing_gallery_slider: landing_gallery_slider
+      landing_form: landing_form
+      landing_main_slider: landing_main_slider
+    target_bundles_drag_drop:
+      image_text:
+        weight: 7
+        enabled: false
+      images:
+        weight: 8
+        enabled: false
+      nested_paragraph:
+        weight: 9
+        enabled: false
+      landing_slide_with_form:
+        weight: 9
+        enabled: false
+      text:
+        weight: 10
+        enabled: false
+      user:
+        weight: 12
+        enabled: false
+      landing_slide:
+        enabled: true
+        weight: 12
+      about_course:
+        weight: 28
+        enabled: false
+      description:
+        weight: 29
+        enabled: false
+      landing_gallery_slider:
+        enabled: true
+        weight: 29
+      document:
+        weight: 30
+        enabled: false
+      landing_form:
+        enabled: true
+        weight: 31
+      file_storage:
+        weight: 31
+        enabled: false
+      gallery_html:
+        weight: 32
+        enabled: false
+      gallery_image:
+        weight: 33
+        enabled: false
+      gallery_video:
+        weight: 34
+        enabled: false
+      gallery_video_upload:
+        weight: 35
+        enabled: false
+      grid:
+        weight: 36
+        enabled: false
+      horizontal_tab:
+        weight: 37
+        enabled: false
+      horizontal_tabs:
+        weight: 38
+        enabled: false
+      landing_main_slider:
+        enabled: true
+        weight: 44
+      pictures:
+        weight: 44
+        enabled: false
+      row:
+        weight: 45
+        enabled: false
+      slider:
+        weight: 46
+        enabled: false
+      table:
+        weight: 47
+        enabled: false
+      tabs_vertical:
+        weight: 48
+        enabled: false
+      title:
+        weight: 50
+        enabled: false
+      video:
+        weight: 52
+        enabled: false
+      vimeo_video:
+        weight: 53
+        enabled: false
+      webform:
+        weight: 54
+        enabled: false
+field_type: entity_reference_revisions

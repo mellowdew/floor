@@ -1,0 +1,29 @@
+uuid: 11931ca0-e24c-419a-80b7-42400239cba2
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.cource
+    - field.storage.commerce_product.field_cource_tags
+    - taxonomy.vocabulary.cource_tags
+id: commerce_product.cource.field_cource_tags
+field_name: field_cource_tags
+entity_type: commerce_product
+bundle: cource
+label: 'Cource tags'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      cource_tags: cource_tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: cource_tabs
+field_type: entity_reference

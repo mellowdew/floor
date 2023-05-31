@@ -1,0 +1,9 @@
+uuid: f0fb5a1c-c057-4931-aa5e-2472bbe61775
+langcode: ru
+status: true
+dependencies: {  }
+id: title
+label: Title
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

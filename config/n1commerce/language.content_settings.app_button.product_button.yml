@@ -1,0 +1,16 @@
+uuid: c65b99e9-a858-4cc7-bef4-09fca751e1c6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_button.product_button
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: app_button.product_button
+target_entity_type_id: app_button
+target_bundle: product_button
+default_langcode: site_default
+language_alterable: false

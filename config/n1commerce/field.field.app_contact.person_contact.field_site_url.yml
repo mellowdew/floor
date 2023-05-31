@@ -1,0 +1,23 @@
+uuid: 12c35179-702a-4e13-939f-ac55000f633b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+    - field.storage.app_contact.field_site_url
+  module:
+    - link
+id: app_contact.person_contact.field_site_url
+field_name: field_site_url
+entity_type: app_contact
+bundle: person_contact
+label: 'Site URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

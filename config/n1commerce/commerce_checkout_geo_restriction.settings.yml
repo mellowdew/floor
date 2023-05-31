@@ -1,0 +1,10 @@
+invert: {  }
+restrict:
+  - '1'
+substitutions:
+  1:
+    value: '<a class="waves-effect waves-light btn modal-trigger" href="#block-sendinquiry">Отправить запрос</a>'
+    format: full_html
+_core:
+  default_config_hash: LyNiGAc_0wczQnMQK9E9TSEKJtJ6eYVBnOzrl73yRsM
+langcode: ru

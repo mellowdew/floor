@@ -1,0 +1,27 @@
+uuid: ffecb78f-209c-4492-a98f-e902588e404b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.fullwidth_slider
+    - field.field.paragraph.gallery_video.field_gallery_video
+    - paragraphs.paragraphs_type.gallery_video
+  module:
+    - video_embed_field
+id: paragraph.gallery_video.fullwidth_slider
+targetEntityType: paragraph
+bundle: gallery_video
+mode: fullwidth_slider
+content:
+  field_gallery_video:
+    weight: 0
+    label: hidden
+    settings:
+      width: 1920
+      height: 1080
+      autoplay: false
+      responsive: false
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+hidden: {  }

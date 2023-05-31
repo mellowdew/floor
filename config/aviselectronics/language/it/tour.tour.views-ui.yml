@@ -1,0 +1,31 @@
+label: 'Страница редактирования представления'
+tips:
+  views-main:
+    label: 'Gestione impostazioni viste'
+    body: 'Vedi o modifica la configurazione.'
+  views-ui-displays:
+    label: 'Display di questa vista'
+    body: 'Un display è un modo per mostrare i risultati, per esempio come pagina o come blocco. Una vista può contenere più visualizzazioni, le quali sono mostrate qui. La visualizzazione attiva è evidenziata.'
+  views-ui-view-admin:
+    label: 'Amministrazione vista'
+    body: 'Выполнение административных задач, включающие добавление описания и создание копии. Нажмите раскрывающуюся кнопку для просмотра доступных действий.'
+  views-ui-format:
+    label: 'Formato di output'
+  views-ui-fields:
+    label: Campi
+    body: 'Se questa vista utilizza campi questi sono elencati qui. È possibile fare clic su un campo per configurarlo.'
+  views-ui-filter:
+    label: 'Filtra la vista'
+    body: 'Добавьте фильтры для ограничения вывода результатов. Например, для отображения только <em>опубликованных</em> материалов, необходимо добавить фильтр <em>Опубликовано</em> и выбрать <em>Да</em>'
+  views-ui-filter-operations:
+    label: 'Действия с фильтрами'
+    body: 'Aggiungi, riordina o rimuovi filtri.'
+  views-ui-sorts:
+    label: 'Criteri di Ordinamento'
+    body: 'Управляйте порядком вывода результатов. Нажмите на активное правило сортировки для его настройки.'
+  views-ui-sorts-operations:
+    label: 'Azioni di ordinamento'
+    body: 'Aggiungi, riordina o rimuovi regole di ordinamento.'
+  views-ui-preview:
+    label: Anteprima
+    body: 'Показать предварительный просмотр вывода представления.'

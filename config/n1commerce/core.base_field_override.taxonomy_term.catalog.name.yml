@@ -1,0 +1,18 @@
+uuid: 9ed7b697-aa48-4614-aea7-bdbc959744a2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog
+id: taxonomy_term.catalog.name
+field_name: name
+entity_type: taxonomy_term
+bundle: catalog
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

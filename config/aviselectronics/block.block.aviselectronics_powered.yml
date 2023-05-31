@@ -1,0 +1,27 @@
+uuid: 43fa97b1-5f55-4efa-b388-555dc8803c56
+langcode: ru
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - aviselectronics
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: aviselectronics_powered
+theme: aviselectronics
+region: footer
+weight: -18
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

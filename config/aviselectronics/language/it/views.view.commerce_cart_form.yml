@@ -1,0 +1,25 @@
+display:
+  default:
+    display_title: Principale
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Applica
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_desc_label: Disc
+      fields:
+        purchased_entity:
+          label: Elemento
+        unit_price__number:
+          label: Prezzo
+        edit_quantity:
+          label: Quantità
+        remove_button:
+          label: Elimina
+        total_price__number:
+          label: Totale
+      arguments:
+        order_id:
+          exception:
+            title: Tutti

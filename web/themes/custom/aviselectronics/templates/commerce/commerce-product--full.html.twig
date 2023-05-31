@@ -1,0 +1,124 @@
+{#
+/**
+ * @file
+ *
+ * Default product template.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - product: The rendered product fields.
+ *   Use 'product' to print them all, or print a subset such as
+ *   'product.title'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ product|without('title') }}
+ *   @endcode
+ * - product_entity: The product entity.
+ * - product_url: The product URL.
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('slick/slick') }}
+
+{%
+  set wrapperClasses = [
+    'commerce-pruduct-full',
+    (content_product_container and not content_container) ? 'container',
+  ]
+%}
+
+<article itemscope itemtype="http://schema.org/Product" {{ attributes.addClass(wrapperClasses) }}>
+  <div class="row">
+    <div class="product-main-wrapper s12 l6 col">
+
+      <div class="product-gallery">
+        <link itemprop="image" href="{{ url('<front>') }}{{ file_url(product_entity.variations.entity.field_image.0.entity.uri.0.value) }}" />
+        <div class="slick-gallery-wrapper">
+          <div class="{{ product.variation_field_image['#ajax_replace_class'] }}">
+            {{ product.variation_field_image }}
+          </div>
+        </div>
+        <div class="slick-gallery-nav-wrapper">
+          <div class="{{ product.variation_field_image['#ajax_replace_class'] }}">
+            {{ product.variation_field_image }}
+          </div>
+        </div>
+        <div class="slick-gallery-nav-arrows">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="product-right-wrapper s12 l6 col">
+      <div class="product-right">
+        <h1><span itemprop="name">{{- product.title -}}</span></h1>
+        <!-- div class="row" -->
+          <!--div class="col s1">{#- product.flag_comparison -#}</div-->
+          <!--div class="col s1">{#- product.flag_favorites -#}</div-->
+        <!--/div-->
+
+        {% if product.variation_field_old_price['#items'] %}
+          <div class="grey-text lighten-1 old_price">
+            {{product.variation_field_old_price}}
+          </div>
+        {% endif %}
+
+        <div itemprop="brand" itemtype="http://schema.org/Brand" itemscope>
+          <meta itemprop="name" content="{{ product_entity.field_product_brand.0.value }}" />
+        </div>
+
+        <h5 class="red-text" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+          {% if product.variation_price['#items'].0.number != 0 %}
+              <link itemprop="url" href="{{ url('<current>') }}?v={{ product_entity.variations.entity.variation_id.0.value }}" />
+              <span itemprop="priceCurrency" content="{{ product.variation_price['#items'].0.currency_code }}"></span>
+              <link itemprop="availability" href="http://schema.org/InStock" />
+              <span itemprop="price" content="{{ product.variation_price['#items'].0.number }}"></span>
+              {{- product.variation_price -}}
+          {% else %}
+            <div class="geo-restriction-substituted field field--name-price field--type-commerce-price field--label-hidden field__item">
+              <a class="modal-trigger" href="#block-sendinquiry">{{ 'Send Inquiry'|t }}</a>
+              <a class="modal-trigger" href="/where-buy">{{ 'Where to buy'|t }}</a>
+              <span class="product--out-of-stock" itemprop="price" content="0">0</span>
+            </div>
+          {% endif %}
+        </h5>
+
+        <div itemprop="description">
+          {{ product.variation_field_short_description }}
+          {{ product.field_short_description }}
+          <a href="#" class="product__details">
+            <span class="product__details-icon">▼</span>
+            See more product details</a>
+        </div>
+
+        <div class="row">
+          <div class="s12 col">
+            {% if product.variation_price['#items'].0.number != 0 %}
+              {{- product.variations -}}
+            {% endif %}
+            <div class="product__delivery">
+              <div class="product__expanding">
+                <div class="product__expanding--top">Shipping and Warranty <span class="caret">▼</span></div>
+                <div class="product__expanding--content">
+                  Limited 2-year <a href="/warranty-terms" class="">warranty</a>.
+                  <br>
+                  We use DHL expedited delivery with 3-7 days delivery time.
+                  <br>
+                  For more <a href="/shipping-information" class="product__shipping-info">Shipping Information</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {{- product.body -}}
+    {{- product.field_product_description -}}
+    {{- product.field_product_testimonials -}}
+  </div>
+</article>
+
+

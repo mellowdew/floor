@@ -1,0 +1,9 @@
+uuid: 0fcf1f29-ec0e-48d2-a121-3b8250ccaadf
+langcode: ru
+status: true
+dependencies: {  }
+name: 'Каталог товаров'
+vid: catalog
+description: ''
+hierarchy: 0
+weight: 0

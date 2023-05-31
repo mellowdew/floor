@@ -1,0 +1,21 @@
+uuid: 7b9dc43e-91e6-478e-97c3-282f11aeb48a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.product_variation
+    - field.storage.commerce_product_variation.field_short_description
+  module:
+    - text
+id: commerce_product_variation.product_variation.field_short_description
+field_name: field_short_description
+entity_type: commerce_product_variation
+bundle: product_variation
+label: 'Краткое описание'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

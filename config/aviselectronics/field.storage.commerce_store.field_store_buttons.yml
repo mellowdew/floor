@@ -1,0 +1,20 @@
+uuid: f706d382-1848-4630-9e23-a216b2a83d42
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_store
+    - eck
+id: commerce_store.field_store_buttons
+field_name: field_store_buttons
+entity_type: commerce_store
+type: entity_reference
+settings:
+  target_type: app_button
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

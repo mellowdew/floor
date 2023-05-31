@@ -1,0 +1,63 @@
+uuid: b59a13a5-563b-4e7b-8e10-ffeac9cadbf0
+langcode: en
+status: true
+dependencies:
+  module:
+    - request_data_conditions
+    - system
+name: bathroom_tvs_freeview
+label: 'Bathroom TVs - Freeview'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: /catalog/bathroom-tvs
+    negate: 0
+    uuid: 41fe0268-bce8-4f97-8bb4-4a73ffaa73ec
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: f
+        op: equals
+        value: 'tv_tuner:2'
+      -
+        name: f
+        op: not_contains
+        value: screen_finish
+      -
+        name: f
+        op: not_contains
+        value: diagonal
+    require_all_params: 1
+    negate: 0
+    uuid: c14512ad-2cf6-4b36-9f46-0bb95764400c
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      1005037a-44cd-412c-ad0c-38638cf832dd:
+        id: 'block_content:e2944f4c-5c0f-4030-ae5e-dd5eca8e5b77'
+        label: 'Catalog description - Bathroom TVs - Freeview'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: bathroom_tvs_freeview
+        uuid: 1005037a-44cd-412c-ad0c-38638cf832dd
+    id: blocks
+    saved: false
+    uuid: 8bada28f-3f50-4bc8-ad66-1d428609c0a4
+    include_default_blocks: 1
+weight: -3

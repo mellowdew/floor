@@ -1,0 +1,11 @@
+uuid: a5c0f9de-90f9-4739-8fb3-b61102e739fd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.otpravit_zaavku
+id: contact_message.otpravit_zaavku
+target_entity_type_id: contact_message
+target_bundle: otpravit_zaavku
+default_langcode: site_default
+language_alterable: false

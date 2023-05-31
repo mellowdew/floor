@@ -1,0 +1,14 @@
+uuid: ccb2e300-d2c7-44db-ba1e-52947f12098b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.file_storage.field_file_storage
+    - paragraphs.paragraphs_type.file_storage
+id: paragraph.file_storage.default
+targetEntityType: paragraph
+bundle: file_storage
+mode: default
+content: {  }
+hidden:
+  field_file_storage: true

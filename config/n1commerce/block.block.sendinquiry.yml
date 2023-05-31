@@ -1,0 +1,26 @@
+uuid: 7c31b0da-9cff-4029-a4bf-9eb3c0e0ac4e
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_class
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: modal
+id: sendinquiry
+theme: n1_commerce
+region: hidden
+weight: -18
+provider: null
+plugin: 'block_content:bb31efd1-d836-49eb-a4ad-ba6783deccb0'
+settings:
+  id: 'block_content:bb31efd1-d836-49eb-a4ad-ba6783deccb0'
+  label: 'Send Inquiry'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: block_with_webform
+visibility: {  }

@@ -1,0 +1,27 @@
+name: 'Aviselectronics'
+type: theme
+description: 'Aviselectronics theme based on N1Commerce'
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
+base theme: n1_commerce
+
+regions:
+  header: 'Header'
+  mobile_header: 'Mobile header'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_first_colapsible_facets: 'sidebar first colapsible facets'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  copyright: 'Footer copyright'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  hidden: 'Hidden for dropdowns and popups'
+
+libraries:
+  - 'aviselectronics/global-styling'
+
+libraries-override:
+  n1_commerce/global-css: true  

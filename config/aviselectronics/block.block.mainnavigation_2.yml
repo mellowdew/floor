@@ -1,0 +1,62 @@
+uuid: 2ef51bf4-22a4-4d90-8443-30ba6e97d5cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - menu_block
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: mainnavigation_2
+theme: aviselectronics
+region: mobile_header
+weight: -24
+provider: null
+plugin: 'menu_block:main'
+settings:
+  id: 'menu_block:main'
+  label: 'Main navigation'
+  provider: menu_block
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand: 1
+  parent: 'main:'
+  suggestion: main
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/customized-mirror-tvs\r\n/node/88"
+    negate: false
+    context_mapping: {  }

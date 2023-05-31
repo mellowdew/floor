@@ -1,0 +1,22 @@
+display:
+  default:
+    display_title: Máster
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
+      fields:
+        title:
+          label: Título
+        unit_price__number:
+          label: 'Precio unitario'
+        quantity:
+          label: Cantidad
+        total_price__number:
+          label: 'Precio total'
+      arguments:
+        order_id:
+          exception:
+            title: Todo(s)

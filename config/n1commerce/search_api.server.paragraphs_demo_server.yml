@@ -1,0 +1,19 @@
+uuid: 1b8e1d9d-7127-4263-b244-d5a95c7a4b54
+langcode: ru
+status: false
+dependencies:
+  module:
+    - search_api_db
+_core:
+  default_config_hash: MBQFqudYwNsFoeehmtwjttvbNHB-0ug8qPkNm4cujHw
+id: paragraphs_demo_server
+name: 'Paragraphs demo server'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 1
+  partial_matches: false
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

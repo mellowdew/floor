@@ -1,0 +1,7 @@
+uuid: 965336e3-f7ea-4966-9e27-8d3fb9a56b89
+langcode: en
+status: true
+dependencies: {  }
+id: smart_tv
+label: 'Smart TV'
+elementType: select

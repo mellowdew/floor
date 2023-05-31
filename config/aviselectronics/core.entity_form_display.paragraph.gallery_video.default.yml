@@ -1,0 +1,24 @@
+uuid: 8c6eaefc-f6a8-45ec-9acd-d5cb3d16bc75
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_video.field_gallery_video
+    - paragraphs.paragraphs_type.gallery_video
+  module:
+    - video_embed_field
+id: paragraph.gallery_video.default
+targetEntityType: paragraph
+bundle: gallery_video
+mode: default
+content:
+  field_gallery_video:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: video_embed_field_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,26 @@
+uuid: 12591653-0346-4e04-8b4a-0225904ccf45
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - n1_commerce
+id: search
+theme: n1_commerce
+region: sidebar_first
+weight: -19
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

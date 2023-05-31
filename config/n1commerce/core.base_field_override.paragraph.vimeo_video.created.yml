@@ -1,0 +1,18 @@
+uuid: 6f0997d9-d791-4d1a-91eb-ade9c2fa7d43
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.vimeo_video
+id: paragraph.vimeo_video.created
+field_name: created
+entity_type: paragraph
+bundle: vimeo_video
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

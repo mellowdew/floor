@@ -1,0 +1,38 @@
+uuid: 9f54508b-5e61-4cbb-b7a0-37af097a6271
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access cart'
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'flag bookmark'
+  - 'flag compare_variation'
+  - 'flag comparison'
+  - 'flag favorite_variation'
+  - 'flag favorites'
+  - 'flag following'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'unflag bookmark'
+  - 'unflag compare_variation'
+  - 'unflag comparison'
+  - 'unflag favorite_variation'
+  - 'unflag favorites'
+  - 'unflag following'
+  - 'use text format basic_html'
+  - 'use text format teaser'
+  - 'view any app_button entities'
+  - 'view any details entities'
+  - 'view commerce_product'
+  - 'view media'

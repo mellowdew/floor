@@ -1,0 +1,140 @@
+buttons:
+  facebook_like:
+    name: 'Facebook like'
+    enabled: 1
+  facebook_share:
+    name: 'Facebook share'
+    title: 'Share on Facebook'
+    enabled: 1
+    image: facebook-share.svg
+  twitter:
+    name: Twitter
+    title: 'Share on Twitter'
+    enabled: 1
+    image: twitter.svg
+  googleplus:
+    name: Google+
+    title: 'Share on Google+'
+    enabled: 1
+    image: googleplus.svg
+  linkedin:
+    name: LinkedIn
+    title: 'Share on LinkedIn'
+    enabled: 1
+    image: linkedin.svg
+  messenger:
+    name: Messenger
+    title: 'Share via Messenger'
+    enabled: 1
+    image: messenger.svg
+  viber:
+    name: Viber
+    title: 'Share via Viber'
+    enabled: 1
+    image: viber.svg
+  whatsapp:
+    name: WhatsApp
+    title: 'Share via WhatsApp'
+    enabled: 1
+    image: whatsapp.svg
+share_icon:
+  image: share-icon.svg
+  alt: 'Share icon'
+title: 'Share Everywhere'
+display_title: 0
+style: share_everywhere
+include_css: 0
+include_js: 0
+collapsible: '0'
+location: content
+alignment: left
+content_types:
+  article: article
+  landing: 0
+  news: 0
+  page: 0
+  paragraphed_content_demo: 0
+view_modes:
+  article:
+    full: full
+    revision: 0
+    rss: 0
+    search_index: 0
+    search_result: 0
+    teaser: 0
+    token: 0
+  page:
+    full: full
+    revision: 0
+    rss: 0
+    search_index: 0
+    search_result: 0
+    teaser: 0
+    token: 0
+  landing:
+    full: full
+    revision: 0
+    rss: 0
+    search_index: 0
+    search_result: 0
+    teaser: 0
+    token: 0
+  news:
+    full: full
+    revision: 0
+    rss: 0
+    search_index: 0
+    search_result: 0
+    teaser: 0
+    token: 0
+  paragraphed_content_demo:
+    full: full
+    revision: 0
+    rss: 0
+    search_index: 0
+    search_result: 0
+    teaser: 0
+    token: 0
+product_types:
+  cap: cap
+  product: product
+  t_shirt: t_shirt
+  product_app: 0
+product_view_modes:
+  default:
+    full: full
+  cap:
+    full: full
+    product_characteristic: 0
+    soputstvuusii_tovar: 0
+    teaser: 0
+    token: 0
+  product:
+    full: full
+    product_characteristic: 0
+    soputstvuusii_tovar: 0
+    teaser: 0
+    token: 0
+  t_shirt:
+    full: full
+    product_characteristic: 0
+    soputstvuusii_tovar: 0
+    teaser: 0
+    token: 0
+  product_app:
+    full: full
+    product_characteristic: 0
+    soputstvuusii_tovar: 0
+    teaser: 0
+    token: 0
+  addon:
+    full: full
+  cource:
+    full: full
+restricted_pages:
+  pages: ''
+  type: show
+weight: 10
+_core:
+  default_config_hash: GQDoLEOR4E5eoYvZ5ZgimP0c4Edxmwpc_hd9kBF8La0
+langcode: ru

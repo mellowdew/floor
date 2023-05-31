@@ -1,0 +1,26 @@
+uuid: 5ebc289c-00bc-47f1-b88e-f49e9d0b638c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.description.field_description_description
+    - paragraphs.paragraphs_type.description
+  module:
+    - text
+id: paragraph.description.default
+targetEntityType: paragraph
+bundle: description
+mode: default
+content:
+  field_description_description:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

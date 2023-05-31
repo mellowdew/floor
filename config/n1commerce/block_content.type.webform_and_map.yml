@@ -1,0 +1,8 @@
+uuid: 75022f6e-ed8d-45f3-a4ba-7b45f7261777
+langcode: ru
+status: true
+dependencies: {  }
+id: webform_and_map
+label: 'Block with webform'
+revision: 0
+description: ''

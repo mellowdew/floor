@@ -1,0 +1,19 @@
+uuid: 71bd4dea-adda-4639-81ff-cea26eb06a4d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+    - field.storage.app_contact.field_email
+id: app_contact.person_contact.field_email
+field_name: field_email
+entity_type: app_contact
+bundle: person_contact
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

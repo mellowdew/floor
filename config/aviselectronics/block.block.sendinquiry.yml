@@ -1,0 +1,29 @@
+uuid: 962459c6-e164-4c8a-bb1b-9227618fd18b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:webform_and_map:8faf7967-7423-48ad-9095-7e7c2baacd69'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: modal
+id: sendinquiry
+theme: aviselectronics
+region: hidden
+weight: -25
+provider: null
+plugin: 'block_content:8faf7967-7423-48ad-9095-7e7c2baacd69'
+settings:
+  id: 'block_content:8faf7967-7423-48ad-9095-7e7c2baacd69'
+  label: 'Send Inquiry'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: block_with_webform
+visibility: {  }

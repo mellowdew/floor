@@ -1,0 +1,35 @@
+uuid: 7fd8b592-5687-4978-8420-c44a76871e16
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:photo_video_slider:f7c006ff-e96c-4422-989b-d212f27de416'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: slaidsou
+theme: n1_commerce
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:f7c006ff-e96c-4422-989b-d212f27de416'
+settings:
+  id: 'block_content:f7c006ff-e96c-4422-989b-d212f27de416'
+  label: Слайдшоу
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: fullwidth_slider
+visibility:
+  request_path:
+    id: request_path
+    pages: /components
+    negate: false
+    context_mapping: {  }

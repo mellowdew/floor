@@ -1,0 +1,16 @@
+uuid: 5bb0f59b-e699-44f3-980d-170282112a40
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.details.product_details
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: details.product_details
+target_entity_type_id: details
+target_bundle: product_details
+default_langcode: site_default
+language_alterable: false

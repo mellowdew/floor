@@ -1,0 +1,33 @@
+uuid: 49a09436-b06a-46cc-8872-5e28355b5e58
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.user.register
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_bought_cources
+  module:
+    - user
+_core:
+  default_config_hash: K-1rBM8mTIkFp9RqOC2tMRUukOQ1xbRCfSKK8dEddnA
+id: user.user.register
+targetEntityType: user
+bundle: user
+mode: register
+content:
+  account:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  timezone:
+    weight: 6
+    region: content
+hidden:
+  commerce_remote_id: true
+  contact: true
+  field_bought_cources: true
+  google_analytics: true
+  langcode: true
+  language: true
+  path: true

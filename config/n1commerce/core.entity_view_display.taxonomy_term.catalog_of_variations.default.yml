@@ -1,0 +1,31 @@
+uuid: 08473aa8-423d-4529-a6b1-74636b128095
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.catalog_of_variations.field_meta
+    - taxonomy.vocabulary.catalog_of_variations
+  module:
+    - metatag
+    - text
+id: taxonomy_term.catalog_of_variations.default
+targetEntityType: taxonomy_term
+bundle: catalog_of_variations
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_meta:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+hidden:
+  langcode: true

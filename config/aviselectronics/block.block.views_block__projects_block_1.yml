@@ -1,0 +1,59 @@
+uuid: 9d65d731-f62f-45e1-ae46-685ed4681ad7
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.projects
+  module:
+    - block_class
+    - request_data_conditions
+    - system
+    - views
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__projects_block_1
+theme: aviselectronics
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:projects-block_1'
+settings:
+  id: 'views_block:projects-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /projects
+    negate: false
+    context_mapping: {  }

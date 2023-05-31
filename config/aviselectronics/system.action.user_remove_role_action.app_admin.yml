@@ -1,0 +1,14 @@
+uuid: 3a90669a-5565-4290-995e-5a53c9696f9e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.app_admin
+  module:
+    - user
+id: user_remove_role_action.app_admin
+label: 'Удалить роль Администратор приложения у выбранных пользователей'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: app_admin

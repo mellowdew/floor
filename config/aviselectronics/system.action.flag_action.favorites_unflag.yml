@@ -1,0 +1,13 @@
+uuid: 2207613d-8a76-4b19-85a7-5d8b9aa23482
+langcode: ru
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.favorites_unflag
+label: 'Unflag this item'
+type: commerce_product
+plugin: 'flag_action:favorites_unflag'
+configuration:
+  flag_id: favorites
+  flag_action: unflag

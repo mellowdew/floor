@@ -1,0 +1,52 @@
+uuid: 531c00e0-5031-47c3-8b00-69a411cd11ce
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.landing
+    - paragraphs.paragraphs_type.landing_slide
+  module:
+    - entity_reference_revisions
+id: node.landing.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: landing
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      landing_slide: landing_slide
+    target_bundles_drag_drop:
+      image_text:
+        weight: 7
+        enabled: false
+      images:
+        weight: 8
+        enabled: false
+      landing_slide_with_form:
+        weight: 9
+        enabled: false
+      nested_paragraph:
+        weight: 9
+        enabled: false
+      text:
+        weight: 10
+        enabled: false
+      text_image:
+        weight: 11
+        enabled: false
+      landing_slide:
+        enabled: true
+        weight: 12
+      user:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

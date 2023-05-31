@@ -1,0 +1,9 @@
+uuid: 99d119d9-4a28-4b7d-9ca1-0b03ee0b164f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Catalog of courses'
+vid: catalog_of_cources
+description: 'List of terms to organize catalog of cources'
+hierarchy: 0
+weight: 0

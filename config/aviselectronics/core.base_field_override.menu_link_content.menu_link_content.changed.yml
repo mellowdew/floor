@@ -1,0 +1,18 @@
+uuid: 238df0f4-f591-4717-b061-496de379b670
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_link_content
+id: menu_link_content.menu_link_content.changed
+field_name: changed
+entity_type: menu_link_content
+bundle: menu_link_content
+label: Изменение
+description: 'Время последнего редактирования ссылки меню.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

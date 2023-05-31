@@ -1,0 +1,30 @@
+uuid: 17a0ff0d-05d8-4628-954f-543fa96506d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_landing_main_slider_html
+    - paragraphs.paragraphs_type.landing_main_slider
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    full_html: '0'
+    basic_html: '0'
+    restricted_html: '0'
+    plain_text: '0'
+    clean: '0'
+    teaser: '0'
+id: paragraph.landing_main_slider.field_landing_main_slider_html
+field_name: field_landing_main_slider_html
+entity_type: paragraph
+bundle: landing_main_slider
+label: HTML
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

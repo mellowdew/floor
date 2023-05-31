@@ -1,0 +1,8 @@
+uuid: cb3321aa-797d-4e69-8e00-440a6cee3730
+langcode: en
+status: true
+dependencies: {  }
+id: content_builder
+label: 'Content builder'
+revision: 0
+description: ''

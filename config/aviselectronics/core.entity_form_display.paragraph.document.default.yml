@@ -1,0 +1,25 @@
+uuid: 338d86ae-fc43-4327-a78a-6a237445ddcc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.document.field_document_file
+    - paragraphs.paragraphs_type.document
+  module:
+    - file
+id: paragraph.document.default
+targetEntityType: paragraph
+bundle: document
+mode: default
+content:
+  field_document_file:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

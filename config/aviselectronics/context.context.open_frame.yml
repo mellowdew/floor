@@ -1,0 +1,25 @@
+uuid: 9cc8628b-e9b6-4098-99fc-85471cdb395c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: open_frame
+label: 'Open Frame'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: false
+    uuid: 0c4a2426-b36a-430d-bbd8-6751b21ad8d2
+reactions:
+  blocks:
+    blocks: {  }
+    id: blocks
+    saved: false
+    uuid: 09faa145-f554-4b75-b1c8-dbcd105e9dd3
+weight: -8

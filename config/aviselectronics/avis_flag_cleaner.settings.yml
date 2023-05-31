@@ -1,0 +1,5 @@
+period: '7'
+cron_process: 1
+_core:
+  default_config_hash: VtEJsWQYm7PYi5T2mUs6cZzRBvvhCv5FvR8XnF0WfTQ
+period_custom: '264'

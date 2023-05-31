@@ -1,0 +1,26 @@
+uuid: a08601ed-e6b2-4790-9e6a-60d3f519887a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_bought_cources
+  module:
+    - user
+_core:
+  default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  flag_following:
+    weight: 10
+    region: content
+hidden:
+  commerce_remote_id: true
+  field_bought_cources: true
+  langcode: true
+  member_for: true
+  profile_customer: true

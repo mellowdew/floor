@@ -1,0 +1,35 @@
+uuid: 08ad20d5-0302-4eac-bdf6-faa1a710d1e5
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:webform_and_map:5b87468c-d53c-492c-9098-9355d80014ec'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: row
+id: bloksvebformoiikartoi
+theme: n1_commerce
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:5b87468c-d53c-492c-9098-9355d80014ec'
+settings:
+  id: 'block_content:5b87468c-d53c-492c-9098-9355d80014ec'
+  label: 'Блок с вебформой и картой'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: block_with_webform_and_map
+visibility:
+  request_path:
+    id: request_path
+    pages: /components
+    negate: false
+    context_mapping: {  }

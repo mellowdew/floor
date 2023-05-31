@@ -1,0 +1,10 @@
+uuid: 7c85697d-668b-4281-8b29-de32218eabf1
+langcode: ru
+status: true
+dependencies: {  }
+id: product_variation_app
+label: 'Вариация товара для приложения'
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

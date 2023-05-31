@@ -1,0 +1,9 @@
+uuid: 75cfb339-a36c-4e83-b987-a71e1d2fb740
+langcode: en
+status: true
+dependencies: {  }
+id: recently_read
+label: 'Recently read'
+types:
+  - commerce_product
+  - recently_read

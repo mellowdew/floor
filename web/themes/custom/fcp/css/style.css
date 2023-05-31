@@ -1,0 +1,249 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+.nav-item{
+    float: left;
+    margin: 10px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.menu--katalog .nav-link {
+        color: #000;
+}
+
+.menu--katalog .nav-link:hover, .nav-link:focus {
+    color: #0266c4;
+  }
+
+
+.menu--katalog .sidebar .block {
+    color: #ffffff;
+}
+
+
+#block-katalog .nav{
+    display: list-item;
+}
+
+#block-katalog .nav-item{
+    float: none;
+}
+
+#block-searchform form{
+    margin-top: 15px;
+}
+
+.commerce-pruduct-full .field--name-price .calculated-price, .commerce-product-vatiation-teaser-variation-catalog .field--name-price .calculated-price {
+    font-size: 33px;
+    float: left;
+    margin-right: 10px;
+    line-height: 43px;
+    color: #f2727b; }
+
+.commerce-product-vatiation-teaser-variation-catalog .field--name-price:not(.geo-restriction-substituted) {
+    font-size: 1.68rem;
+    color: #F44336; }
+
+    .card {
+        position: relative;
+        margin: 0.5rem 0 1rem 0;
+        background-color: #fff;
+        transition: box-shadow .25s;
+        border-radius: 2px; }
+        .card .card-title {
+          font-size: 24px;
+          font-weight: 300; }
+          .card .card-title.activator {
+            cursor: pointer; }
+        .card.small, .card.medium, .card.large {
+          position: relative; }
+          .card.small .card-image, .card.medium .card-image, .card.large .card-image {
+            max-height: 60%;
+            overflow: hidden; }
+          .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
+            max-height: 40%; }
+          .card.small .card-content, .card.medium .card-content, .card.large .card-content {
+            max-height: 100%;
+            overflow: hidden; }
+          .card.small .card-action, .card.medium .card-action, .card.large .card-action {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0; }
+        .card.small {
+          height: 300px; }
+        .card.medium {
+          height: 400px; }
+        .card.large {
+          height: 500px; }
+        .card.horizontal {
+          display: flex; }
+          .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
+            height: 100%;
+            max-height: none;
+            overflow: visible; }
+            .card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
+              height: 100%; }
+          .card.horizontal .card-image {
+            max-width: 50%; }
+            .card.horizontal .card-image img {
+              border-radius: 2px 0 0 2px;
+              max-width: 100%;
+              width: auto; }
+          .card.horizontal .card-stacked {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            position: relative; }
+            .card.horizontal .card-stacked .card-content {
+              flex-grow: 1; }
+        .card.sticky-action .card-action {
+          z-index: 2; }
+        .card.sticky-action .card-reveal {
+          z-index: 1;
+          padding-bottom: 64px; }
+        .card .card-image {
+          position: relative; }
+          .card .card-image img {
+            display: block;
+            border-radius: 2px 2px 0 0;
+            position: relative;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%; }
+          .card .card-image .card-title {
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            max-width: 100%;
+            padding: 24px; }
+        .card .card-content {
+          padding: 24px;
+          border-radius: 0 0 2px 2px; }
+          .card .card-content p {
+            margin: 0;
+            color: inherit; }
+          .card .card-content .card-title {
+            display: block;
+            line-height: 32px;
+            margin-bottom: 8px; }
+            .card .card-content .card-title i {
+              line-height: 32px; }
+        .card .card-action {
+          position: relative;
+          background-color: inherit;
+          border-top: 1px solid rgba(160, 160, 160, 0.2);
+          padding: 16px 24px; }
+          .card .card-action:last-child {
+            border-radius: 0 0 2px 2px; }
+          .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+            color: #ffab40;
+            margin-right: 24px;
+            transition: color .3s ease;
+            text-transform: uppercase; }
+            .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+              color: #ffd8a6; }
+        .card .card-reveal {
+          padding: 24px;
+          position: absolute;
+          background-color: #fff;
+          width: 100%;
+          overflow-y: auto;
+          left: 0;
+          top: 100%;
+          height: 100%;
+          z-index: 3;
+          display: none; }
+          .card .card-reveal .card-title {
+            cursor: pointer;
+            display: block; }
+
+            .commerce-product-vatiation-teaser-variation-catalog ul.card-action-buttons {
+                position: relative;
+                right: 24px;
+                bottom: -0;
+                margin: 0; }
+                .commerce-product-vatiation-teaser-variation-catalog ul.card-action-buttons li {
+                  display: inline-block;
+                  padding-left: 5px; }
+                .commerce-product-vatiation-teaser-variation-catalog ul.card-action-buttons .form-actions {
+                  margin: 0; }
+
+.commerce-pruduct-full .card {
+  padding: 0; }
+
+.medium-and-down .commerce-pruduct-full > .row {
+  display: flex;
+  flex-direction: column; }
+  .medium-and-down .commerce-pruduct-full > .row .product-main-wrapper {
+    order: 1; }
+  .medium-and-down .commerce-pruduct-full > .row .product-right-wrapper {
+    order: 2; }
+
+.product-main-wrapper .field--name-field-image.slick-initialized {
+  visibility: visible;
+  height: auto;
+  overflow: visible;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide {
+  margin: 10px; }
+  .slick-slide img {
+    max-width: 100%;
+    height: auto; }
+
+.slick-gallery-nav-arrows {
+  text-align: center; }
+
+.product-main-wrapper .field--name-field-image {
+  visibility: hidden;
+  height: 300px;
+  overflow: hidden; }
+.product-main-wrapper .field--name-field-image.slick-initialized {
+  visibility: visible;
+  height: auto;
+  overflow: visible; }
+
+.product-right .field--name-price:not(.geo-restriction-substituted):after {
+  display: inline;
+  font-size: 17px;
+  vertical-align: middle;
+  margin-left: 20px; }
+
+.product-right .field--name-variations .select-wrapper + label {
+  font-size: 14px;
+  color: #F44336; }
+.product-right .field--name-variations .select-wrapper input.select-dropdown {
+  color: #F44336;
+  font-size: 1.64rem; }
+  @media (max-width: 767px) {
+    .product-right .field--name-variations .select-wrapper input.select-dropdown {
+      font-size: 1.2rem; } }
+
+.row .product-main-wrapper {
+  width: 50%;
+   }

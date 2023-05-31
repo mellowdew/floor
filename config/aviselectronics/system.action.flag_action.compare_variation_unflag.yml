@@ -1,0 +1,13 @@
+uuid: 0260fb1d-ef3e-42c0-99f2-31bc630cc169
+langcode: ru
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.compare_variation_unflag
+label: 'Unflag this item'
+type: commerce_product_variation
+plugin: 'flag_action:compare_variation_unflag'
+configuration:
+  flag_id: compare_variation
+  flag_action: unflag

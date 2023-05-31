@@ -1,0 +1,22 @@
+uuid: 0a488a2b-71ef-4c07-b956-d6db9cb89a4e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_slide_with_form.field_slide_content
+    - paragraphs.paragraphs_type.landing_slide_with_form
+  module:
+    - text
+id: paragraph.landing_slide_with_form.default
+targetEntityType: paragraph
+bundle: landing_slide_with_form
+mode: default
+content:
+  field_slide_content:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

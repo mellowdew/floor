@@ -1,0 +1,7 @@
+uuid: 0563aa6e-f2e3-4d22-9b88-994e2930d4a7
+langcode: ru
+status: true
+dependencies: {  }
+formId: contact_message_otpravit_zaavku_form
+captchaType: default
+label: contact_message_otpravit_zaavku_form

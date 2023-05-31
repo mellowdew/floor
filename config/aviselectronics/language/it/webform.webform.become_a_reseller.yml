@@ -1,0 +1,1 @@
+elements: "name:\n  '#title': Nome\ncountry:\n  '#title': Nazione\nwebsite:\n  '#title': 'Sito web'\nactions:\n  '#submit__label': INVIARE\n"

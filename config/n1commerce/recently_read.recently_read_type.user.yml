@@ -1,0 +1,10 @@
+uuid: ac4fbeeb-ca7e-4d49-91ba-fb77af911927
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WhEZ7hhbiascXt_nB1ZIL4p89k8S3dB-QeAtToUCcC4
+id: user
+label: User
+enabled: false
+types: {  }

@@ -1,0 +1,36 @@
+uuid: 111d7c82-10b2-4b5f-aecf-f0bc7c5a6a52
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.details.product_details
+    - field.field.details.product_details.field_details
+id: details.product_details.default
+targetEntityType: details
+bundle: product_details
+mode: default
+content:
+  field_details:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,56 @@
+uuid: 11a0520a-b583-4221-8e0c-f0fa81aebe7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_main_slider.field_landing_main_slider_html
+    - field.field.paragraph.landing_main_slider.field_media
+    - paragraphs.paragraphs_type.landing_main_slider
+  module:
+    - ds
+    - slick_paragraphs
+    - text
+id: paragraph.landing_main_slider.default
+targetEntityType: paragraph
+bundle: landing_main_slider
+mode: default
+content:
+  field_landing_main_slider_html:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_media:
+    weight: 1
+    label: hidden
+    settings:
+      optionset: fullwidth_slider_2
+      skin: ''
+      view_mode: fullwidth_slider
+      cache: 0
+      current_view_mode: default
+      override: false
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      style: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: slick_paragraphs_vanilla
+    region: content
+hidden: {  }

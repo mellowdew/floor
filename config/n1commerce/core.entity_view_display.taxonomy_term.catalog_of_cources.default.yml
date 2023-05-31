@@ -1,0 +1,31 @@
+uuid: 3f75e313-ef32-4363-810a-832e6abcbe7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.catalog_of_cources.field_argument
+    - taxonomy.vocabulary.catalog_of_cources
+  module:
+    - text
+id: taxonomy_term.catalog_of_cources.default
+targetEntityType: taxonomy_term
+bundle: catalog_of_cources
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_argument:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

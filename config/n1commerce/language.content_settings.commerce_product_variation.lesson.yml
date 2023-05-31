@@ -1,0 +1,16 @@
+uuid: 90c19105-5ee3-40f0-9b65-924cff527378
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.lesson
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: commerce_product_variation.lesson
+target_entity_type_id: commerce_product_variation
+target_bundle: lesson
+default_langcode: site_default
+language_alterable: false

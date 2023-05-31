@@ -1,0 +1,20 @@
+uuid: 8494f3b3-13e9-48f6-a342-8bb93dcb64f5
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_duration_h
+field_name: field_duration_h
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

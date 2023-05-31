@@ -1,0 +1,10 @@
+uuid: 7a4f6874-ba88-463e-903d-07aa88fa2d94
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: 'Footer left'
+description: ''
+locked: true

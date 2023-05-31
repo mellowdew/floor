@@ -1,0 +1,15 @@
+uuid: 005b5957-ea53-439c-aa2f-8a55d5de3dd3
+langcode: ru
+status: true
+dependencies: {  }
+id: web_service
+label: Веб-сервис
+weight: 4
+is_admin: null
+permissions:
+  - 'access scantukan web service'
+  - 'view any app_contact entities'
+  - 'view any commerce_product'
+  - 'view any commerce_store'
+  - 'view any contact entities'
+  - 'view any details entities'

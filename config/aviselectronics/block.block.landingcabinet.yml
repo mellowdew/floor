@@ -1,0 +1,54 @@
+uuid: 52201090-eef0-4c5f-af2d-67cdd1ff9159
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:content_builder:80a279a3-2574-4be3-890e-7cb84dc20b38'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: landingcabinet
+theme: aviselectronics
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:80a279a3-2574-4be3-890e-7cb84dc20b38'
+settings:
+  id: 'block_content:80a279a3-2574-4be3-890e-7cb84dc20b38'
+  label: 'landing - cabinet'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

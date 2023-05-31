@@ -1,0 +1,8 @@
+uuid: ce3038e2-d90e-4535-ae18-3dcefe42f5fa
+langcode: en
+status: true
+dependencies: {  }
+id: commerce_product
+label: Product
+types:
+  - product

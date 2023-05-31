@@ -1,0 +1,101 @@
+uuid: d7e32330-cda6-4f94-99ac-effeacab25f0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_bought_cources
+    - field.field.user.user.field_user_function
+    - field.field.user.user.field_user_info
+    - field.field.user.user.field_user_photo
+  module:
+    - ds
+    - field_group
+    - image
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_user_info:
+      children:
+        - group_user_left
+        - field_user_info
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: user__info
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'User info'
+    group_user_left:
+      children:
+        - field_user_photo
+        - member_for
+        - field_user_function
+      parent_name: group_user_info
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: user__left
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'User left'
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  field_user_function:
+    weight: 23
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_user_info:
+    weight: 21
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_user_photo:
+    weight: 21
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: image
+    region: content
+  member_for:
+    weight: 22
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  commerce_remote_id: true
+  customer_profiles: true
+  field_bought_cources: true
+  flag_following: true
+  langcode: true
+  profile_customer: true
+  search_api_excerpt: true

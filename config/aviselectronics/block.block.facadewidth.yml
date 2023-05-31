@@ -1,0 +1,58 @@
+uuid: 8f1aea81-931b-4284-8e8f-454b2a294d7b
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.facade_width
+  module:
+    - block_class
+    - facets
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: facadewidth
+theme: aviselectronics
+region: sidebar_first_colapsible_facets
+weight: -28
+provider: null
+plugin: 'facet_block:facade_width'
+settings:
+  id: 'facet_block:facade_width'
+  label: 'Facade Width'
+  provider: facets
+  label_display: visible
+  block_id: facadewidth
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/catalog/kitchen-tvs\r\n/catalog/kitchen-tvs/*\r\n/taxonomy/term/44/*"
+    negate: false
+    context_mapping: {  }

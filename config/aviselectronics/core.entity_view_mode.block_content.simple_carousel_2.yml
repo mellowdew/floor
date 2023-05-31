@@ -1,0 +1,10 @@
+uuid: 1e2c6256-4f77-411e-9a02-93f6c8e3ed91
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.simple_carousel_2
+label: 'Simple carousel (2 elements)'
+targetEntityType: block_content
+cache: true

@@ -1,0 +1,9 @@
+.commerce-product-vatiation-teaser-variation-catalog .field--name-price:not(.geo-restriction-substituted) {
+	font-size: 1.68rem;
+	color: #F44336;
+	&:after {
+		display: block;
+    content: "Free Shipping by DHL, 3-7 days";
+    font-size: 17px;
+	}
+}

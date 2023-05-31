@@ -1,0 +1,79 @@
+uuid: bbc42ca5-2087-42c1-bb7a-8b09b185f574
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_lesson_content
+    - paragraphs.paragraphs_type.horizontal_tab
+    - paragraphs.paragraphs_type.landing_slide
+    - paragraphs.paragraphs_type.landing_slide_with_form
+    - paragraphs.paragraphs_type.tabs_vertical
+    - paragraphs.paragraphs_type.user
+    - paragraphs.paragraphs_type.vimeo_video
+  module:
+    - entity_reference_revisions
+id: paragraph.tabs_vertical.field_lesson_content
+field_name: field_lesson_content
+entity_type: paragraph
+bundle: tabs_vertical
+label: 'Lesson content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 1
+    target_bundles:
+      landing_slide: landing_slide
+      landing_slide_with_form: landing_slide_with_form
+      horizontal_tab: horizontal_tab
+      tabs_vertical: tabs_vertical
+      user: user
+      vimeo_video: vimeo_video
+    target_bundles_drag_drop:
+      images:
+        weight: 10
+        enabled: false
+      image_text:
+        weight: 11
+        enabled: false
+      landing_slide:
+        enabled: true
+        weight: 12
+      landing_slide_with_form:
+        enabled: true
+        weight: 13
+      horizontal_tab:
+        enabled: true
+        weight: 14
+      nested_paragraph:
+        weight: 14
+        enabled: false
+      video:
+        weight: 15
+        enabled: false
+      about_course:
+        weight: 15
+        enabled: false
+      tabs_vertical:
+        enabled: true
+        weight: 15
+      horizontal_tabs:
+        weight: 16
+        enabled: false
+      text:
+        weight: 16
+        enabled: false
+      text_image:
+        weight: 17
+        enabled: false
+      user:
+        enabled: true
+        weight: 18
+      vimeo_video:
+        enabled: true
+        weight: 26
+field_type: entity_reference_revisions

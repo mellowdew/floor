@@ -1,0 +1,51 @@
+uuid: ef8570be-a71b-4a1e-8a69-e906f36107a5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.pictures.field_description
+    - field.field.paragraph.pictures.field_grid
+    - field.field.paragraph.pictures.field_pictures_pictures
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.pictures
+  module:
+    - image
+    - paragraphs
+    - text
+id: paragraph.pictures.default
+targetEntityType: paragraph
+bundle: pictures
+mode: default
+content:
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_grid:
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: grid
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_pictures_pictures:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,34 @@
+uuid: c07e5a3d-1ad6-49b9-8439-c3c1357588b4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_slide.field_slide_content
+    - paragraphs.paragraphs_type.landing_slide
+  module:
+    - ds
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: layout_onecol
+      library: layout_discovery/onecol
+      disable_css: false
+      entity_classes: all_classes
+      settings: {  }
+    regions:
+      content:
+        - field_slide_content
+id: paragraph.landing_slide.default
+targetEntityType: paragraph
+bundle: landing_slide
+mode: default
+content:
+  field_slide_content:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

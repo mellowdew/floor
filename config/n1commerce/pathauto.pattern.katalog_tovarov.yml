@@ -1,0 +1,24 @@
+uuid: db621af5-5750-4491-8023-30b27839f4b3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: katalog_tovarov
+label: 'Каталог товаров'
+type: 'canonical_entities:taxonomy_term'
+pattern: 'catalog/[term:parents:join-path]/[term:name]'
+selection_criteria:
+  62f3534b-7d81-44ca-a7bd-56579ef92812:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      catalog: catalog
+      catalog_of_variations: catalog_of_variations
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 62f3534b-7d81-44ca-a7bd-56579ef92812
+selection_logic: and
+weight: -5
+relationships: {  }

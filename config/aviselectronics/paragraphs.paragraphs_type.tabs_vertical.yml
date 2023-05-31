@@ -1,0 +1,11 @@
+uuid: 4e818310-ecce-4d21-bfaa-f3660f142ccf
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: AoxO8NhinvCbBSpeytRNzDiBnx6uUNef6hydiYEB0sw
+id: tabs_vertical
+label: 'Vertical Tab'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

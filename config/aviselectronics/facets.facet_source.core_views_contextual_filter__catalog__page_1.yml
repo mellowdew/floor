@@ -1,0 +1,11 @@
+uuid: 21ec2403-466d-4595-a41d-86b2a42965cc
+langcode: en
+status: true
+dependencies: {  }
+id: core_views_contextual_filter__catalog__page_1
+name: 'core_views_contextual_filter:catalog__page_1'
+filter_key: ''
+url_processor: core_views_url_processor
+breadcrumb:
+  active: false
+  group: false

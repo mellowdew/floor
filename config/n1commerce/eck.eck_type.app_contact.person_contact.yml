@@ -1,0 +1,9 @@
+uuid: d568d5af-761b-4dff-80f0-9558d3305fe5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.app_contact
+name: 'Person contact'
+type: person_contact
+description: ''

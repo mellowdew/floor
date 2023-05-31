@@ -1,0 +1,27 @@
+uuid: 8cb24620-40d3-46fd-87b8-2fa80785339e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.profile.customer.address
+    - profile.type.customer
+  enforced:
+    module:
+      - commerce_order
+  module:
+    - address
+_core:
+  default_config_hash: U0WIT0I1Hra0Sdic4RmMTkCRLtXJjeDRxWw6PfxaPFI
+id: profile.customer.default
+targetEntityType: profile
+bundle: customer
+mode: default
+content:
+  address:
+    type: address_default
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

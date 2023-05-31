@@ -1,0 +1,37 @@
+uuid: 28da279d-3fad-44a0-86fb-30f1912512d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.cources
+  module:
+    - block_class
+    - ctools
+    - views
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__cources_block_1
+theme: n1_commerce
+region: sidebar_first
+weight: -14
+provider: null
+plugin: 'views_block:cources-block_1'
+settings:
+  id: 'views_block:cources-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:commerce_product':
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      cource: cource
+    negate: false
+    context_mapping:
+      commerce_product: '@commerce_product.product_route_context:commerce_product'

@@ -1,0 +1,41 @@
+label: Parráfos
+display:
+  default:
+    display_title: Máster
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elementos por página'
+            items_per_page_options_all_label: '- Todo -'
+            offset_label: Desplazamiento
+      fields:
+        uid:
+          label: 'Escrito por'
+        created:
+          label: Fecha
+        parent_id:
+          label: Padre
+        status:
+          label: Publicado
+        type:
+          label: Tipo
+        nothing:
+          label: Acción
+          alter:
+            text: eliminar
+            alt: eliminar
+      filters:
+        type:
+          expose:
+            label: Tipo
+      title: Parráfos
+  page_admin_paragraphs:
+    display_options:
+      menu:
+        title: Parráfos

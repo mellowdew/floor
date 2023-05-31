@@ -1,0 +1,20 @@
+uuid: 7721d32c-af15-4f37-8cb4-49c6459232e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.landing_slide
+id: paragraph.landing_slide.uid
+field_name: uid
+entity_type: paragraph
+bundle: landing_slide
+label: 'Authored by'
+description: 'The user ID of the paragraphs author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\paragraphs\Entity\Paragraph::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

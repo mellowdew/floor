@@ -1,0 +1,27 @@
+uuid: 75d46648-7bef-4014-bb45-84656765395b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.tabs_vertical.field_icon
+    - field.field.paragraph.tabs_vertical.field_lesson_content
+    - field.field.paragraph.tabs_vertical.field_title
+    - paragraphs.paragraphs_type.tabs_vertical
+id: paragraph.tabs_vertical.preview
+targetEntityType: paragraph
+bundle: tabs_vertical
+mode: preview
+content:
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  field_icon: true
+  field_lesson_content: true
+  field_visibility: true

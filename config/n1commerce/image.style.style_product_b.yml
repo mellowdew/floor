@@ -1,0 +1,35 @@
+uuid: 3cf63212-3cb4-485d-bc79-e0b8ce343c48
+langcode: ru
+status: true
+dependencies:
+  module:
+    - image_effects
+name: style_product_b
+label: 'Товар (Большой)'
+effects:
+  ac145c8f-31bd-41c9-b119-abe5abbf1c91:
+    uuid: ac145c8f-31bd-41c9-b119-abe5abbf1c91
+    id: image_scale
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      upscale: true
+  d85ca912-923f-4777-9137-c4157534167d:
+    uuid: d85ca912-923f-4777-9137-c4157534167d
+    id: image_effects_set_canvas
+    weight: 2
+    data:
+      canvas_size: exact
+      exact:
+        width: '480'
+        height: '480'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''

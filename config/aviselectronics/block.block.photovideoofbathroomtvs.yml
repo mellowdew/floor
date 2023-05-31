@@ -1,0 +1,35 @@
+uuid: 69f9fdc2-5a5a-4d59-a5eb-95e9da5f783b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:photo_video_slider:4da87267-5eca-4b92-bda5-00b79cb6a953'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: bg-gradient
+id: photovideoofbathroomtvs
+theme: aviselectronics
+region: content
+weight: -21
+provider: null
+plugin: 'block_content:4da87267-5eca-4b92-bda5-00b79cb6a953'
+settings:
+  id: 'block_content:4da87267-5eca-4b92-bda5-00b79cb6a953'
+  label: 'Photo/video of bathroom tvs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: default
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

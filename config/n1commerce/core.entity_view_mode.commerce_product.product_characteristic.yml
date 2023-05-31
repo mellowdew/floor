@@ -1,0 +1,10 @@
+uuid: 8072408d-43eb-4a7b-9bdd-39cbf1930a7a
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.product_characteristic
+label: 'Характеристика товара'
+targetEntityType: commerce_product
+cache: true

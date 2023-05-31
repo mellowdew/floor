@@ -1,0 +1,109 @@
+uuid: 9a297268-8bc5-45fd-91d3-31093be19beb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+    - field.storage.block_content.field_media
+    - paragraphs.paragraphs_type.gallery_html
+    - paragraphs.paragraphs_type.gallery_image
+    - paragraphs.paragraphs_type.gallery_video
+    - paragraphs.paragraphs_type.gallery_video_upload
+  module:
+    - entity_reference_revisions
+id: block_content.photo_video_slider.field_media
+field_name: field_media
+entity_type: block_content
+bundle: photo_video_slider
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      gallery_image: gallery_image
+      gallery_html: gallery_html
+      gallery_video: gallery_video
+      gallery_video_upload: gallery_video_upload
+    target_bundles_drag_drop:
+      about_course:
+        weight: -51
+        enabled: false
+      gallery_image:
+        enabled: true
+        weight: -50
+      gallery_html:
+        enabled: true
+        weight: -49
+      gallery_video:
+        enabled: true
+        weight: -48
+      gallery_video_upload:
+        enabled: true
+        weight: -47
+      horizontal_tab:
+        weight: -46
+        enabled: false
+      horizontal_tabs:
+        weight: -45
+        enabled: false
+      image_text:
+        weight: -44
+        enabled: false
+      images:
+        weight: -43
+        enabled: false
+      landing_slide:
+        weight: -42
+        enabled: false
+      landing_slide_with_form:
+        weight: -41
+        enabled: false
+      nested_paragraph:
+        weight: -40
+        enabled: false
+      tabs_vertical:
+        weight: -39
+        enabled: false
+      description:
+        weight: -38
+        enabled: false
+      text:
+        weight: -37
+        enabled: false
+      document:
+        weight: -36
+        enabled: false
+      text_image:
+        weight: -35
+        enabled: false
+      file_storage:
+        weight: -34
+        enabled: false
+      user:
+        weight: -33
+        enabled: false
+      vimeo_video:
+        weight: -32
+        enabled: false
+      video:
+        weight: -31
+        enabled: false
+      pictures:
+        weight: -30
+        enabled: false
+      table:
+        weight: -29
+        enabled: false
+      title:
+        weight: -28
+        enabled: false
+      webform:
+        weight: -27
+        enabled: false
+field_type: entity_reference_revisions

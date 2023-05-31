@@ -1,0 +1,10 @@
+uuid: 5d94ac4c-b0d8-4295-8033-77958010b1fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.block_with_webform_and_map
+label: 'Block with webform and map'
+targetEntityType: block_content
+cache: true

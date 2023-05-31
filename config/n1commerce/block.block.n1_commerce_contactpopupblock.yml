@@ -1,0 +1,28 @@
+uuid: 81bd00b9-696f-42b8-84d2-2eb629c4c766
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_poup
+    - system
+  theme:
+    - n1_commerce
+id: n1_commerce_contactpopupblock
+theme: n1_commerce
+region: footer
+weight: -14
+provider: null
+plugin: contact_popup_block
+settings:
+  id: contact_popup_block
+  label: 'Отправить заявку'
+  provider: contact_poup
+  label_display: '0'
+  contact_form: otpravit_zaavku
+  link_title: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

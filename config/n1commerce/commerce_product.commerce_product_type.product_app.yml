@@ -1,0 +1,11 @@
+uuid: c8b7b2c5-3cfb-4d38-b644-9082a1823e5e
+langcode: en
+status: true
+dependencies: {  }
+id: product_app
+label: 'Product for application'
+description: ''
+variationType: product_variation_app
+injectVariationFields: true
+traits: {  }
+locked: false

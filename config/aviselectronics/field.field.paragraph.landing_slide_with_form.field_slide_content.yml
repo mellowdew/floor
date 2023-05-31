@@ -1,0 +1,21 @@
+uuid: 49f4508e-32e9-494a-9bf7-269dbcfae9e3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_slide_content
+    - paragraphs.paragraphs_type.landing_slide_with_form
+  module:
+    - text
+id: paragraph.landing_slide_with_form.field_slide_content
+field_name: field_slide_content
+entity_type: paragraph
+bundle: landing_slide_with_form
+label: 'Содержимое слайда'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

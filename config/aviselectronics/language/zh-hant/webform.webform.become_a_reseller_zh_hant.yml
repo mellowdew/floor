@@ -1,0 +1,1 @@
+elements: "name:\n  '#title': 名字\ncountry:\n  '#title': 国家\ne_mail:\n  '#title': 邮箱\nwebsite:\n  '#title': 网站\nmessage:\n  '#title': 信息\nactions:\n  '#submit__label': 发送\n"

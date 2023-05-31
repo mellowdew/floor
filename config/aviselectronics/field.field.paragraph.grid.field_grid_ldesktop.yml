@@ -1,0 +1,23 @@
+uuid: fa54aa03-7a94-4c06-be5f-210fc33ee965
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grid_ldesktop
+    - paragraphs.paragraphs_type.grid
+  module:
+    - options
+id: paragraph.grid.field_grid_ldesktop
+field_name: field_grid_ldesktop
+entity_type: paragraph
+bundle: grid
+label: 'Large Desktop'
+description: "Large Desktop Devices \r\n> 1200px"
+required: true
+translatable: false
+default_value:
+  -
+    value: xl12
+default_value_callback: ''
+settings: {  }
+field_type: list_string

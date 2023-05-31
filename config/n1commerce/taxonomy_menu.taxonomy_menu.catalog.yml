@@ -1,0 +1,16 @@
+uuid: 8f02d8ac-fd50-43ae-badf-96949d4aaed0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.catalog
+id: catalog
+label: Catalog
+vocabulary: catalog
+menu: main
+expanded: true
+depth: 8
+menu_parent: 'main:menu_link_content:bcd6514a-da96-4824-a225-3e18696ea560'
+description_field_name: null
+use_term_weight_order: null

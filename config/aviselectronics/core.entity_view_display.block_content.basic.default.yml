@@ -1,0 +1,39 @@
+uuid: 0eb07d8c-9e53-4c53-9fc1-42c0147a21d3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.field.block_content.basic.body
+    - field.field.block_content.basic.field_faq_paragraph
+    - field.field.block_content.basic.field_file_storage
+  module:
+    - entity_reference_revisions
+    - text
+_core:
+  default_config_hash: orJpHUlAc_wiQLMUjIgEJXGeiqylGHMPcmNRjGtct-M
+id: block_content.basic.default
+targetEntityType: block_content
+bundle: basic
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_faq_paragraph:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_file_storage: true
+  langcode: true
+  search_api_excerpt: true

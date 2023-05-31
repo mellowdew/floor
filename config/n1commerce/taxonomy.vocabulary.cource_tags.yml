@@ -1,0 +1,9 @@
+uuid: aeb14271-76a1-4031-98b8-eef1392c7884
+langcode: en
+status: true
+dependencies: {  }
+name: 'Cource tags'
+vid: cource_tags
+description: 'Used for facet filters in infobusiness catalog'
+hierarchy: 0
+weight: 0

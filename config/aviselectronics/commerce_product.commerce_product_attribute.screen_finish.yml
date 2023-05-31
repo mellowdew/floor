@@ -1,0 +1,7 @@
+uuid: 2ccc88ae-1300-4eef-8088-e58e396bb372
+langcode: en
+status: true
+dependencies: {  }
+id: screen_finish
+label: 'Screen Finish'
+elementType: select

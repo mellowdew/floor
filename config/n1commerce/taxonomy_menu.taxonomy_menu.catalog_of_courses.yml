@@ -1,0 +1,16 @@
+uuid: 3abbfbac-7329-4d0b-9899-334f13de2ebe
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.course-catalog
+    - taxonomy.vocabulary.catalog_of_cources
+id: catalog_of_courses
+label: 'Catalog of courses'
+vocabulary: catalog_of_cources
+menu: course-catalog
+expanded: true
+depth: 0
+menu_parent: 'course-catalog:'
+description_field_name: null
+use_term_weight_order: null

@@ -1,0 +1,19 @@
+uuid: 5828744c-db70-4744-b576-7e6fd2095a00
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_argument
+    - taxonomy.vocabulary.catalog_of_cources
+id: taxonomy_term.catalog_of_cources.field_argument
+field_name: field_argument
+entity_type: taxonomy_term
+bundle: catalog_of_cources
+label: Argument
+description: 'Used as argument in catalog view'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

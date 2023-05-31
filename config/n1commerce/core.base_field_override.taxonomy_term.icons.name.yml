@@ -1,0 +1,18 @@
+uuid: 1c524229-f1f6-4441-8b81-207730a49fa4
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.icons
+id: taxonomy_term.icons.name
+field_name: name
+entity_type: taxonomy_term
+bundle: icons
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

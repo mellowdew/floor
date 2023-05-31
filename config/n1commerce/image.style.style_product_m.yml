@@ -1,0 +1,35 @@
+uuid: cf1f0b25-8738-45e8-8714-8e6efc838292
+langcode: ru
+status: true
+dependencies:
+  module:
+    - image_effects
+name: style_product_m
+label: 'Товар (Средний)'
+effects:
+  ca6f36c3-3416-4c47-846f-06a962a3d83b:
+    uuid: ca6f36c3-3416-4c47-846f-06a962a3d83b
+    id: image_scale
+    weight: 1
+    data:
+      width: 220
+      height: 220
+      upscale: true
+  bf796806-7b7a-4f51-a071-ea972210e88e:
+    uuid: bf796806-7b7a-4f51-a071-ea972210e88e
+    id: image_effects_set_canvas
+    weight: 2
+    data:
+      canvas_size: exact
+      exact:
+        width: '220'
+        height: '220'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''

@@ -1,0 +1,12 @@
+uuid: 9acd8108-dbb9-4d75-82f5-0b113d9835b3
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  shortlink: '[site:url]'
+  title: 'N1 Commerce Front Page'
+  canonical_url: '[site:url]'

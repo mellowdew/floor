@@ -1,0 +1,23 @@
+uuid: 6ea25881-5574-44a7-9aba-a24bcae59274
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_price
+    - paragraphs.paragraphs_type.about_course
+id: paragraph.about_course.field_price
+field_name: field_price
+entity_type: paragraph
+bundle: about_course
+label: Цена
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ' ₽'
+field_type: integer

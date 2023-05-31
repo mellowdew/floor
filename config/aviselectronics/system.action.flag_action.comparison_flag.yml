@@ -1,0 +1,13 @@
+uuid: 93e096eb-841c-47dc-8082-e8546fd5f874
+langcode: ru
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.comparison_flag
+label: 'К сравнению'
+type: commerce_product
+plugin: 'flag_action:comparison_flag'
+configuration:
+  flag_id: comparison
+  flag_action: flag

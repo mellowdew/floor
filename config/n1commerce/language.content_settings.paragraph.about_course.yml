@@ -1,0 +1,16 @@
+uuid: ecb19101-8db8-460d-8ef5-0b25cd6c2a2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.about_course
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: paragraph.about_course
+target_entity_type_id: paragraph
+target_bundle: about_course
+default_langcode: site_default
+language_alterable: false

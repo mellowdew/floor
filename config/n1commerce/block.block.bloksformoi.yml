@@ -1,0 +1,32 @@
+uuid: bf4a3d22-a25e-40e6-a915-fbdc89c47a31
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: row
+id: bloksformoi
+theme: n1_commerce
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:436a75e8-23fc-4903-851a-7519bb70bea4'
+settings:
+  id: 'block_content:436a75e8-23fc-4903-851a-7519bb70bea4'
+  label: 'Блок с вебформой'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: block_with_webform
+visibility:
+  request_path:
+    id: request_path
+    pages: /components
+    negate: false
+    context_mapping: {  }

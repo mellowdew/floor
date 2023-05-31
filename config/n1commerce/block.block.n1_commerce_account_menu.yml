@@ -1,0 +1,35 @@
+uuid: f78ba88e-3360-42b3-9736-d4252c0c2a7f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - block_class
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: 'col right'
+_core:
+  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
+id: n1_commerce_account_menu
+theme: n1_commerce
+region: header
+weight: -16
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

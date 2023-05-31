@@ -1,0 +1,19 @@
+uuid: f0f183d6-6abc-4295-aee5-ed93d1ec13ad
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product
+    - field.storage.commerce_product.field_product_vendor_code
+id: commerce_product.product.field_product_vendor_code
+field_name: field_product_vendor_code
+entity_type: commerce_product
+bundle: product
+label: Артикул
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

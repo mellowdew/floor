@@ -1,0 +1,15 @@
+uuid: e53ff009-fb50-4c7e-b17c-dbc0825a1dd2
+langcode: ru
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_product
+_core:
+  default_config_hash: U9iDX3WNH2BEF4pY9DvvUhd-ForNP76WDS0OoSUN5fY
+label: 'По умолчанию'
+id: default
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }
+locked: false

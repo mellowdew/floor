@@ -1,0 +1,7 @@
+uuid: d9d80140-a697-4cb0-8b9b-ec524fae32b7
+langcode: en
+status: true
+dependencies: {  }
+id: screen_mirroring
+label: 'Android Touch'
+elementType: select

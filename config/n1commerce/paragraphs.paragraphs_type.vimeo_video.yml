@@ -1,0 +1,9 @@
+uuid: 12837e73-db76-4446-a1fe-9be0ddea8169
+langcode: ru
+status: true
+dependencies: {  }
+id: vimeo_video
+label: 'Vimeo video'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

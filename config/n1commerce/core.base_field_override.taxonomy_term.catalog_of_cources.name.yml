@@ -1,0 +1,18 @@
+uuid: 03d9693f-ea11-46b5-bad9-51689a032249
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog_of_cources
+id: taxonomy_term.catalog_of_cources.name
+field_name: name
+entity_type: taxonomy_term
+bundle: catalog_of_cources
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

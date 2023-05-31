@@ -1,0 +1,40 @@
+uuid: a3a19bde-879c-42db-9e26-4c2f90685bb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_gallery_slider.field_landing_gallery_slider_htm
+    - field.field.paragraph.landing_gallery_slider.field_media
+    - paragraphs.paragraphs_type.landing_gallery_slider
+  module:
+    - paragraphs
+    - text
+id: paragraph.landing_gallery_slider.default
+targetEntityType: paragraph
+bundle: landing_gallery_slider
+mode: default
+content:
+  field_landing_gallery_slider_htm:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_media:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

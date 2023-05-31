@@ -1,0 +1,21 @@
+uuid: 4e5279bd-c631-4bbd-9b9d-3dd5e33a6b28
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_button.product_button
+    - field.storage.app_button.field_button_action
+  module:
+    - options
+id: app_button.product_button.field_button_action
+field_name: field_button_action
+entity_type: app_button
+bundle: product_button
+label: Action
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,13 @@
+uuid: aec2e389-ec9e-4dda-99e7-69ff06e44c5e
+langcode: ru
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.favorite_variation.unflag
+label: 'Unflag this item'
+type: commerce_product_variation
+plugin: 'flag_action:favorite_variation.unflag'
+configuration:
+  flag_id: favorite_variation
+  flag_action: unflag

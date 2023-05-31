@@ -1,0 +1,28 @@
+uuid: 088ebba2-d2cd-42cd-8fa4-87e912db0a6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.addon
+    - commerce_product.commerce_product_type.product
+    - field.storage.commerce_product.field_addon
+id: commerce_product.product.field_addon
+field_name: field_addon
+entity_type: commerce_product
+bundle: product
+label: Addon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product'
+  handler_settings:
+    target_bundles:
+      addon: addon
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: addon
+field_type: entity_reference

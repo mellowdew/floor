@@ -1,0 +1,31 @@
+uuid: e63e9832-2478-4b65-b8d4-d10db3cc666e
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_class
+    - commerce_cart
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: right
+id: cart_2
+theme: n1_commerce
+region: header
+weight: -20
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Корзина
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

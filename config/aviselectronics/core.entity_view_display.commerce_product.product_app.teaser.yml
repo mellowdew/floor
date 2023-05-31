@@ -1,0 +1,75 @@
+uuid: 7f9573b4-d872-42a4-ba12-85549c0bdf01
+langcode: ru
+status: true
+dependencies:
+  config:
+    0: commerce_product.commerce_product_type.product_app
+    1: core.entity_view_mode.commerce_product.teaser
+    2: field.field.commerce_product.product_app.body
+    3: field.field.commerce_product.product_app.field_3d_model
+    4: field.field.commerce_product.product_app.field_additional_url
+    5: field.field.commerce_product.product_app.field_default_view_type
+    6: field.field.commerce_product.product_app.field_details
+    7: field.field.commerce_product.product_app.field_image_gallery
+    8: field.field.commerce_product.product_app.field_model_3d_scale
+    11: responsive_image.styles.product_teaser
+  module:
+    - n1
+    - responsive_image
+id: commerce_product.product_app.teaser
+targetEntityType: commerce_product
+bundle: product_app
+mode: teaser
+content:
+  field_image_gallery:
+    type: responsive_image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      responsive_image_style: product_teaser
+      image_link: content
+    third_party_settings: {  }
+  flag_comparison:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  flag_favorites:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  share_everywhere:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    label: hidden
+    type: string
+    weight: -5
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      combine: true
+      view_mode: teaser
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  field_3d_model: true
+  field_additional_url: true
+  field_default_view_type: true
+  field_details: true
+  field_model_3d_scale: true
+  langcode: true
+  stores: true
+  uid: true

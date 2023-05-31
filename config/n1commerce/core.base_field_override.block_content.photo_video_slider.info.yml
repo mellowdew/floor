@@ -1,0 +1,18 @@
+uuid: 83e7ba43-7017-4725-b7a1-87005086305f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+id: block_content.photo_video_slider.info
+field_name: info
+entity_type: block_content
+bundle: photo_video_slider
+label: 'Описание блока'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

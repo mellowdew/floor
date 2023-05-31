@@ -1,0 +1,23 @@
+uuid: a7e6d62a-5ba4-4e06-a208-30b654ce7f6e
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact
+    - file
+id: contact_message.field_attach_technical_task
+field_name: field_attach_technical_task
+entity_type: contact_message
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

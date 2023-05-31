@@ -1,0 +1,14 @@
+uuid: 70896807-e2d5-4eac-8905-da19534f77b8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.app_admin
+  module:
+    - user
+id: user_add_role_action.app_admin
+label: 'Добавить роль Администратор приложения выбранным пользователям'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: app_admin

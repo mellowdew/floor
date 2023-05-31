@@ -1,0 +1,23 @@
+uuid: e5d7373f-da66-4ac0-aa29-6114647714fb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grid_desktop
+    - paragraphs.paragraphs_type.grid
+  module:
+    - options
+id: paragraph.grid.field_grid_desktop
+field_name: field_grid_desktop
+entity_type: paragraph
+bundle: grid
+label: Desktop
+description: "Desktop Devices \r\n> 992px"
+required: true
+translatable: false
+default_value:
+  -
+    value: l12
+default_value_callback: ''
+settings: {  }
+field_type: list_string

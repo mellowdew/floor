@@ -1,0 +1,35 @@
+uuid: b3a4f08c-726a-4729-99db-b6c8ec586c48
+langcode: ru
+status: true
+dependencies:
+  enforced:
+    module:
+      - flag_follower
+  module:
+    - user
+_core:
+  default_config_hash: 334wyoBqmA9JAoUcR_SvJsItmkW_HFkqTKT5Eye3O7A
+id: following
+label: Following
+bundles: {  }
+entity_type: user
+global: false
+weight: 0
+flag_short: 'В избранное'
+flag_long: 'Добавить товар в избранное'
+flag_message: 'Товар добавлен в избранное'
+unflag_short: 'Убрать из избранного'
+unflag_long: 'Удалить товар из избранного'
+unflag_message: 'Товар был удален из избранного'
+unflag_denied_text: ''
+flag_type: 'entity:user'
+link_type: reload
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+  show_on_profile: false
+linkTypeConfig: {  }

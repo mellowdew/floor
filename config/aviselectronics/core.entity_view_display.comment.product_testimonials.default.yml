@@ -1,0 +1,37 @@
+uuid: 9c108c65-af8e-48ac-8bfa-bc50e16a1f46
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.product_testimonials
+    - field.field.comment.product_testimonials.comment_body
+  module:
+    - ds
+    - text
+id: comment.product_testimonials.default
+targetEntityType: comment
+bundle: product_testimonials
+mode: default
+content:
+  comment_body:
+    label: above
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: default
+          settings:
+            lb: ''
+            lb-col: false
+            classes: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

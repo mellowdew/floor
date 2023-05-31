@@ -1,0 +1,9 @@
+uuid: 8236999f-ecae-429b-b083-fe92d8e5bff0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.details
+name: 'Product details'
+type: product_details
+description: ''

@@ -1,0 +1,23 @@
+display:
+  default:
+    display_options:
+      fields:
+        title:
+          label: Product
+        unit_price__number:
+          label: Price
+        edit_quantity:
+          label: Quantity
+        remove_button:
+          label: Remove
+        total_price__number:
+          label: 'Total price'
+    display_title: Основной
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Применить
+          reset_button_label: Сбросить
+          exposed_sorts_label: 'Сортировать по'
+          sort_asc_label: 'По возрастанию'
+          sort_desc_label: 'По убыванию'

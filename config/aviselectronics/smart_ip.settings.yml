@@ -1,0 +1,25 @@
+data_source: maxmind_geoip2_bin_db
+roles_to_geolocate:
+  authenticated: authenticated
+  anonymous: '0'
+  administrator: '0'
+  app_admin: '0'
+  web_service: '0'
+save_user_location_creation: false
+allowed_pages: ''
+_core:
+  default_config_hash: qMiZok246dDn_jV9DKuJ4DSazkrBhZ0Hy0jcrdvScEA
+eu_visitor_dont_save: false
+timezone_format: ''
+roles_in_debug_mode:
+  anonymous: false
+  authenticated: false
+  administrator: false
+  app_admin: false
+  web_service: false
+roles_in_debug_mode_ip:
+  anonymous: ''
+  authenticated: ''
+  administrator: ''
+  app_admin: ''
+  web_service: ''

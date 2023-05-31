@@ -1,0 +1,14 @@
+uuid: 6f7a9606-736b-4f15-bc0f-a2e68d343c01
+langcode: ru
+status: true
+dependencies: {  }
+id: app_admin
+label: 'Администратор приложения'
+weight: 3
+is_admin: null
+permissions:
+  - 'access devel information'
+  - 'create product_app commerce_product'
+  - 'delete own product_app commerce_product'
+  - 'manage product_variation_app commerce_product_variation'
+  - 'update own product_app commerce_product'

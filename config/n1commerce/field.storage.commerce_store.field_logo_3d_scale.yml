@@ -1,0 +1,20 @@
+uuid: 5983f259-67e9-4528-9fda-1e65e79c43ae
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_store
+id: commerce_store.field_logo_3d_scale
+field_name: field_logo_3d_scale
+entity_type: commerce_store
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

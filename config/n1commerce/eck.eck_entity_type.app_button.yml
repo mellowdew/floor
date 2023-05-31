@@ -1,0 +1,10 @@
+uuid: 4eace39b-d673-4018-9ea0-c2d4f8be994c
+langcode: ru
+status: true
+dependencies: {  }
+id: app_button
+label: 'App button'
+created: false
+changed: false
+uid: false
+title: true

@@ -1,0 +1,40 @@
+uuid: 67911c87-1903-4abb-bb25-809d2ed53922
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_main_slider.field_landing_main_slider_html
+    - field.field.paragraph.landing_main_slider.field_media
+    - paragraphs.paragraphs_type.landing_main_slider
+  module:
+    - paragraphs
+    - text
+id: paragraph.landing_main_slider.default
+targetEntityType: paragraph
+bundle: landing_main_slider
+mode: default
+content:
+  field_landing_main_slider_html:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_media:
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

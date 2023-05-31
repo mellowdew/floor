@@ -1,0 +1,26 @@
+uuid: f461b243-1c04-4135-8927-240ffbd6dd66
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.fullwidth_slider
+    - field.field.paragraph.gallery_image.field_gallery_image
+    - image.style.scale_and_crop_1920x1080
+    - paragraphs.paragraphs_type.gallery_image
+  module:
+    - image
+id: paragraph.gallery_image.fullwidth_slider
+targetEntityType: paragraph
+bundle: gallery_image
+mode: fullwidth_slider
+content:
+  field_gallery_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: scale_and_crop_1920x1080
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

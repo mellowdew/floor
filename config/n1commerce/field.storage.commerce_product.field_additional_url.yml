@@ -1,0 +1,19 @@
+uuid: ac762452-ec2f-42b1-8161-ba07efe10746
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - link
+id: commerce_product.field_additional_url
+field_name: field_additional_url
+entity_type: commerce_product
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

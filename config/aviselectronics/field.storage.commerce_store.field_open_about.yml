@@ -1,0 +1,18 @@
+uuid: 23ebf282-4181-451f-a6d9-2472e7d19fc6
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_store
+id: commerce_store.field_open_about
+field_name: field_open_about
+entity_type: commerce_store
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: b530ca69-fc02-456b-84f9-dd70bdc0016c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - n1_commerce
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: n1_commerce_help
+theme: n1_commerce
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,9 @@
+uuid: 6315dd85-b099-4bbe-bfe0-e0ae4eae9d96
+langcode: ru
+status: true
+dependencies: {  }
+id: horizontal_tab
+label: 'Horizontal tab'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

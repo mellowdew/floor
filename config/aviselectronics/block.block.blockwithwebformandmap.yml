@@ -1,0 +1,35 @@
+uuid: a1fcf104-92e0-41e3-9a82-8508a943089d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:webform_and_map:b1052983-c1ba-472e-8fe2-da8c4f50953d'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: blockwithwebformandmap
+theme: n1_commerce
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:b1052983-c1ba-472e-8fe2-da8c4f50953d'
+settings:
+  id: 'block_content:b1052983-c1ba-472e-8fe2-da8c4f50953d'
+  label: 'Block with webform and map'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: block_with_webform_and_map
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

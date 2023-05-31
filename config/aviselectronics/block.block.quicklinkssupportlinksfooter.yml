@@ -1,0 +1,54 @@
+uuid: fc5de078-8908-4434-80e0-12f485185604
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b5d104a3-01af-45b4-9e9e-8aa9ab6b6f4c'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: quicklinkssupportlinksfooter
+theme: aviselectronics
+region: footer
+weight: -22
+provider: null
+plugin: 'block_content:b5d104a3-01af-45b4-9e9e-8aa9ab6b6f4c'
+settings:
+  id: 'block_content:b5d104a3-01af-45b4-9e9e-8aa9ab6b6f4c'
+  label: 'QUICK LINKS | SUPPORT LINKS (footer)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

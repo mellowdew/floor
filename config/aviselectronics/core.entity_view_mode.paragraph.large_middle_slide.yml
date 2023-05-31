@@ -1,0 +1,10 @@
+uuid: b6dbb97d-520c-4af6-8608-06ffb2347c78
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.large_middle_slide
+label: 'Large middle slide'
+targetEntityType: paragraph
+cache: true

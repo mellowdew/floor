@@ -1,0 +1,24 @@
+uuid: 2284dead-7fbb-4ad4-9bd7-05452e2bb31c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - commerce_checkout_geo_restriction
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: 'col m1'
+id: changecountryblock
+theme: n1_commerce
+region: header
+weight: -14
+provider: null
+plugin: commerce_checkout_geo_restriction_change_country_block
+settings:
+  id: commerce_checkout_geo_restriction_change_country_block
+  label: 'Change country block'
+  provider: commerce_checkout_geo_restriction
+  label_display: '0'
+visibility: {  }

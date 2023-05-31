@@ -1,0 +1,71 @@
+uuid: be9483ec-20ef-4f39-8929-1f00d21afa0c
+langcode: en
+status: true
+dependencies:
+  module:
+    - request_data_conditions
+    - system
+name: splashbacktv
+label: 'Splashback TV'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: /catalog/kitchen-tvs/splashback-tv
+    negate: 0
+    uuid: 8f0b1019-a63d-4ad6-a0a6-9a18ef002000
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: f
+        op: not_set
+        value: ''
+    require_all_params: 1
+    negate: 0
+    uuid: bccd358e-e8de-4d84-a505-0182137905fd
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      5d28bb14-3190-4c44-b4fe-d8b5b5138779:
+        id: 'block_content:8b5be6bb-a8ca-415a-a7d3-6f316db3fa1f'
+        label: 'Catalog description - Splashback TV'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: splashbacktv
+        uuid: 5d28bb14-3190-4c44-b4fe-d8b5b5138779
+      827ad3c2-7a4d-4219-b7f1-4d421d768614:
+        id: 'block_content:b99e3a33-d5d3-434c-a549-87349ead8e1e'
+        label: 'Иконки kitchen splashback'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: splashbacktv
+        uuid: 827ad3c2-7a4d-4219-b7f1-4d421d768614
+    id: blocks
+    saved: false
+    uuid: 1dae3130-a0f5-4a7c-9e17-2b0d198d7c11
+    include_default_blocks: 1
+weight: -1

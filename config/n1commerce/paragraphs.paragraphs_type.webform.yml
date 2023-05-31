@@ -1,0 +1,9 @@
+uuid: 61701263-c57f-489f-9cf8-15a8e44b2e1c
+langcode: ru
+status: true
+dependencies: {  }
+id: webform
+label: Webform
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

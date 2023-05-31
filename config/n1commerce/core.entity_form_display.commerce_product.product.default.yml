@@ -1,0 +1,228 @@
+uuid: 2de627cc-7bd2-4788-8a16-5c1ab15e6cf2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product
+    - field.field.commerce_product.product.body
+    - field.field.commerce_product.product.field_3d_model
+    - field.field.commerce_product.product.field_additional_url
+    - field.field.commerce_product.product.field_catalog
+    - field.field.commerce_product.product.field_default_view_type
+    - field.field.commerce_product.product.field_image_gallery
+    - field.field.commerce_product.product.field_link_to_video
+    - field.field.commerce_product.product.field_meta
+    - field.field.commerce_product.product.field_old_price
+    - field.field.commerce_product.product.field_product_brand
+    - field.field.commerce_product.product.field_product_description
+    - field.field.commerce_product.product.field_product_manufacturer
+    - field.field.commerce_product.product.field_product_vendor_code
+    - field.field.commerce_product.product.field_related_variations
+    - field.field.commerce_product.product.field_short_description
+    - field.field.commerce_product.product.stores
+    - field.field.commerce_product.product.variations
+    - image.style.thumbnail
+  module:
+    - commerce
+    - commerce_price
+    - file
+    - image
+    - inline_entity_form
+    - link
+    - metatag
+    - paragraphs
+    - path
+    - text
+id: commerce_product.product.default
+targetEntityType: commerce_product
+bundle: product
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 7
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 20
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_3d_model:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_additional_url:
+    weight: 16
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_catalog:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_default_view_type:
+    weight: 15
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_image_gallery:
+    weight: 9
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_link_to_video:
+    weight: 10
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_meta:
+    weight: 23
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_old_price:
+    weight: 12
+    settings: {  }
+    third_party_settings: {  }
+    type: commerce_price_default
+    region: content
+  field_product_brand:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_product_description:
+    type: entity_reference_paragraphs
+    weight: 22
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+  field_product_manufacturer:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_product_vendor_code:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_related_variations:
+    weight: 14
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_short_description:
+    type: text_textarea
+    weight: 21
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 18
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 17
+    third_party_settings: {  }
+    region: content
+  stores:
+    type: commerce_entity_select
+    weight: 0
+    settings:
+      autocomplete_threshold: 7
+      autocomplete_size: 60
+      autocomplete_placeholder: ''
+      hide_single_entity: true
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 19
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  variations:
+    type: inline_entity_form_complex
+    weight: 13
+    settings:
+      override_labels: true
+      label_singular: variation
+      label_plural: variations
+      form_mode: default
+      allow_new: true
+      allow_existing: false
+      match_operator: CONTAINS
+    third_party_settings: {  }
+    region: content
+hidden: {  }

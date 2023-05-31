@@ -1,0 +1,20 @@
+uuid: fc328dd3-3a90-4ac1-aaca-f6550db0c9a7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - eck
+id: commerce_product.field_details
+field_name: field_details
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: details
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: b1bfa7c2-efda-493a-9343-65c7e6e5bc71
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - n1_commerce
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: n1_commerce_messages
+theme: n1_commerce
+region: content
+weight: -18
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

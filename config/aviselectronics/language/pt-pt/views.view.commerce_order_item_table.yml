@@ -1,0 +1,22 @@
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+      fields:
+        title:
+          label: Título
+        unit_price__number:
+          label: 'Preço unitário'
+        quantity:
+          label: Quantidade
+        total_price__number:
+          label: 'Preço total'
+      arguments:
+        order_id:
+          exception:
+            title: Todos

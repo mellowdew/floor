@@ -1,0 +1,28 @@
+uuid: e3689d1a-30e1-4b10-957e-9f7bfaa1bf04
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.screen_size
+    - commerce_product.commerce_product_variation_type.product_variation
+    - field.storage.commerce_product_variation.attribute_screen_size
+id: commerce_product_variation.product_variation.attribute_screen_size
+field_name: attribute_screen_size
+entity_type: commerce_product_variation
+bundle: product_variation
+label: 'Screen size'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      screen_size: screen_size
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

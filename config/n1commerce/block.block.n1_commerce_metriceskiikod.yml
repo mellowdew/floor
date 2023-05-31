@@ -1,0 +1,30 @@
+uuid: 5140735a-ea42-47d3-82ed-e3a95cde6d0b
+langcode: ru
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - n1_commerce
+id: n1_commerce_metriceskiikod
+theme: n1_commerce
+region: copyright
+weight: -16
+provider: null
+plugin: 'block_content:a0fb08e3-01cf-41bf-bdea-fbbfa82cac77'
+settings:
+  id: 'block_content:a0fb08e3-01cf-41bf-bdea-fbbfa82cac77'
+  label: 'Метрический код'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

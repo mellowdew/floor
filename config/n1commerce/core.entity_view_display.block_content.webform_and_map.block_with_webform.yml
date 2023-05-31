@@ -1,0 +1,72 @@
+uuid: 77f2299f-1a8a-44c7-ad42-5c93929fafb7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_and_map
+    - core.entity_view_mode.block_content.block_with_webform
+    - field.field.block_content.webform_and_map.body
+    - field.field.block_content.webform_and_map.field_location
+    - field.field.block_content.webform_and_map.field_webform
+  module:
+    - field_group
+    - text
+    - webform
+third_party_settings:
+  field_group:
+    group_card:
+      children:
+        - group_card_content
+      parent_name: group_form_wrapper
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: card
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Card
+    group_card_content:
+      children:
+        - body
+        - field_webform
+      parent_name: group_card
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: card-content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Card content'
+id: block_content.webform_and_map.block_with_webform
+targetEntityType: block_content
+bundle: webform_and_map
+mode: block_with_webform
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 21
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_webform:
+    weight: 22
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  field_location: true
+  langcode: true

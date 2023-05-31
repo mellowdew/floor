@@ -1,0 +1,21 @@
+uuid: c662cd60-1763-4bee-93dc-84261a72c3f8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_level
+    - paragraphs.paragraphs_type.about_course
+  module:
+    - options
+id: paragraph.about_course.field_level
+field_name: field_level
+entity_type: paragraph
+bundle: about_course
+label: Level
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

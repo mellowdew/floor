@@ -1,0 +1,8 @@
+uuid: bea4fd80-479c-40eb-babe-1e2eb3191e01
+langcode: ru
+status: true
+dependencies: {  }
+id: photo_video_slider
+label: 'Photo/video slider'
+revision: 0
+description: ''

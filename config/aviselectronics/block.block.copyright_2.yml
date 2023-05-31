@@ -1,0 +1,29 @@
+uuid: 3c331a27-6d69-4f86-8050-a1e064066dad
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:254ea0ed-2bfe-4cd7-b84a-2c6d2706514d'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: copyright_2
+theme: aviselectronics
+region: copyright
+weight: -34
+provider: null
+plugin: 'block_content:254ea0ed-2bfe-4cd7-b84a-2c6d2706514d'
+settings:
+  id: 'block_content:254ea0ed-2bfe-4cd7-b84a-2c6d2706514d'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

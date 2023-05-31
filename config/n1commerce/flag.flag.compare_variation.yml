@@ -1,0 +1,34 @@
+uuid: 74d08ac4-9d8d-44e5-8931-27878a0bc72d
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: compare_variation
+label: 'Compare variation'
+bundles:
+  - product_variation
+  - product_variation_app
+entity_type: commerce_product_variation
+global: false
+weight: 0
+flag_short: '<span class="btn btn-floating waves-effect waves-light green"><i class="material-icons">compare</i></span>'
+flag_long: ''
+flag_message: 'Добавлено к сравнению'
+unflag_short: '<span class="btn btn-floating waves-effect waves-light grey"><i class="material-icons">compare</i></span>'
+unflag_long: ''
+unflag_message: 'Убрано из сравнения'
+unflag_denied_text: ''
+flag_type: 'entity:commerce_product_variation'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links:
+    cart: cart
+    full: full
+    teaser_variation_catalog: teaser_variation_catalog
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

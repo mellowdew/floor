@@ -1,0 +1,18 @@
+uuid: 27995a2a-a1da-4166-9e52-f764b820a035
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog_of_cources
+id: taxonomy_term.catalog_of_cources.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: catalog_of_cources
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

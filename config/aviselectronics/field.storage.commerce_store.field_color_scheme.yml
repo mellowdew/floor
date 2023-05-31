@@ -1,0 +1,21 @@
+uuid: 2520f3b5-5fb8-40de-b573-0ff103a5a9a3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_store
+id: commerce_store.field_color_scheme
+field_name: field_color_scheme
+entity_type: commerce_store
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

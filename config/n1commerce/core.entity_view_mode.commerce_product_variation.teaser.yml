@@ -1,0 +1,10 @@
+uuid: b2630c46-aa9e-40cd-b53e-4b8a1a27b817
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.teaser
+label: 'Вариация в анонсе товара '
+targetEntityType: commerce_product_variation
+cache: true

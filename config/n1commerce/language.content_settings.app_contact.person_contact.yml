@@ -1,0 +1,16 @@
+uuid: b06db6e7-0bb0-41ff-bcf9-d7be84840a2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: app_contact.person_contact
+target_entity_type_id: app_contact
+target_bundle: person_contact
+default_langcode: site_default
+language_alterable: false

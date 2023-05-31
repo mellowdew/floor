@@ -1,0 +1,28 @@
+uuid: 363521a7-111e-47cc-a265-acd7f8ad6b99
+langcode: ru
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - n1_commerce
+id: n1_commerce_knopki
+theme: n1_commerce
+region: footer
+weight: -11
+provider: null
+plugin: 'block_content:a27a1602-ab8b-48ad-8ba2-b8f73d1fb0da'
+settings:
+  id: 'block_content:a27a1602-ab8b-48ad-8ba2-b8f73d1fb0da'
+  label: Кнопки
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

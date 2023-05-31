@@ -1,0 +1,57 @@
+uuid: c4f48916-23d5-40ce-9f19-4a9b4aae9065
+langcode: ru
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_grid_ldesktop
+field_name: field_grid_ldesktop
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: xl1
+      label: xl1
+    -
+      value: xl2
+      label: xl2
+    -
+      value: xl3
+      label: xl3
+    -
+      value: xl4
+      label: xl4
+    -
+      value: xl5
+      label: xl5
+    -
+      value: xl6
+      label: xl6
+    -
+      value: xl7
+      label: xl7
+    -
+      value: xl8
+      label: xl8
+    -
+      value: xl9
+      label: xl9
+    -
+      value: xl10
+      label: xl10
+    -
+      value: xl11
+      label: xl11
+    -
+      value: xl12
+      label: xl12
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

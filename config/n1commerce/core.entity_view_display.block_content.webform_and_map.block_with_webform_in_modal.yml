@@ -1,0 +1,56 @@
+uuid: 54bb36c2-766c-4a9b-8e9f-3db5afdffa38
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_and_map
+    - core.entity_view_mode.block_content.block_with_webform_in_modal
+    - field.field.block_content.webform_and_map.body
+    - field.field.block_content.webform_and_map.field_location
+    - field.field.block_content.webform_and_map.field_webform
+  module:
+    - field_group
+    - text
+    - webform
+third_party_settings:
+  field_group:
+    group_modal_content:
+      children:
+        - body
+        - field_webform
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: modal-content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: modal-content
+id: block_content.webform_and_map.block_with_webform_in_modal
+targetEntityType: block_content
+bundle: webform_and_map
+mode: block_with_webform_in_modal
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_webform:
+    weight: 1
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  field_location: true
+  langcode: true

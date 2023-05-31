@@ -1,0 +1,10 @@
+uuid: 03666b8e-5781-4ba8-9dcb-6b72baf4b6fc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.fullwidth_slider
+label: 'Fullwidth slider'
+targetEntityType: paragraph
+cache: true

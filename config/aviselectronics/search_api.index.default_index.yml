@@ -1,0 +1,188 @@
+uuid: 0e804c02-81c3-4b59-827f-69d38fb566cc
+langcode: ru
+status: true
+dependencies:
+  config:
+    1: field.storage.commerce_product.field_catalog
+    2: field.storage.commerce_product_variation.attribute_screen_finish
+    3: field.storage.commerce_product_variation.attribute_screen_size
+    4: search_api.server.default_server
+  module:
+    - commerce_product
+    - search_api
+_core:
+  default_config_hash: CeQvQFFCLtBV14W1topZP19nFUlS3bSckwuryffgkgk
+id: default_index
+name: 'Default content index'
+description: 'Default content index created by the Database Search Defaults module'
+read_only: false
+field_settings:
+  attribute_screen_finish:
+    label: 'Screen Finish'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'variations:entity:attribute_screen_finish'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.variations
+        - field.storage.commerce_product_variation.attribute_screen_finish
+      module:
+        - commerce_product
+  attribute_screen_size:
+    label: 'Screen size'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'variations:entity:attribute_screen_size'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.variations
+        - field.storage.commerce_product_variation.attribute_screen_size
+      module:
+        - commerce_product
+  field_catalog:
+    label: Категория
+    datasource_id: 'entity:commerce_product'
+    property_path: field_catalog
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_catalog
+  number:
+    label: Price
+    datasource_id: 'entity:commerce_product'
+    property_path: 'variations:entity:price:number'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.variations
+      module:
+        - commerce_product
+  status_1:
+    label: Published
+    datasource_id: 'entity:commerce_product'
+    property_path: status
+    type: boolean
+  title_1:
+    label: Title
+    datasource_id: 'entity:commerce_product'
+    property_path: title
+    type: string
+  type_1:
+    label: 'Product type'
+    datasource_id: 'entity:commerce_product'
+    property_path: type
+    type: string
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: false
+      selected:
+        - product
+        - product_app
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url:
+    weights:
+      preprocess_index: -30
+  aggregated_field:
+    weights:
+      add_properties: 20
+  entity_status:
+    weights:
+      preprocess_index: -10
+  hierarchy:
+    fields:
+      field_catalog: taxonomy_term-parent
+    weights:
+      preprocess_index: -45
+  html_filter:
+    weights:
+      preprocess_index: -3
+      preprocess_query: -6
+    fields: {  }
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      string: 2
+    all_fields: false
+  ignorecase:
+    weights:
+      preprocess_index: -5
+      preprocess_query: -8
+    fields: {  }
+    all_fields: false
+  rendered_item:
+    weights:
+      add_properties: 0
+      pre_index_save: -10
+  stopwords:
+    weights:
+      preprocess_index: -5
+      preprocess_query: -10
+    fields: {  }
+    stopwords:
+      - a
+      - an
+      - and
+      - are
+      - as
+      - at
+      - be
+      - but
+      - by
+      - for
+      - if
+      - in
+      - into
+      - is
+      - it
+      - 'no'
+      - not
+      - of
+      - 'on'
+      - or
+      - s
+      - such
+      - t
+      - that
+      - the
+      - their
+      - then
+      - there
+      - these
+      - they
+      - this
+      - to
+      - was
+      - will
+      - with
+    all_fields: false
+  tokenizer:
+    weights:
+      preprocess_index: -2
+      preprocess_query: -5
+    fields: {  }
+    spaces: ''
+    overlap_cjk: 1
+    minimum_word_size: '3'
+    all_fields: false
+  transliteration:
+    weights:
+      preprocess_index: -4
+      preprocess_query: -7
+    fields: {  }
+    all_fields: false
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+  track_changes_in_references: true
+server: default_server

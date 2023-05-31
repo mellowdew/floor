@@ -1,0 +1,22 @@
+uuid: e40d8c44-4057-4cd7-8305-7a02fdc5d26e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product
+id: commerce_product.product.status
+field_name: status
+entity_type: commerce_product
+bundle: product
+label: Published
+description: 'Whether the product is published.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,15 @@
+uuid: e3ea99aa-ca9b-4fd6-9a24-1abac66bc675
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_pado
+  module:
+    - commerce_order
+_core:
+  default_config_hash: IE19ZXlbOrv2DeLcx_TGVQwUUSAunfau0AwN832sKL0
+id: commerce_order_item.pado_add_to_cart
+label: 'PADO add to cart'
+targetEntityType: commerce_order_item
+cache: true

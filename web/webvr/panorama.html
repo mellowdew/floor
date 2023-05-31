@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Scantukan WebVR</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <style>
+            .vrContainer {
+                display: none;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                background: #ffffff;
+            }
+
+            /* Position the button on the bottom of the page. */
+            #ui {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-wrap: wrap;
+              font-family: 'Karla', sans-serif;
+            }
+
+            /*#demo-button {
+              display: block;
+              color: white;
+              cursor: pointer;
+            }*/
+
+            .button {
+                position: relative;
+                margin: 5px;
+            }
+
+            .container {
+                position: relative;
+                width: calc(100% - 4px);
+                height: calc(100% - 120px);
+                background: #ffffff;
+                border: 2px solid whitesmoke;
+            }
+
+            .preloader {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                -webkit-transition: opacity 0.7s;
+                transition: opacity 0.7s;
+                background: #ffffff;
+                opacity: 0;
+            }
+
+            .preloader.on {
+                opacity: 1;
+            }
+
+            .loading {
+                color: #000000;
+                font-family: sans-serif;
+                font-size: 16px;
+            }
+
+            .loaderWrapper {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .loader {
+                border: 4px solid #f3f3f3;
+                border-radius: 50%;
+                border-top: 4px solid #7b7b79;
+                width: 34px;
+                height: 34px;
+                -webkit-animation: spin 2s ease-in-out infinite;
+                animation: spin 2s ease-in-out infinite;
+            }
+
+            @-webkit-keyframes spin {
+                0% { -webkit-transform: rotate(0deg); }
+                100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+            #test {
+                position: absolute;
+                top: 70px;
+                left: 100px;
+            }
+
+            .st-web-main-wrapper {
+                position: absolute;
+                top: 30px;
+                left: 30px;
+                right: 30px;
+                bottom: 30px;
+                margin: auto;
+                max-width: 800px;
+            }
+
+            #ui-wrapper {
+                text-align: center;
+                font-family: 'Karla', sans-serif;
+                z-index: 1;
+                background: rgba(0, 0, 0, 0.5);
+                padding: 10px 15px;
+                min-height: 50px;
+            }
+
+            .vr-demo-button {
+                font-family: 'Karla', sans-serif;
+                border: white 2px solid;
+                border-radius: 2px;
+                box-sizing: border-box;
+                background: white;
+                height: 55px;
+                min-width: 175.99999999999997px;
+                display: inline-block;
+                position: relative;
+                cursor: pointer;
+            }
+
+            .vr-demo-button[disabled=true] {
+                opacity: 0.5;
+                cursor: default;
+            }
+
+            .vr-demo-button-label {
+                font-size: 18px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="st-web-main-wrapper">
+            <div class="container"></div>
+            <div id="ui-wrapper" style="display: none;">
+                <div id="ui">
+                    <div id="vr-button" class="button"></div>
+                    <div id="demo-button" class="button">
+                        <button class="vr-demo-button">
+                            <div class="vr-demo-button-label">VIEW ON DESKTOP</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="vrContainer"></div>
+        <button id="test" style="display: none;">Next model</button>
+
+        <script>
+            ST_WEB_CONFIG = {
+                selectors: {
+                    webvrContainer: '.vrContainer',
+                    viewerContainer: '.container',
+                    preloader: '.preloader',
+                    vrUI: '#ui-wrapper',
+                    vrUIButtonsContainer: '#ui',
+                    vrButton: '#vr-button',
+                    vrDemoButton: '.vr-demo-button'
+                },
+                models: [
+                    {
+                        id: 'admiral450',
+                        type: 'objmtl',
+                        title: 'Лодка "Адмирал 450"',
+                        zip: 'models/Admiral_0.zip',
+                        base: 'models/Admiral_0/',
+                        mtl: 'Admiral450f.mtl',
+                        obj: 'Admiral450f.obj',
+                        referenceSize: (21 / 100),
+                        scaleFactor: 20
+                    },
+                    {
+                        id: 'admiral375',
+                        type: 'objmtl',
+                        title: 'Лодка "Адмирал 375"',
+                        zip: 'models/Admiral375d_1.zip',
+                        base: 'models/Admiral375d_1/',
+                        mtl: 'Admiral375.mtl',
+                        obj: 'Admiral375.obj',
+                        referenceSize: (21 / 100),
+                        scaleFactor: 20
+                    },
+                    {
+                        id: 'riverboats410',
+                        type: 'objmtl',
+                        title: 'Лодка "RiverBoats 410"',
+                        zip: 'models/RiverBoats410.zip',
+                        base: 'models/RiverBoats410/',
+                        mtl: 'RiverBoats410.mtl',
+                        obj: 'RiverBoats410.obj',
+                        referenceSize: (21 / 100),
+                        scaleFactor: 20
+                    }
+                ],
+                backgrounds: [
+                    {
+                        id: 'sky',
+                        type: 'cubemap',
+                        texture: 'textures/skyboxsun25degtest.png'
+                    },
+                    {
+                        id: 'test360',
+                        type: 'panorama',
+                        texture: 'textures/photo360.jpg'
+                    }
+                ],
+                floors: [
+                    {
+                        id: 'ocean',
+                        type: 'water'
+                    }
+                ],
+                viewPoints: [
+                    {
+                        id: 'point0',
+                        pos: { x: 0, y: 0, z: 0 },
+                        lookat: { x: 0, y: 0, z: 0 }
+                    },
+                    {
+                        id: 'point1',
+                        pos: { x: -1, y: 0, z: -5 },
+                        lookat: { x: 0, y: 0, z: 0 }
+                    },
+                    {
+                        id: 'point2',
+                        pos: { x: -5, y: 0, z: 0 },
+                        lookat: { x: 0, y: 0, z: 0 }
+                    },
+                    {
+                        id: 'point3',
+                        pos: { x: 5, y: 10, z: -2 },
+                        lookat: { x: 0, y: 0, z: 0 }
+                    },
+                    {
+                        id: 'point4',
+                        pos: { x: 6, y: 0, z: -2 },
+                        lookat: { x: 0, y: 0, z: 0 }
+                    }
+                ],
+                modelBind: {
+                    admiral450: {
+                        viewPoints: [ 'point0', 'point1', 'point2' ]
+                    },
+                    admiral375: {
+                        viewPoints: [ 'point0', 'point3', 'point4' ]
+                    },
+                    riverboats410: {
+                        viewPoints: [ 'point0' ]
+                    }
+                },
+                stage: [
+                    { id: 'ocean', type: 'floors' },
+                    //{ id: 'sky', type: 'backgrounds' }
+                    { id: 'test360', type: 'backgrounds' }
+                ],
+                cast: [
+                    //{ id: 'admiral450', type: 'models' },
+                    { id: 'admiral375', type: 'models' },
+                    { id: 'point0', type: 'viewPoints' }
+                ]
+            };
+        </script>
+
+        <script src="common.bundle.js"></script>
+        <script src="viewer.bundle.js"></script>
+        <script src="webvr.bundle.js"></script>
+
+    </body>
+
+</html>

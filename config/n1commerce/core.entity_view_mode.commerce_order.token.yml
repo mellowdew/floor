@@ -1,0 +1,10 @@
+uuid: 8d494c57-1c76-4e1e-8e79-eac6e5596ea5
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_order
+id: commerce_order.token
+label: Токен
+targetEntityType: commerce_order
+cache: true

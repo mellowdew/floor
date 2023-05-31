@@ -1,0 +1,25 @@
+uuid: 9d8dbb29-3cef-4fcd-90cb-05930f04d8a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_form.field_landing_form
+    - paragraphs.paragraphs_type.landing_form
+  module:
+    - webform
+id: paragraph.landing_form.default
+targetEntityType: paragraph
+bundle: landing_form
+mode: default
+content:
+  field_landing_form:
+    weight: 0
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

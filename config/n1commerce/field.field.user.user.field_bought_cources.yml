@@ -1,0 +1,29 @@
+uuid: 6a525277-7a29-44d2-ab15-f2d2c63c4b53
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.cource
+    - field.storage.user.field_bought_cources
+  module:
+    - user
+id: user.user.field_bought_cources
+field_name: field_bought_cources
+entity_type: user
+bundle: user
+label: 'Bought courses'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product'
+  handler_settings:
+    target_bundles:
+      cource: cource
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

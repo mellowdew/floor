@@ -1,0 +1,14 @@
+uuid: cdedf6b7-edae-4565-bd9b-f848ab45b431
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.web_service
+  module:
+    - user
+id: user_remove_role_action.web_service
+label: 'Удалить роль Веб-сервис у выбранных пользователей'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: web_service

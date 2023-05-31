@@ -1,0 +1,100 @@
+uuid: a1e9880a-f1d7-4712-a49b-6ec4bc4c19ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - field.storage.block_content.field_file_storage
+    - paragraphs.paragraphs_type.file_storage
+  module:
+    - entity_reference_revisions
+id: block_content.basic.field_file_storage
+field_name: field_file_storage
+entity_type: block_content
+bundle: basic
+label: 'File storage'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      file_storage: file_storage
+    target_bundles_drag_drop:
+      about_course:
+        weight: 25
+        enabled: false
+      description:
+        weight: 26
+        enabled: false
+      document:
+        weight: 27
+        enabled: false
+      file_storage:
+        enabled: true
+        weight: 28
+      gallery_html:
+        weight: 29
+        enabled: false
+      gallery_image:
+        weight: 30
+        enabled: false
+      gallery_video:
+        weight: 31
+        enabled: false
+      horizontal_tab:
+        weight: 32
+        enabled: false
+      horizontal_tabs:
+        weight: 33
+        enabled: false
+      image_text:
+        weight: 34
+        enabled: false
+      images:
+        weight: 35
+        enabled: false
+      landing_slide:
+        weight: 36
+        enabled: false
+      landing_slide_with_form:
+        weight: 37
+        enabled: false
+      nested_paragraph:
+        weight: 38
+        enabled: false
+      pictures:
+        weight: 39
+        enabled: false
+      table:
+        weight: 40
+        enabled: false
+      tabs_vertical:
+        weight: 41
+        enabled: false
+      text:
+        weight: 42
+        enabled: false
+      text_image:
+        weight: 43
+        enabled: false
+      title:
+        weight: 44
+        enabled: false
+      user:
+        weight: 45
+        enabled: false
+      video:
+        weight: 46
+        enabled: false
+      vimeo_video:
+        weight: 47
+        enabled: false
+      webform:
+        weight: 48
+        enabled: false
+field_type: entity_reference_revisions

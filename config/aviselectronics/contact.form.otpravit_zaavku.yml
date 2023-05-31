@@ -1,0 +1,23 @@
+uuid: 3fa43866-3e5b-46b3-9406-a8cec9fef612
+langcode: ru
+status: true
+dependencies:
+  module:
+    - contact_storage
+third_party_settings:
+  contact_storage:
+    submit_text: 'Отправить сообщение'
+    show_preview: false
+    disabled_form_message: 'This contact form has been disabled.'
+    maximum_submissions_user: 0
+    page_autoreply_format: plain_text
+id: otpravit_zaavku
+label: 'Отправить заявку'
+recipients:
+  - s.sinitsa@initlab.ru
+  - a.sinitsa@initlab.ru
+  - r.agabekov@initlab.ru
+reply: ''
+weight: 0
+message: ''
+redirect: ''

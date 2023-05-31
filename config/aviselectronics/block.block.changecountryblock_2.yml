@@ -1,0 +1,57 @@
+uuid: 77657f10-3283-475c-944e-9458cb7a10a2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - commerce_checkout_geo_restriction
+    - request_data_conditions
+    - user
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: changecountryblock_2
+theme: aviselectronics
+region: hidden
+weight: -27
+provider: null
+plugin: commerce_checkout_geo_restriction_change_country_block
+settings:
+  id: commerce_checkout_geo_restriction_change_country_block
+  label: 'Change country block'
+  provider: commerce_checkout_geo_restriction
+  label_display: '0'
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

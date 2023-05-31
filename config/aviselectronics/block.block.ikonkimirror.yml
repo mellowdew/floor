@@ -1,0 +1,60 @@
+uuid: f9cf03a0-a4b3-4f3a-a093-f441e77e5f32
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:71039451-fbc3-4c03-9ff4-9b921f7ba3fe'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: ikonkimirror
+theme: aviselectronics
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:71039451-fbc3-4c03-9ff4-9b921f7ba3fe'
+settings:
+  id: 'block_content:71039451-fbc3-4c03-9ff4-9b921f7ba3fe'
+  label: 'Иконки mirror'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /catalog/mirror-tvs
+    negate: false
+    context_mapping: {  }

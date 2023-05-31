@@ -1,0 +1,19 @@
+uuid: 1634936e-477f-4ca7-a810-31bf2ba291dd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.details.product_details
+    - field.storage.details.field_details
+id: details.product_details.field_details
+field_name: field_details
+entity_type: details
+bundle: product_details
+label: Характеристики
+description: 'Укажите в данном поле текст в формате json с данными характеристик.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

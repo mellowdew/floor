@@ -1,0 +1,16 @@
+uuid: 002ad4b0-361e-4d08-9cf1-a43a4cbf231f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_and_map
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: block_content.webform_and_map
+target_entity_type_id: block_content
+target_bundle: webform_and_map
+default_langcode: site_default
+language_alterable: false

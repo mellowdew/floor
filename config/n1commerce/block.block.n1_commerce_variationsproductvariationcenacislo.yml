@@ -1,0 +1,32 @@
+uuid: 2602d2e1-2281-4af2-b9df-117993ebdb36
+langcode: ru
+status: true
+dependencies:
+  config:
+    - facets.facet.variations_product_variation_cena_cislo
+  module:
+    - block_class
+    - facets
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: n1_commerce_variationsproductvariationcenacislo
+theme: n1_commerce
+region: sidebar_first_colapsible_facets
+weight: -22
+provider: null
+plugin: 'facet_block:variations_product_variation_cena_cislo'
+settings:
+  id: 'facet_block:variations_product_variation_cena_cislo'
+  label: Цена
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/catalog\r\n/catalog/*\r\n/taxonomy/term/*"
+    negate: false
+    context_mapping: {  }

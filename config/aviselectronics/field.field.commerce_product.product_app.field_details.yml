@@ -1,0 +1,29 @@
+uuid: 8639f919-9e84-45c2-b9af-cd33192187b1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product_app
+    - eck.eck_type.details.product_details
+    - field.storage.commerce_product.field_details
+id: commerce_product.product_app.field_details
+field_name: field_details
+entity_type: commerce_product
+bundle: product_app
+label: Характеристики
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:details'
+  handler_settings:
+    target_bundles:
+      product_details: product_details
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

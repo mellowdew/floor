@@ -1,0 +1,6 @@
+selectors: ".node\r\n.paragraph--type--gallery-video div\r\n.fluid-width-video-wrapper"
+custom_vendors: ''
+ignore_selectors: ''
+_core:
+  default_config_hash: 2VIFfYIzLIphEpkJSH9KfhEE0P66ieHfusDj6QMJIzY
+langcode: ru

@@ -1,0 +1,26 @@
+uuid: bb678662-4766-4b16-9906-dcd672959d49
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_slide_with_form.field_slide_content
+    - paragraphs.paragraphs_type.landing_slide_with_form
+  module:
+    - text
+id: paragraph.landing_slide_with_form.default
+targetEntityType: paragraph
+bundle: landing_slide_with_form
+mode: default
+content:
+  field_slide_content:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

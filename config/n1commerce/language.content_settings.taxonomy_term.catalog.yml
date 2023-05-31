@@ -1,0 +1,16 @@
+uuid: a7d31a40-4d18-4b81-99ab-643841a1359c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.catalog
+target_entity_type_id: taxonomy_term
+target_bundle: catalog
+default_langcode: current_interface
+language_alterable: false

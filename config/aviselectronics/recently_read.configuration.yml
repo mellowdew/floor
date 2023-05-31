@@ -1,0 +1,11 @@
+delete_config: time
+plugins:
+  taxonomy_term: 0
+  node: 0
+  user: 0
+  commerce_product: 0
+_core:
+  default_config_hash: nv-s9aKm1RBBpsvmRmlK_jChwlthIHetdhtzBYZoyCs
+langcode: ru
+delete_time: '-1 month'
+count: '10'

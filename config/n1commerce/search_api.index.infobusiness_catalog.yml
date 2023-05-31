@@ -1,0 +1,117 @@
+uuid: 88d99d2e-4f7f-4749-a8eb-f690d1e9ee33
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.commerce_product.field_promo
+    - field.storage.commerce_product.field_teaser_image
+    - field.storage.commerce_product.field_catalog
+    - field.storage.taxonomy_term.field_argument
+    - field.storage.commerce_product.field_cource_tags
+    - search_api.server.default_server
+    - core.entity_view_mode.commerce_product.teaser
+  module:
+    - file
+    - taxonomy
+    - search_api
+    - commerce_product
+id: infobusiness_catalog
+name: 'infobusiness catalog'
+description: ''
+read_only: false
+field_settings:
+  rendered_item:
+    label: 'Rendered HTML output'
+    property_path: rendered_item
+    type: string
+    configuration:
+      roles:
+        anonymous: anonymous
+      view_mode:
+        'entity:commerce_product':
+          cource: teaser
+        'entity:commerce_product_variation':
+          lesson: ''
+  status:
+    label: Published
+    datasource_id: 'entity:commerce_product'
+    property_path: status
+    type: boolean
+  field_promo:
+    label: Promo
+    datasource_id: 'entity:commerce_product'
+    property_path: field_promo
+    type: boolean
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_promo
+  fid:
+    label: 'Teaser image » Файл » ID файла'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'field_teaser_image:entity:fid'
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_teaser_image
+      module:
+        - file
+  field_argument:
+    label: 'Category » Taxonomy term » Argument'
+    datasource_id: 'entity:commerce_product'
+    property_path: 'field_catalog:entity:field_argument'
+    type: string
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_catalog
+        - field.storage.taxonomy_term.field_argument
+      module:
+        - taxonomy
+  field_catalog:
+    label: Category
+    datasource_id: 'entity:commerce_product'
+    property_path: field_catalog
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_catalog
+  field_cource_tags:
+    label: 'Cource tags'
+    datasource_id: 'entity:commerce_product'
+    property_path: field_cource_tags
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product.field_cource_tags
+  langcode:
+    label: Язык
+    datasource_id: 'entity:commerce_product'
+    property_path: langcode
+    type: string
+datasource_settings:
+  'entity:commerce_product':
+    bundles:
+      default: false
+      selected:
+        - cource
+    languages:
+      default: true
+      selected: {  }
+  'entity:commerce_product_variation':
+    bundles:
+      default: false
+      selected:
+        - lesson
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  rendered_item: {  }
+  aggregated_field: {  }
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: default_server

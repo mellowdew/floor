@@ -1,0 +1,25 @@
+uuid: 4760f789-e87e-4b80-898d-a0099f2b95db
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.file_storage.field_file_storage
+    - paragraphs.paragraphs_type.file_storage
+  module:
+    - file
+id: paragraph.file_storage.default
+targetEntityType: paragraph
+bundle: file_storage
+mode: default
+content:
+  field_file_storage:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

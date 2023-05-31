@@ -1,0 +1,35 @@
+uuid: 645f2448-d2e5-4791-8b28-a408d0cc0fca
+langcode: ru
+status: true
+dependencies:
+  config:
+    - image.style.product
+    - image.style.product_extra_large_and_up
+    - image.style.product_medium_and_up
+  theme:
+    - n1_commerce
+id: product_teaser
+label: 'Product teaser'
+image_style_mappings:
+  -
+    breakpoint_id: extra-large-and-up
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: product_extra_large_and_up
+  -
+    breakpoint_id: large-and-up
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: product
+  -
+    breakpoint_id: medium-and-up
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: product_medium_and_up
+  -
+    breakpoint_id: all
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: product
+breakpoint_group: n1_commerce
+fallback_image_style: product_extra_large_and_up

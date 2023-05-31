@@ -1,0 +1,18 @@
+uuid: b946dc43-d09d-48c3-ae48-294250ac94e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.about_course
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.about_course
+target_entity_type_id: paragraph
+target_bundle: about_course
+default_langcode: site_default
+language_alterable: false

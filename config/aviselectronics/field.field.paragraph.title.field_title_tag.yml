@@ -1,0 +1,23 @@
+uuid: 1ae412b0-af42-4a6e-ab41-92ed2f6cfdf4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_tag
+    - paragraphs.paragraphs_type.title
+  module:
+    - options
+id: paragraph.title.field_title_tag
+field_name: field_title_tag
+entity_type: paragraph
+bundle: title
+label: Tag
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: h2
+default_value_callback: ''
+settings: {  }
+field_type: list_string

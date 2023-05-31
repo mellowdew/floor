@@ -1,0 +1,60 @@
+uuid: 5ef5ad9b-869e-4abb-8053-375fe613daa6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d63f431a-54ee-45fa-820f-957df2f5630d'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: brandsinproductcard
+theme: aviselectronics
+region: content
+weight: 36
+provider: null
+plugin: 'block_content:d63f431a-54ee-45fa-820f-957df2f5630d'
+settings:
+  id: 'block_content:d63f431a-54ee-45fa-820f-957df2f5630d'
+  label: 'Brands in product card'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/catalog/bathroom-tvs\r\n/catalog/shower-tvs\r\n/catalog/kitchen-tvs\r\n/catalog/kitchen-tvs/cabinet-door-tv\r\n/catalog/kitchen-tvs/splashback-tv\r\n/catalog/mirror-tvs\r\n/catalog/open-frame-tvs\r\n/customized-mirror-tvs\r\n"
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: 32794a6e-6387-4d68-8a73-a7781a291b63
+langcode: en
+status: true
+dependencies: {  }
+id: product_testimonials
+label: 'Product testimonials'
+target_entity_type_id: commerce_product
+description: ''

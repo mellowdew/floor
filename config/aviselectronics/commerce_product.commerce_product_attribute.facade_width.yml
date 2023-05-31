@@ -1,0 +1,7 @@
+uuid: 3fa08d48-6d9d-44d2-a711-23cfbdec1021
+langcode: en
+status: true
+dependencies: {  }
+id: facade_width
+label: 'Facade Width'
+elementType: select

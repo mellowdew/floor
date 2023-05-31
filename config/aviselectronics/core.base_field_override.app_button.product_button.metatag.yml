@@ -1,0 +1,18 @@
+uuid: a60115e8-6464-4414-aa48-f48fe17f6ffa
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_button.product_button
+id: app_button.product_button.metatag
+field_name: metatag
+entity_type: app_button
+bundle: product_button
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

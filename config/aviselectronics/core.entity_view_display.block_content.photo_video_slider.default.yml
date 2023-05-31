@@ -1,0 +1,83 @@
+uuid: 71e56830-08cd-4f50-b09f-34a4102d9e60
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+    - field.field.block_content.photo_video_slider.field_link
+    - field.field.block_content.photo_video_slider.field_media
+    - field.field.block_content.photo_video_slider.field_title
+  module:
+    - field_group
+    - link
+    - slick_paragraphs
+    - text
+third_party_settings:
+  field_group:
+    group_container:
+      children:
+        - field_link
+      parent_name: ''
+      weight: 2
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: container
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Container
+id: block_content.photo_video_slider.default
+targetEntityType: block_content
+bundle: photo_video_slider
+mode: default
+content:
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_media:
+    type: slick_paragraphs_vanilla
+    weight: 1
+    label: hidden
+    settings:
+      optionset: large_middle_slide
+      skin: ''
+      view_mode: default
+      cache: 0
+      current_view_mode: default
+      override: false
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      style: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  langcode: true

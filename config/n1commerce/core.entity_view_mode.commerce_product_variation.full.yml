@@ -1,0 +1,10 @@
+uuid: 3ae1d36e-47cb-46d5-85da-bf0277004b00
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.full
+label: 'Вариация в карточке товара '
+targetEntityType: commerce_product_variation
+cache: true

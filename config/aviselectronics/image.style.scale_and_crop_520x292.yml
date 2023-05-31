@@ -1,0 +1,15 @@
+uuid: 82fbe72c-5ad2-4ff3-bab6-020a446a51ef
+langcode: ru
+status: true
+dependencies: {  }
+name: scale_and_crop_520x292
+label: 'scale and crop 520x292'
+effects:
+  1bcf90bf-3928-497f-8fe3-024a7550cdd3:
+    uuid: 1bcf90bf-3928-497f-8fe3-024a7550cdd3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 520
+      height: 292
+      anchor: center-center

@@ -1,0 +1,60 @@
+uuid: 4be1c581-72e3-4f0a-aa24-7f0885997c05
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ff88a680-0d4b-4992-9c68-02cf010dc901'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: ikonkibathroom
+theme: aviselectronics
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:ff88a680-0d4b-4992-9c68-02cf010dc901'
+settings:
+  id: 'block_content:ff88a680-0d4b-4992-9c68-02cf010dc901'
+  label: 'Иконки bathroom'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /catalog/bathroom-tvs
+    negate: false
+    context_mapping: {  }

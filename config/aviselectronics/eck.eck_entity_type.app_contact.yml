@@ -1,0 +1,10 @@
+uuid: 8482b414-4ce2-4285-a6e2-8d59e88cd664
+langcode: ru
+status: true
+dependencies: {  }
+id: app_contact
+label: 'App contact'
+created: false
+changed: false
+uid: false
+title: true

@@ -1,0 +1,19 @@
+uuid: e30a3e27-5760-4a47-9dee-796e9e4b2af9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_payment_example
+id: testovyi_platez
+label: 'Тестовый платёж'
+weight: null
+plugin: example_offsite_redirect
+configuration:
+  redirect_method: post
+  display_label: Example
+  mode: test
+  payment_method_types:
+    - credit_card
+  api_key: ''
+conditions: {  }
+conditionOperator: AND

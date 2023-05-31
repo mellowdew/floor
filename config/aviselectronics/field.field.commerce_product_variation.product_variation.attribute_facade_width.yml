@@ -1,0 +1,28 @@
+uuid: 7cf931a9-d476-4705-b77b-5fe5ffedd8dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.facade_width
+    - commerce_product.commerce_product_variation_type.product_variation
+    - field.storage.commerce_product_variation.attribute_facade_width
+id: commerce_product_variation.product_variation.attribute_facade_width
+field_name: attribute_facade_width
+entity_type: commerce_product_variation
+bundle: product_variation
+label: 'Facade Width'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      facade_width: facade_width
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

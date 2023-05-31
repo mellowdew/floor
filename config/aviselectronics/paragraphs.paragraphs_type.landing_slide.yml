@@ -1,0 +1,9 @@
+uuid: 7b299ffd-a7e9-435e-842a-a4e198d03abf
+langcode: ru
+status: true
+dependencies: {  }
+id: landing_slide
+label: 'Landing slide'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

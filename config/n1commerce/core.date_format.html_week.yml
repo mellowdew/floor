@@ -1,0 +1,10 @@
+uuid: ac8f2f25-d2f4-4886-a535-5e2a228c7dd4
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+id: html_week
+label: 'HTML Неделя'
+locked: true
+pattern: Y-\WW

@@ -1,0 +1,16 @@
+uuid: f078d13b-1a48-4ba0-9f42-7c7ca0712a7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog_of_cources
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: taxonomy_term.catalog_of_cources
+target_entity_type_id: taxonomy_term
+target_bundle: catalog_of_cources
+default_langcode: current_interface
+language_alterable: false

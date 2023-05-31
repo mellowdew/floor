@@ -1,0 +1,14 @@
+uuid: c64ff1c4-df71-4424-8767-aa56e30c980c
+langcode: en
+status: true
+dependencies: {  }
+name: simple_slider
+label: 'scale and crop (255 x 355)'
+effects:
+  2d6e4188-1b24-4a4f-ae78-ca9cedccec69:
+    uuid: 2d6e4188-1b24-4a4f-ae78-ca9cedccec69
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 255
+      height: 355

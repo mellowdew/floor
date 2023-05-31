@@ -1,0 +1,5 @@
+use_ajax_check: true
+frequency_check: null
+google_map_api_key: AIzaSyDPZgtlWAyEPSuQXgr2eg8MqxcTIHJ4FSI
+google_map_region: ''
+google_map_language: ''

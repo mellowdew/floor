@@ -1,0 +1,8 @@
+use_ajax_check: 1
+frequency_check: null
+google_map_api_key: ''
+google_map_region: ''
+google_map_language: ''
+_core:
+  default_config_hash: k3YOKyWCNRExrXqW7qOmHYWnuMDF-CfMXZRYfZ4l_T8
+langcode: ru

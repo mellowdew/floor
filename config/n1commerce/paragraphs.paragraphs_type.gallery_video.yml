@@ -1,0 +1,9 @@
+uuid: e8f780ca-a6e8-40bc-a53b-c208356c6402
+langcode: ru
+status: true
+dependencies: {  }
+id: gallery_video
+label: 'Gallery video'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

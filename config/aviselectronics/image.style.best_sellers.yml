@@ -1,0 +1,15 @@
+uuid: a000841b-6b71-4977-a41f-7e7aab47cff6
+langcode: ru
+status: true
+dependencies: {  }
+name: best_sellers
+label: 'Best sellers'
+effects:
+  7ea51977-5595-49bc-9849-18438575062b:
+    uuid: 7ea51977-5595-49bc-9849-18438575062b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 175
+      height: 215
+      anchor: center-center

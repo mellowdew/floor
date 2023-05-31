@@ -1,0 +1,35 @@
+uuid: 60c2d6a7-e8e7-4920-b38b-62fcbe1d14a4
+langcode: ru
+status: true
+dependencies:
+  module:
+    - image_effects
+name: product_extra_large_and_up
+label: 'Product - extra large and up'
+effects:
+  58cee306-b088-423d-98bd-441be7a4acbd:
+    uuid: 58cee306-b088-423d-98bd-441be7a4acbd
+    id: image_scale
+    weight: 1
+    data:
+      width: 404
+      height: 303
+      upscale: false
+  3a5d03e1-da1b-4ca2-acc9-a432587c1a4f:
+    uuid: 3a5d03e1-da1b-4ca2-acc9-a432587c1a4f
+    id: image_effects_set_canvas
+    weight: 2
+    data:
+      canvas_size: exact
+      exact:
+        width: '404'
+        height: '303'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''

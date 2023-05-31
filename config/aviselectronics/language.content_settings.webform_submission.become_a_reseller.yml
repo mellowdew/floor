@@ -1,0 +1,11 @@
+uuid: 98ea8054-11dd-44f9-8032-1e67ded5187c
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.become_a_reseller
+id: webform_submission.become_a_reseller
+target_entity_type_id: webform_submission
+target_bundle: become_a_reseller
+default_langcode: current_interface
+language_alterable: true

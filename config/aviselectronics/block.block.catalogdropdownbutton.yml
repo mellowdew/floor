@@ -1,0 +1,60 @@
+uuid: 430f0756-7d96-4afa-8c28-6afa9b3bce03
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8f4a7d15-8a37-4ee9-9d36-5bc497548fbd'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: 'hide-on-med-and-down col'
+id: catalogdropdownbutton
+theme: aviselectronics
+region: header
+weight: -25
+provider: null
+plugin: 'block_content:8f4a7d15-8a37-4ee9-9d36-5bc497548fbd'
+settings:
+  id: 'block_content:8f4a7d15-8a37-4ee9-9d36-5bc497548fbd'
+  label: 'Catalog dropdown button'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/customized-mirror-tvs\r\n/node/88"
+    negate: false
+    context_mapping: {  }

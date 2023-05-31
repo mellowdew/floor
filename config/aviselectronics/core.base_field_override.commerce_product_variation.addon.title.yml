@@ -1,0 +1,18 @@
+uuid: abcda171-5b8c-4285-bad0-452f824e867b
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.addon
+id: commerce_product_variation.addon.title
+field_name: title
+entity_type: commerce_product_variation
+bundle: addon
+label: Title
+description: 'The variation title.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

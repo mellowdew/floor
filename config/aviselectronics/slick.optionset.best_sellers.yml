@@ -1,0 +1,24 @@
+uuid: 497488b5-0352-446d-8d8f-7ea78c3fcaf7
+langcode: ru
+status: true
+dependencies: {  }
+id: best_sellers
+name: best_sellers
+label: 'Best sellers'
+weight: 0
+group: ''
+skin: ''
+breakpoints: 0
+optimized: true
+options:
+  options__active_tab: edit-options-settings
+  settings:
+    arrows: false
+    dots: true
+    draggable: false
+    infinite: false
+    lazyLoad: ''
+    slidesToShow: 2
+    slidesToScroll: 2
+    variableWidth: true
+    waitForAnimate: false

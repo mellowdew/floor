@@ -1,0 +1,36 @@
+uuid: 5a8729a4-9c57-48d3-a25e-c8368379ec25
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portfolio.body
+    - field.field.node.portfolio.field_image
+    - field.field.node.portfolio.field_portfolio_body
+    - field.field.node.portfolio.field_portfolio_image
+    - node.type.portfolio
+  module:
+    - image
+    - user
+id: node.portfolio.teaser
+targetEntityType: node
+bundle: portfolio
+mode: teaser
+content:
+  field_image:
+    type: image
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_portfolio_body: true
+  field_portfolio_image: true
+  langcode: true
+  links: true
+  search_api_excerpt: true
+  share_everywhere: true

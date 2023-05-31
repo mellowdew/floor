@@ -1,0 +1,11 @@
+uuid: 1c8968cb-e67a-44e3-981e-9562a33df829
+langcode: en
+status: true
+dependencies: {  }
+id: commerce_product__product
+label: 'Product: Товар'
+tags:
+  og_image: '[commerce_product:field_product_description:0]'
+  og_title: '[commerce_product:title]'
+  og_type: '[commerce_product:type]'
+  og_description: '[commerce_product:field_product_description:1]'

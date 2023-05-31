@@ -1,0 +1,18 @@
+uuid: fd87da46-21ea-4d0b-bbde-a20c6b055294
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.landing
+id: node.landing.created
+field_name: created
+entity_type: node
+bundle: landing
+label: 'Время создания'
+description: 'Время создания материала.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

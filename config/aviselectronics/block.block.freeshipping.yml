@@ -1,0 +1,54 @@
+uuid: 6b6d3712-f7f6-4c08-a24f-2ab85cebb006
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:99557f24-a4ca-4615-817c-f5f4c062c643'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: 'hide-on-med-and-down col left'
+id: freeshipping
+theme: aviselectronics
+region: header
+weight: -21
+provider: null
+plugin: 'block_content:99557f24-a4ca-4615-817c-f5f4c062c643'
+settings:
+  id: 'block_content:99557f24-a4ca-4615-817c-f5f4c062c643'
+  label: 'Free shipping'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,44 @@
+uuid: d1aa1386-cb8c-462e-8357-69a66c4bdfa7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.otpravit_zaavku
+    - field.field.contact_message.otpravit_zaavku.field_attach_technical_task
+  module:
+    - file
+id: contact_message.otpravit_zaavku.default
+targetEntityType: contact_message
+bundle: otpravit_zaavku
+mode: default
+content:
+  field_attach_technical_task:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  mail:
+    weight: -40
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  message:
+    type: string_textarea
+    weight: -1
+    settings:
+      rows: 5
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  name:
+    weight: -50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  copy: true
+  langcode: true
+  preview: true
+  subject: true

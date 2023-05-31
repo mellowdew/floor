@@ -1,0 +1,19 @@
+uuid: f9c407e5-c25c-4ef3-b958-72fa4c925fad
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+    - field.storage.app_contact.field_position
+id: app_contact.person_contact.field_position
+field_name: field_position
+entity_type: app_contact
+bundle: person_contact
+label: Position
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

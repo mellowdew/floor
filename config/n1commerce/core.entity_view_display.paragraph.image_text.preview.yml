@@ -1,0 +1,66 @@
+uuid: b96c696d-ef79-4711-b0e4-a9888eea24d7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.image_text.field_image_demo
+    - field.field.paragraph.image_text.field_text_demo
+    - image.style.large
+    - paragraphs.paragraphs_type.image_text
+  module:
+    - image
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_2col
+      library: ds/ds_2col
+      disable_css: true
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          left: div
+          right: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          left:
+            col-md-8: col-md-8
+          right:
+            col-md-4: col-md-4
+    regions:
+      left:
+        - field_text_demo
+      right:
+        - field_image_demo
+_core:
+  default_config_hash: AtqI7gAU0cJR1kM7IDEnUqWjEbryjkni-c5EU_BwWtA
+id: paragraph.image_text.preview
+targetEntityType: paragraph
+bundle: image_text
+mode: preview
+content:
+  field_image_demo:
+    type: image
+    weight: 1
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    label: hidden
+    region: content
+  field_text_demo:
+    type: text_trimmed
+    weight: 0
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    label: hidden
+    region: content
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,22 @@
+uuid: 312ca1e0-26b7-440f-b2bb-7203cf8a1281
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.table.field_table_table
+    - paragraphs.paragraphs_type.table
+  module:
+    - tablefield
+id: paragraph.table.default
+targetEntityType: paragraph
+bundle: table
+mode: default
+content:
+  field_table_table:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: tablefield
+    region: content
+hidden: {  }

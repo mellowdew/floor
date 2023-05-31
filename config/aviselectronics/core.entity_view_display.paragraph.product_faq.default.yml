@@ -1,0 +1,51 @@
+uuid: 9d0b008f-94b2-45dc-8540-4f9260c9f72c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.product_faq.field_product_faq_body
+    - field.field.paragraph.product_faq.field_product_faq_heading
+    - paragraphs.paragraphs_type.product_faq
+  module:
+    - field_group
+    - text
+third_party_settings:
+  field_group:
+    group_product_faq_group:
+      children:
+        - field_product_faq_heading
+        - field_product_faq_body
+      parent_name: ''
+      weight: 1
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: ''
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Product FAQ group'
+id: paragraph.product_faq.default
+targetEntityType: paragraph
+bundle: product_faq
+mode: default
+content:
+  field_product_faq_body:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_product_faq_heading:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  search_api_excerpt: true

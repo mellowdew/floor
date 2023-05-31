@@ -1,0 +1,33 @@
+uuid: addfa220-ef0c-4901-9f7a-d1db2d299cb2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.horizontal_tab.field_lesson_content
+    - field.field.paragraph.horizontal_tab.field_title
+    - paragraphs.paragraphs_type.horizontal_tab
+  module:
+    - entity_reference_revisions
+id: paragraph.horizontal_tab.default
+targetEntityType: paragraph
+bundle: horizontal_tab
+mode: default
+content:
+  field_lesson_content:
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

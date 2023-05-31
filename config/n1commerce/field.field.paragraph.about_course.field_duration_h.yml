@@ -1,0 +1,23 @@
+uuid: 95cb6b48-7577-41ff-92a6-f6ae749f903d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_duration_h
+    - paragraphs.paragraphs_type.about_course
+id: paragraph.about_course.field_duration_h
+field_name: field_duration_h
+entity_type: paragraph
+bundle: about_course
+label: 'Duration (h)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ' h.'
+field_type: integer

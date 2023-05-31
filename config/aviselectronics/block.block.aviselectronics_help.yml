@@ -1,0 +1,22 @@
+uuid: 2417c5af-d3ce-4879-952e-b643f610fd2d
+langcode: ru
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - aviselectronics
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: aviselectronics_help
+theme: aviselectronics
+region: help
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

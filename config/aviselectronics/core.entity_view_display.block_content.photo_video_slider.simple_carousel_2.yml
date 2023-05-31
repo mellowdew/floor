@@ -1,0 +1,53 @@
+uuid: 9f96ecd0-1dba-47d5-bef9-5fa4bb7a4397
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+    - core.entity_view_mode.block_content.simple_carousel_2
+    - field.field.block_content.photo_video_slider.field_link
+    - field.field.block_content.photo_video_slider.field_media
+    - field.field.block_content.photo_video_slider.field_title
+  module:
+    - slick_paragraphs
+    - text
+id: block_content.photo_video_slider.simple_carousel_2
+targetEntityType: block_content
+bundle: photo_video_slider
+mode: simple_carousel_2
+content:
+  field_media:
+    type: slick_paragraphs_vanilla
+    weight: 1
+    label: hidden
+    settings:
+      optionset: simple_carousel_2
+      skin: ''
+      view_mode: simple_carousel
+      cache: 0
+      current_view_mode: simple_carousel_2
+      override: false
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      style: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_link: true
+  langcode: true

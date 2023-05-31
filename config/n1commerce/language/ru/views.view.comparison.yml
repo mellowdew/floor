@@ -1,0 +1,22 @@
+display:
+  default:
+    display_options:
+      title: Сравнение
+      header:
+        area:
+          content:
+            value: '<button class="btn-primary btn"  name="diffBtn" id="diffBtn">Показать различия</button>'
+            format: full_html
+  page_1:
+    display_options:
+      fields:
+        field_image_gallery:
+          label: Изображение
+        price__number_2:
+          label: Цена
+        nothing:
+          alter:
+            text: "{% set price = price__number_1 - price__number_2 %}\r\n{% if price == 0 %}\r\n${{ price__number_1|trim('0','right')|trim('.','right') }}\r\n{% else %}\r\n${{ price__number_1|trim('0','right')|trim('.','right') }} - ${{ price__number_2|trim('0','right')|trim('.','right') }}\r\n{% endif %}"
+          label: Цена
+      menu:
+        title: Сравнение

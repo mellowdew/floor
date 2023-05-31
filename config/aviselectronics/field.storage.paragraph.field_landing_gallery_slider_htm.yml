@@ -1,0 +1,19 @@
+uuid: f97f8303-e18c-47c8-972a-d1e907ef2f04
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_landing_gallery_slider_htm
+field_name: field_landing_gallery_slider_htm
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

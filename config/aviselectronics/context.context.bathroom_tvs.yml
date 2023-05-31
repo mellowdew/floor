@@ -1,0 +1,75 @@
+uuid: fb18c98d-0a97-4611-b38e-0df8260ed1e0
+langcode: en
+status: true
+dependencies:
+  module:
+    - request_data_conditions
+    - system
+name: bathroom_tvs
+label: 'Bathroom TVs'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: /catalog/bathroom-tvs
+    negate: 0
+    uuid: a0b5f510-59cf-40c7-a837-60cbee398c09
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: f
+        op: not_set
+        value: ''
+      -
+        name: page
+        op: not_set
+        value: ''
+    require_all_params: 1
+    negate: 0
+    uuid: 29010eca-6f11-4b25-9752-44719792d852
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      b0696870-605d-423f-9f3a-b3d0bdf23a8c:
+        id: 'block_content:5149e511-8d09-416a-a512-6856190482cc'
+        label: 'Bathroom TVs description'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: bathroom_tvs
+        uuid: b0696870-605d-423f-9f3a-b3d0bdf23a8c
+      37ce5e8c-a827-41e1-9b39-4ca38759b673:
+        id: 'block_content:694a5109-cfc1-4287-93fb-40f95eda89b8'
+        label: 'landing - bathroom-tvs'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: bathroom_tvs
+        uuid: 37ce5e8c-a827-41e1-9b39-4ca38759b673
+    id: blocks
+    saved: false
+    uuid: 9d0ce993-9f13-4798-8915-5134c86c931e
+    include_default_blocks: 1
+weight: -2

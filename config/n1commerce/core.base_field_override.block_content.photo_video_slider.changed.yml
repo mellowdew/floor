@@ -1,0 +1,18 @@
+uuid: 54988880-8562-40ca-a9a8-79eed80efb08
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+id: block_content.photo_video_slider.changed
+field_name: changed
+entity_type: block_content
+bundle: photo_video_slider
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

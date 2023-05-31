@@ -1,0 +1,31 @@
+uuid: 79cbf9cc-aa50-4d86-ba5f-00bd962dd5f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - user
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: modal
+id: userlogin
+theme: n1_commerce
+region: highlighted
+weight: -16
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

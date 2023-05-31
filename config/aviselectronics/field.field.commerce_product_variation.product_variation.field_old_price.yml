@@ -1,0 +1,24 @@
+uuid: 4c76aac9-cf27-4857-9193-8893e18f5ed8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.product_variation
+    - field.storage.commerce_product_variation.field_old_price
+  module:
+    - commerce_price
+id: commerce_product_variation.product_variation.field_old_price
+field_name: field_old_price
+entity_type: commerce_product_variation
+bundle: product_variation
+label: 'Старая цена'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - RUB
+    - USD
+field_type: commerce_price

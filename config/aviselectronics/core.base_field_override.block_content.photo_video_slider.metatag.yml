@@ -1,0 +1,18 @@
+uuid: ccea8085-cf6e-4caa-89e6-74b4b52ae501
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+id: block_content.photo_video_slider.metatag
+field_name: metatag
+entity_type: block_content
+bundle: photo_video_slider
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

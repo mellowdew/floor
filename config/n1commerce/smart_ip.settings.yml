@@ -1,0 +1,14 @@
+data_source: maxmind_geoip2_bin_db
+roles_to_geolocate:
+  anonymous: anonymous
+  authenticated: authenticated
+  administrator: 0
+  app_admin: 0
+  web_service: 0
+save_user_location_creation: 0
+debug_mode: 0
+debug_mode_ip: ''
+allowed_pages: ''
+_core:
+  default_config_hash: qMiZok246dDn_jV9DKuJ4DSazkrBhZ0Hy0jcrdvScEA
+langcode: ru

@@ -1,0 +1,22 @@
+uuid: f91c2d4c-851f-4435-bede-52511e3b16c2
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - n1_commerce
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: n1_commerce_local_tasks
+theme: n1_commerce
+region: content
+weight: -22
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

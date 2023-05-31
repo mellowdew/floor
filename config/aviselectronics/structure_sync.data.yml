@@ -1,0 +1,640 @@
+taxonomies:
+  catalog_of_variations:
+    -
+      vid: catalog_of_variations
+      tid: '42'
+      langcode: en
+      name: 'Bathroom TVs'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ae6bf83b-2a8f-4360-a349-703564c36af0
+      field_meta:
+        -
+          value: 'a:0:{}'
+    -
+      vid: catalog_of_variations
+      tid: '43'
+      langcode: en
+      name: 'Shower TVs'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: a2eb2a0a-61c0-4edb-9827-51cb8233eb48
+      field_meta:
+        -
+          value: 'a:0:{}'
+    -
+      vid: catalog_of_variations
+      tid: '44'
+      langcode: en
+      name: 'Kitchen TVs'
+      description__value: null
+      description__format: null
+      weight: '2'
+      parent: '0'
+      uuid: 14ae2a71-71b9-4e8a-bdee-47de82049f36
+      field_meta:
+        -
+          value: 'a:0:{}'
+    -
+      vid: catalog_of_variations
+      tid: '45'
+      langcode: en
+      name: 'Mirror Televisions'
+      description__value: null
+      description__format: null
+      weight: '3'
+      parent: '0'
+      uuid: 4f4131bc-0fee-40ee-b9e4-57a952089665
+      field_meta:
+        -
+          value: 'a:0:{}'
+    -
+      vid: catalog_of_variations
+      tid: '46'
+      langcode: en
+      name: 'Cabinet Door TV'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '44'
+      uuid: c2619794-8e74-4408-a7f5-be0ae5354dd2
+      field_meta:
+        -
+          value: 'a:0:{}'
+    -
+      vid: catalog_of_variations
+      tid: '47'
+      langcode: en
+      name: 'Splashback TV'
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '44'
+      uuid: 76c46b25-145b-4419-91f8-f00cae8d6bef
+      field_meta:
+        -
+          value: 'a:0:{}'
+    -
+      vid: catalog_of_variations
+      tid: '48'
+      langcode: en
+      name: 'Open Frame TVs'
+      description__value: null
+      description__format: null
+      weight: '4'
+      parent: '0'
+      uuid: e88ddabc-dfd4-4556-b4e4-7f563277c47c
+      field_meta: {  }
+  icons: {  }
+  tags: {  }
+blocks:
+  -
+    info: 'Catalog | Where to buy | Contacts (footer)'
+    langcode: en
+    uuid: 671d6bf0-30c3-42e9-bbab-259846f40e15
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"footer-nav clearfix\">\r\n  <div class=\"column-1\">\r\n    <a href=\"/\" title=\"Home\" rel=\"home\" class=\"logo\">\r\n      <img src=\"/themes/custom/aviselectronics/images/logo-2.png\" alt=\"Home\">\r\n   </a>\r\n   <div class=\"footer-nav-wrapper\">\r\n     <a href=\"/news\">News</a> | <a href=\"/where-buy\">Where to buy</a> | <a href=\"/contacts\">Contacts</a>\r\n   </div>\r\n  </div>\r\n  <div class=\"column-2\">\r\n    <a href=\"/catalog/bathroom-tvs\">BATHROOM <br> TELEVISIONS</a>\r\n    <a href=\"/catalog/mirror-televisions\">MIRROR <br> TELEVISIONS</a>\r\n    <a href=\"/catalog/kitchen-tvs\">KITCHEN <br> TELEVISIONS</a>\r\n    <a href=\"/catalog/shower-tvs\">SHOWER <br> TELEVISIONS</a>\r\n    <a href=\"/catalog/open-frame-tvs\">OPEN FRAME <br> TELEVISIONS</a>\r\n  </div>\r\n\r\n"
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: Copyright
+    langcode: en
+    uuid: 254ea0ed-2bfe-4cd7-b84a-2c6d2706514d
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"copyright clearfix\">\r\n\r\n  <div class=\"column column-1 left\">\r\n    <div class=\"tel\">+86 (755) 27634663</div>   \r\n    <div class=\"tel\">+86 (186) 66660854</div>   \r\n    <div class=\"email\"><a href=\"mailto:sales@aviselectronics.com\">sales@aviselectronics.com</div>\r\n  </div>\r\n\r\n  <div class=\"column column-2 left\">\r\n    <div class=\"work-time\">Mon-Fri: 09:00 - 18:00, <br> Sat: 09:00 - 12:00 (UTC +08:00)</div>\r\n  </div>\r\n\r\n  <div class=\"column column-3 left\">\r\n    <div class=\"location\">506-507A, HuiGu ChuangXin Technology park, JingBei road, Shiyan town, Baoan district, Shenzhen, Guangdong, China, 518108</div>\r\n  </div>\r\n\r\n  <div class=\"column column-4 right\">\r\n    <div class=\"social\">\r\n      <ul>\r\n        <li><a href=\"https://www.facebook.com/avisele\"  rel=\"nofollow\" target=\"_blank\" ><i class=\"icon-social-facebook\"></i></a></li>\r\n        <li><a href=\"https://www.instagram.com/aviselectronics/\"  rel=\"nofollow\" target=\"_blank\" ><i class=\"icon-social-instagram\"></i></a></li>\r\n        <li><a href=\"https://www.youtube.com/c/AvisElectronics\"  rel=\"nofollow\" target=\"_blank\" ><i class=\"icon-social-youtube\"></i></a></li>\r\n        <li><a href=\"https://twitter.com/aviselectronics\"  rel=\"nofollow\" target=\"_blank\" ><i class=\"icon-social-twiter\"></i></a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n\r\n<div class=\"col right clearfix s12\">Powered by <a href=\"http://n1commerce.ru\">N1commerce</a></div>\r\n</div>"
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Our certificates'
+    langcode: en
+    uuid: 1fc093e2-eebc-410a-b33b-660c260b2a02
+    bundle: photo_video_slider
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_link: null
+      field_media:
+        target_id: '33'
+        target_revision_id: '33'
+      field_title:
+        value: '<div class="container"><div class="title"><i class="icon-certificate"></i><span class="title-wrapper">OUR<br><span class="large">CERTIFICATES</span></span></div></div>'
+        format: full_html
+  -
+    info: 'About Us'
+    langcode: en
+    uuid: 9cd12faf-9e9c-4519-a56a-e0af93a545bb
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "  <div class=\"row\">\r\n    <div class=\"col m12\">\r\n      <div class=\"title\">\r\n        <span class=\"large\">About Us</span>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <div class=\"wrapper\">\r\n\r\n      <div class=\"column-2 description\">\r\n        <p><strong>AVEL</strong> (AVIS Electronics) is a professional manufacturer of special application TVs (Mirror TVs, Waterproof TVs for Bathroom, Cabinet Door TVs for Kitchen). Assembling line is in China (ShenZhen), head office is in Moscow (Russia). With our experience since 2008 we’ve being improving and developing our products with just one aspiration and passion – make the best product in the world for the certain application.<br />\r\n<br />\r\nOur company is honest and open. Unlike many others we don’t say we do some magic behind closed doors. Welcome You to see test procedures, product reviews and other videos on our <a href=\"https://www.youtube.com/c/AvisElectronics\" rel=\"nofollow\" target=\"_blank\">Official YouTube Channel</a>.<br />\r\n<br />\r\nAVEL products are being distributed by our own sales offices, with help of our Partners and Distributors and by online shops almost worldwide: in France, Germany, Italy, the UK (United Kingdom), and all over EU; Russia, Ukraine and Belarus; Dubai (UAE) and in the US (United States).<br />\r\n<br />\r\n<strong>Looking for a perfect and special TV?</strong><br />\r\nYou are at the right place, enjoy the premium services from AVEL:<br />\r\n- Free worldwide delivery by expedited courier (5-10 days)<br />\r\n- 2 Year unlimited warranty<br />\r\n<br />\r\n<strong>Want to join AVEL distributor’s program?</strong><br />\r\n<a href=\"https://www.aviselectronics.com/become-reseller\" rel=\"nofollow\" target=\"_blank\">Send Your query</a> and develop or start your business with us!</p>\r\n<br />\r\n    </div>\r\n    <div class=\"row-2 clearfix\">\r\n      <div class=\"column-1 center\">\r\n        <div class=\"wrapper video-aboutfactory-wrapper\">\r\n            <iframe  id=\"video-aboutfactory\" width=\"340\" height=\"200\" class=\"b-lazy b-loaded\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" src=\"https://www.youtube.com/embed/5mbNIJDP1D4?enablejsapi=1\"></iframe>\r\n        </div> \r\n      </div>\r\n      <div class=\"column-3 center\">\r\n        <div class=\"wrapper link-wrapper\">\r\n          <div class = \"link\">\r\n            <a href=\"/become-reseller\">Distributor <br> wanted</a>\r\n          </div>\r\n        </div> \r\n      </div> \r\n      <div class=\"column-2 center\"> \r\n        <div class=\"wrapper\">\r\n          <div class=\"img-wrapper\">  \r\n            <img class=\"responsive-img\" src=\"/themes/custom/aviselectronics/images/factory-3.jpg\">\r\n          </div> \r\n          <div class=\"img-wrapper\"> \r\n            <img class=\"responsive-img\" src=\"/themes/custom/aviselectronics/images/factory-4.jpg\">\r\n            <div class=\"text-wrapper\">\r\n              <div class=\"text\">\r\n                <div class=\"title\">B2B and B2C orders</div>\r\n                <div class=\"desc\">We support B2B clients with special price-list distribution policy</div>\r\n              </div> \r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>"
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Catalog dropdown button'
+    langcode: en
+    uuid: 8f4a7d15-8a37-4ee9-9d36-5bc497548fbd
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<a class='dropdown-button btn' data-beloworigin=\"true\" href='/catalog' data-activates='block-mainnavigation'>Catalog <i class=\"icon-arrow-down\"></i></a> \r\n"
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Features Bathroom TVS'
+    langcode: en
+    uuid: 95d2b5de-56b0-4298-b4e3-c5be80b4d4a2
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"features clearfix\">\r\n  <div class=\"col s12 l4 wrapper\">\r\n    <div class=\"title-wrapper\">\r\n      <div class=\"sup-title center\">WATERPROOF</div> \r\n      <div class=\"title\">BATHROOM TVs</div>\r\n      <div class=\"sub-title center\">integrated vibration speakers</div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col s12 l4 wrapper center\">\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/1.gif\" data-position=\"top\" data-delay=\"50\" alt=\"waterproof tv\">\r\n      <div class=\"description\">waterproof tv</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/2.gif\" data-position=\"top\" data-delay=\"50\" alt=\"waterproof remote control\">\r\n      <div class=\"description\">waterproof remote control</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/3.gif\" data-position=\"top\" data-delay=\"50\"  alt=\"waterproof vibration speakers\">\r\n      <div class=\"description\">vibration speakers</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/4.gif\" data-position=\"top\" data-delay=\"50\"  alt=\"waterproof smart tv\">\r\n      <div class=\"description\">smart tv (option)</div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col s12 l4 wrapper center\">\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/5.gif\" data-position=\"top\" data-delay=\"50\"  alt=\"easy to wash tv\">\r\n      <div class=\"description\">easy to wash</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/6.gif\" data-position=\"top\" data-delay=\"50\"  alt=\"full hd ips led tv\">\r\n      <div class=\"description\">full hd ips led</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/7.gif\" data-position=\"top\" data-delay=\"50\"  alt=\"digital tv system\">\r\n      <div class=\"description\">digital tv system</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/8.gif\" data-position=\"top\" data-delay=\"50\"  alt=\"2 year warranty\">\r\n      <div class=\"description\">2 year warranty</div>\r\n    </div>\r\n  </div>\r\n</div>"
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Photo/video of bathroom tvs'
+    langcode: en
+    uuid: 4da87267-5eca-4b92-bda5-00b79cb6a953
+    bundle: photo_video_slider
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_link:
+        uri: 'internal:/catalog/bathroom-tvs'
+        title: 'FIND OUT MORE'
+        options: {  }
+      field_media:
+        target_id: '206'
+        target_revision_id: '256'
+      field_title:
+        value: '<div class="container"><div class="slider-title"><span class="large">Photo/video</span><br>of bathroom tvs</div></div>'
+        format: full_html
+  -
+    info: 'Where to buy | Contacts'
+    langcode: en
+    uuid: 1d7540dd-dff3-4a43-8784-3730b48b11fc
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: '<a href="/where-buy">Where to buy</a><br><a href="/become-reseller">Become a Reseller</a><br><a href="/contacts">Contacts</a>'
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Block with webform and map'
+    langcode: en
+    uuid: b1052983-c1ba-472e-8fe2-da8c4f50953d
+    bundle: webform_and_map
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"info\">\r\n  <div class=\"title\">AVIS ELECTRONICS</div>\r\n  <div class=\"tel\">+86 (186) 66660854</div>   \r\n  <div class=\"email\"><span class=\"label\">E-Mail:</span> <a href=\"mailto:sales@aviselectronics.com\">sales@aviselectronics.com</div>\r\n  <div class=\"work-time\">Mon-Fri: 09:00 - 18:00, <br> Sat: 09:00 - 12:00 (UTC +08:00)</div>\r\n</div>\r\n<script type=\"text/javascript\" charset=\"utf-8\" async src=\"https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af7c1125cd8c0b5378b77798d24099ee73bc94b77abe7aae19a56bf92cce36809&amp;width=100%25&amp;height=100%25&amp;lang=en_US&amp;scroll=false&amp;id=map-wrapper\"></script>"
+        summary: ''
+        format: full_html
+      field_location:
+        lat: '22.543096'
+        lng: '114.057865'
+        lat_sin: 0.38337823583055
+        lat_cos: 0.92359142930814
+        lng_rad: 1.9906852820452
+        data: null
+        value: '22.543096, 114.057865'
+      field_webform:
+        target_id: contact_form
+        default_data: ''
+        status: open
+        open: ''
+        close: ''
+  -
+    info: 'User login'
+    langcode: en
+    uuid: 493ca9d3-47de-480f-aac4-859428313488
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: '<a class=''dropdown-button modal-trigger'' data-beloworigin="true" href=''#block-userlogin'' data-activates=''block-aviselectronics-account-menu''><i class="icon-user"></i></a>'
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Main fullwidth slider'
+    langcode: en
+    uuid: e71ab2ae-9ed7-4edc-b710-216831ecbd8d
+    bundle: photo_video_slider
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_link: null
+      field_media:
+        target_id: '38'
+        target_revision_id: '38'
+      field_title: null
+  -
+    info: 'Send Inquiry'
+    langcode: en
+    uuid: 8faf7967-7423-48ad-9095-7e7c2baacd69
+    bundle: webform_and_map
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body: null
+      field_location: null
+      field_webform:
+        target_id: contact
+        default_data: ''
+        status: open
+        open: ''
+        close: ''
+  -
+    info: 'QUICK LINKS | SUPPORT LINKS (footer)'
+    langcode: en
+    uuid: b5d104a3-01af-45b4-9e9e-8aa9ab6b6f4c
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"footer-nav clearfix\">\r\n  <div class=\"col s12 m3\">\r\n    <p>QUICK LINKS</p>\r\n    <a href=\"/about-us\">About Us</a><br><a href=\"/trade-mark\">Trade Mark</a><br><a href=\"/certificates\">Certificates</a><br><a href=\"/become-reseller\">Become a Reseller</a>\r\n   </div>\r\n  <div class=\"col s12 m3\">\r\n    <p>SUPPORT LINKS</p>\r\n    <a href=\"/downloads\">Downloads</a><br><a href=\"/warranty-terms\">Warranty Terms</a><br><a href=\"/service-centers\">Service Centers</a><br><a href=\"/shipping-information\">Shipping Information</a><br><a href=\"/articles\">Articles &amp; Reviews</a>\r\n  </div>\r\n<div class=\"col s12 m3 l3 xl2 right\">\r\n<p>We are on B2B platforms:</p>\r\n        <a href=\"http://www.globalsources.com/si/AS/SHENZHEN-AVIS/6008848040872/Homepage.htm\" rel=\"nofollow\" target=\"_blank\"><img class=\"responsive-img\" alt=\"gslogo\" src=\"/sites/default/files/inline/gslogo.png\"></a><br><a href=\"https://www.made-in-china.com/showroom/avischina/product-list/catalog-1.html\" rel=\"nofollow\" target=\"_blank\"><img class=\"responsive-img\" alt=\"Made-in-China\" data-entity-type=\"file\" data-entity-uuid=\"263ced54-5dfe-4ab2-bca1-b8004eb5a3e3\" src=\"/sites/default/files/inline-images/made-in-china_0.png\"></a><br><a href=\"http://www.hktdc.com/manufacturers-suppliers/Shenzhen-Avis-Electronics-Technology-Company-Limited/en/1X097L90/\" rel=\"nofollow\" target=\"_blank\"><img class=\"responsive-img\" alt=\"hktdc\" data-entity-type=\"file\" data-entity-uuid=\"dcc7b2bf-5695-46e0-aaa8-55d47319865d\" src=\"/sites/default/files/inline-images/banner_logo.jpg\"></a></div>\r\n    <div class=\"col s12 m3 l3 xl2 right\">\r\n<p>Purchase now from:</p>\r\n<a href=\"https://www.amazon.com/shops/avel\" rel=\"nofollow\" target=\"_blank\"><img alt=\"amazon\" class=\"responsive-img\" src=\"/sites/default/files/inline/amazon-logo-vector-512.png\"></a></div>\r\n\r\n  </div>"
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '280'
+        target_revision_id: '330'
+  -
+    info: 'Features Kitchen TVS'
+    langcode: en
+    uuid: 66734ac3-28ed-442e-b29b-3db18bedb9c1
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"features clearfix\">\r\n  <div class=\"col s12 l4 wrapper\">\r\n    <div class=\"title-wrapper\">\r\n      <div class=\"sup-title center\">WATERPROOF</div> \r\n      <div class=\"title\">KITCHEN TVs</div>\r\n      <div class=\"sub-title center\">integrated vibration speakers</div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col s12 l4 wrapper center\">\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/1.gif\" data-position=\"top\" data-delay=\"50\" alt=\"waterproof tv\">\r\n      <div class=\"description\">waterproof tv</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/2.gif\" data-position=\"top\" data-delay=\"50\" alt=\"waterproof remote control\">\r\n      <div class=\"description\">waterproof remote control</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/3.gif\" data-position=\"top\" data-delay=\"50\" alt=\"vibration speakers\">\r\n      <div class=\"description\">vibration speakers</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/4.gif\" data-position=\"top\" data-delay=\"50\" alt=\"waterproof smart tv\">\r\n      <div class=\"description\">smart tv (option)</div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col s12 l4 wrapper center\">\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/5.gif\" data-position=\"top\" data-delay=\"50\" alt=\"easy to wash tv\">\r\n      <div class=\"description\">easy to wash</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/6.gif\" data-position=\"top\" data-delay=\"50\" alt=\"full hd ips led tv\">\r\n      <div class=\"description\">full hd ips led</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/7.gif\" data-position=\"top\" data-delay=\"50\" alt=\"digital tv system\">\r\n      <div class=\"description\">digital tv system</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/8.gif\" data-position=\"top\" data-delay=\"50\" alt=\"2 year warrantytv\">\r\n      <div class=\"description\">2 year warranty</div>\r\n    </div>\r\n  </div>\r\n</div>"
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Photo/video of kitchen tvs'
+    langcode: en
+    uuid: 21036f1f-4c2a-4856-bc0d-e61b68e8ba2a
+    bundle: photo_video_slider
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_link:
+        uri: 'internal:/catalog/kitchen-tvs'
+        title: 'FIND OUT MORE'
+        options: {  }
+      field_media:
+        target_id: '214'
+        target_revision_id: '264'
+      field_title:
+        value: '<div class="container"><div class="slider-title"><span class="large">Photo/video</span><br>of kitchen tvs</div></div>'
+        format: full_html
+  -
+    info: 'Features Mirror TVS'
+    langcode: en
+    uuid: 46a27435-43dc-4e42-9605-00adb75deeff
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"features clearfix\">\r\n  <div class=\"col s12 l4 wrapper\">\r\n    <div class=\"title-wrapper\">\r\n      <div class=\"sup-title center\">MIRROR</div> \r\n      <div class=\"title\">TELEVISIONS</div>\r\n      <div class=\"sub-title center\">integrated vibration speakers</div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col s12 l4 wrapper center\">\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/1.gif\" data-position=\"top\" data-delay=\"50\" alt=\"waterproof tv\">\r\n      <div class=\"description\">waterproof tv</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/2.gif\" data-position=\"top\" data-delay=\"50\" alt=\"waterproof remote control\">\r\n      <div class=\"description\">waterproof remote control</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/3.gif\" data-position=\"top\" data-delay=\"50\" alt=\"vibration speakers\">\r\n      <div class=\"description\">vibration speakers</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/4.gif\" data-position=\"top\" data-delay=\"50\" alt=\"smart tv\">\r\n      <div class=\"description\">smart tv (option)</div>\r\n    </div>\r\n  </div>\r\n  <div class=\"col s12 l4 wrapper center\">\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/5.gif\" data-position=\"top\" data-delay=\"50\" alt=\"easy to wash\">\r\n      <div class=\"description\">easy to wash</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/6.gif\" data-position=\"top\" data-delay=\"50\" alt=\"full hd ips led tv\">\r\n      <div class=\"description\">full hd ips led</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\">\r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/7.gif\" data-position=\"top\" data-delay=\"50\" alt=\"digital tv system\">\r\n      <div class=\"description\">digital tv system</div>\r\n    </div>\r\n    <div class=\"col s6 l3 item\"> \r\n      <img class=\"responsive-img \" src=\"/themes/custom/aviselectronics/images/8.gif\" data-position=\"top\" data-delay=\"50\" alt=\"2 year warranty\">\r\n      <div class=\"description\">2 year warranty</div>\r\n    </div>\r\n  </div>\r\n</div>"
+        summary: ''
+        format: full_html
+      field_file_storage: null
+  -
+    info: 'Photo/video of mirror tvs'
+    langcode: en
+    uuid: 63f9388e-2eff-4fc7-b0c2-36e03277bfbe
+    bundle: photo_video_slider
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_link:
+        uri: 'internal:/catalog/mirror-televisions'
+        title: 'FIND OUT MORE'
+        options: {  }
+      field_media:
+        target_id: '228'
+        target_revision_id: '278'
+      field_title:
+        value: '<div class="container"><div class="slider-title"><span class="large">Photo/video</span><br>of mirror tvs</div></div>'
+        format: full_html
+  -
+    info: 'User account'
+    langcode: en
+    uuid: d480baec-f708-4db3-952c-684b39fd2635
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: '<a class=''dropdown-button'' data-beloworigin="true" href=''/user'' data-activates=''block-aviselectronics-account-menu''><i class="icon-user"></i></a>'
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '284'
+        target_revision_id: '336'
+  -
+    info: 'Catalog description - Bathroom TVs'
+    langcode: en
+    uuid: 5149e511-8d09-416a-a512-6856190482cc
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<h2>IN-WALL WATERPROOF TELEVISIONS FOR BATHROOM</h2>\r\n\r\n<p>We produce our Bathroom TVs since 2012 and sell it worldwide. Gathering feedbacks from our customers and partners we keep developing and improving our products to guarantee the best performance and quality. Our Bathroom TVs passed IP54 (dust and waterproof test) and also have CE and ROHS EU standard certification to confirm that it can be safely used in most area and comply with European standards and requirements to TVs and consumer electronics.</p>\r\n\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RLJwlc8ftHA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n\r\n<p>Our main series is Magic Mirror TVs and Waterproof White Frame Screen Finish TVs for Bathroom with the following sizes: 21.5\", 23.8\", 32\", 43\", 47\" and 55\".</p>\r\n\r\n<p>Magic Mirror Screen Finish is a special semi-transparent mirror that provides amazing effect: it's just a plain mirror when the TV is off and a modern full functional TV when the screen is on. This is also a great benefit for design - real mirror is always great in any bathroom and no worries about \"how to hide the TV\" and \"whether it fits my bathroom design\".</p>\r\n\r\n<p>We supply Bathroom TVs with back box and it's installed into opening in the wall first. After that the TV is inserted into the black box and sealed. Finally you get a very nice installation and TV front looks just like a slim glass.</p>\r\n\r\n<p>One important advantage of out Bathroom TVs is that it has detachable back panel for easy service. Most of other models in the market has sealed case so there is actually no way to open it when something goes wrong. We have improved our case and developed waterproof detachable back panel that can be opened and closed by customer without having special tools or knowledge.</p>\r\n\r\n<p>All series have invisible vibration speakers. They are fixed inside the TV on the inner glass (mirror) surface and generate the sound by making the glass itself shaking. We believe you will enjoy this feature a lot, new TVs are more easily to clean (no holes for speakers) and sound (middle and bass range) is quality better!</p>\r\n"
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '320'
+        target_revision_id: '378'
+  -
+    info: 'Catalog description - Shower TVs'
+    langcode: en
+    uuid: 7fe22fa2-df46-455c-9098-16f2f2f618ce
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p dir=\"ltr\">A great day starts with a great morning! Wake up while taking a shower with music video channel or check your favorite news earlier with our Shower TV right in your Bathroom.</p>\r\n\r\n<p dir=\"ltr\">We produce special application waterproof TVs for in-wall installation in the shower, suggested screen sizes are 21.5\", 23.8\", 32\", 43\", 47\"&nbsp;and 55\". The TV installation requires a niche in the wall and cabling to be prepared in advance so it's better to plan installation of shower TV while renovation.</p>\r\n\r\n<p dir=\"ltr\">The screens are heated up by LED/LCD back light for anti-fog effect to ensure clear picture even in steamy conditions. We supply waterproof remote control with all our TVs for easy and convenient operation.</p>\r\n\r\n<p dir=\"ltr\">We recommend to consider our Mirror TV with Magic Mirror effect for installation in the shower / bathroom. You get real mirror when the TV is off and it turns back to TV screen when it's on.</p>\r\n\r\n<p dir=\"ltr\">Our waterproof TVs has IP54 (dust and waterproof) grade confirmed by LCS Compliance Testing Laboratory. Having this certification we are confident that our products will work in showers and bathrooms safely and for a long time. Our waterproof tvs also passed CE and ROHS tests that confirm that our equipment comply with European standards and requirements to TVs and consumer electronics. We provide 2 Year Warranty for our products as a confirmation of quality and of our confidence in each product.</p>\r\n\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RLJwlc8ftHA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n\r\n<p>For all our TVs we have modern DVB-T2 (Freeview) digital tuner board for EU / Australia / Russia / AUE / Thailand / Africa etc. Optional accessory - Smart TV kit compatible with any of our TVs can be added optionally to upgrade it to Smart TV easily.</p>\r\n"
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '323'
+        target_revision_id: '381'
+  -
+    info: 'Catalog description - Kitchen TVs'
+    langcode: en
+    uuid: b960d742-568b-4789-bb0e-e43bcd73430b
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<h2>EMBEDDABLE KITCHEN TELEVISIONS FOR GOOD PRICE</h2>\r\n\r\n<p>More than 50% of the households worldwide have more than 2 TV sets and no doubt that TV in the Kitchen is common and popular now. One reason is to have entertainment for kids, the whole family (if you don't want to bring your dinner to the living room) or a party that often ends up in the Kitchen. Another important benefit is to have some company in the Kitchen when we are alone while cooking or eating. TV can help a lot to break this lonely silence and make your day or evening better. That's why we think that Kitchen TV is almost like necessity.</p>\r\n\r\n<p>Kitchen televisions are just regular TVs for it's functionality and work the same as others. What it is important in the Kitchen, it is the right screen size and the right place for the TV. It's not easy often to find a good place and the right height to hinge the TV. Of course most popular way to hinge a TV is to purchase a regular consumer TV (from 13” to 27”) and to hinge it on a wall or put upon a shelve or fridge. But does it look good and is it convenient to watch with your head up? When you spend a considerable time and amount of money on your Kitchen's design, furniture and appliances why not to have the TV that will fit your kitchen and your needs?</p>\r\n\r\n<p>We noticed that some of our customers ordered our TVs for Bathroom and installed it in their Kitchens. They installed it in the wall (splashback) or into kitchen cabinet facade (though there was no special mounting those days). After talking to them, discussing with Kitchen furniture factories and gathering market information we proposed 2 line-ups and 2 solutions for your perfect Kitchen TV:</p>\r\n\r\n<p>Inspired by build-in appliance development we designed a special Kitchen TV type – Cabinet Door TV that can be easily integrated in a Kitchen cabinet and will fit the design perfectly. See more details in our catalog:&nbsp;<u><a href=\"/catalog/kitchen-tvs/cabinet-door-tv\">Cabinet Door TV</a></u></p>\r\n\r\n<p>Any Kitchen has a splashback and it's a good place for the TV installation. So we show our Bathroom TVs for your convenience as Kitchen Splashback TVs since they perfectly fit this application due to in-wall installation, real glass surface and waterproof design. See available sizes and colors here:&nbsp;<u><a href=\"/catalog/kitchen-tvs/splashback-tv\">Splashback TV</a></u></p>\r\n"
+        summary: ''
+        format: basic_html
+      field_file_storage:
+        target_id: '324'
+        target_revision_id: '382'
+  -
+    info: 'Catalog description - Cabinet Door TV'
+    langcode: en
+    uuid: e196229c-c936-464e-a76f-bd8c287693fc
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<h2>CABINET KITCHEN TVS</h2>\r\n\r\n<p>Unique feature of our Cabinet Door Kitchen TV is that it requires no space at all. Our Full HD TV simply replaces 600mm width door (facade) and the shelves behind can still be used since the TV itself is lifted like a regular cabinet door. The TV can be hinged by Blum and Kessebohmer lift systems available from local distributors worldwide (check the details for the compatible hinge parts in the product specification).</p>\r\n\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/kqqcxS4pO_A\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n\r\n<p>We make our 21.5 inch and 23.8 inch screen Cabinet Door TVs in two size – standard 455x600mm and compact 382х600mm. It is the standard and the most common sizes for all build-in kitchen appliances and it's really easy for designers and kitchen furniture factories to make a project for our TV installation and also combine it with other appliances (as a column for instance).</p>\r\n\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/x-56bi5J7yA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n\r\n<p>We make Cabinet Door TVs with 3 types of the front finish: Black Frame glass, White Frame glass and Magic Mirror glass. Black or White Frame version is universal and fits most of other kitchen appliances design. Magic Mirror glass is a great design by itself but have reduced screen brightness (due to semi-transparent mirror in the front of the screen) so we don't recommend to install this type opposite to a window or in the bright kitchens with a lot of ambient light.</p>\r\n\r\n<p>For your convenience we equip our TVs with waterproof IR remote control (IP66 grade) by default. You can also choose Digital TV tuner (DVB-T2 (Freeview) digital tuner board for EU / Australia / Russia / AUE / Thailand / Africa etc.). And add Smart Kit to any of our TVs to make it Smart TV.</p>\r\n\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2SXF4kdKg2M?start=63\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n\r\n<p>We use tempered safety glass for our Cabinet Door TVs and the front is really easy to clean. And we provide full 2 Year Warranty as a confidence in the product quality.</p>\r\n\r\n"
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '325'
+        target_revision_id: '383'
+  -
+    info: 'Catalog description - Splashback TV'
+    langcode: en
+    uuid: 8b5be6bb-a8ca-415a-a7d3-6f316db3fa1f
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>We have a wide range of special in-wall waterproof Kitchen Splashback Full HD TVs. Now it's available in 19 inch, 21.5 inch, 27 inch and 32 inch size. These TVs require professional installation (there should be a niche in the wall prepared for the back box first, all the cables are leaded inside the wall) so we recommend to plan and arrange your Splashback TV installation before you install the kitchen furniture. The great benefit of our Splashback TVs is that you will just have a slim glass or even mirror (with our Magic Mirror TV type) when it's finished. Height of the TV's installation and it's location are perfect to enjoy your favorite programs while cooking or having meal alone or with the whole family.</p>\r\n\r\n<p>Front finish of our Kitchen Splashback TVs is the real tempered safety glass that is easy to clean. The TV itself is waterproof (IP54 grade) and can be placed near the sink or the stove.</p>\r\n\r\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/RLJwlc8ftHA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\r\n\r\n<p>You can also choose Digital TV tuner (DVB-T2 (Freeview) digital tuner board for EU / Australia / Russia / AUE / Thailand / Africa etc.) and Smart Kit to any of our TVs to make it Smart TV. For your convenience we equip our TVs with waterproof IR remote control (IP66 grade) by default. We provide full 2 Year Warranty as a confidence in the product quality.</p>\r\n"
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '326'
+        target_revision_id: '384'
+  -
+    info: 'Catalog description - Mirror Televisions'
+    langcode: en
+    uuid: 0f2bb6cc-3c87-46bd-9aee-2a73d0a368de
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p>Mirror TVs or Magic Mirror TVs are getting more and more popular due to its luxury design and mirror functionality. When the screen is off – you just have a regular mirror, your tv is vanished out of the mirror when it's on – it's a TV.</p>\r\n\r\n<p>How does it work?<br />\r\nMagic Mirror effect is provided by semi-transparent mirror glass that reflects the light when the screen is off but transmits the light of the screen when it's on. For good mirror TV performance, there should be the right balance of reflective and transmitting rate. When we increase transparency of the glass we get better TV performance (better image) but worse mirror performance (worse reflection and some internal elements behind the glass can be seen), so the semi-transparent mirror is one key important aspect. Another key important aspect is the LCD/LED panel. Original brightness of the screen is reduced by semi-transparent mirror by 30-60% so the screens for Mirror TVs should have the higher brightness to compare with regular consumer monitors to compensate this reduce. Contrast and colors are also distorted by the mirror that's why it's not easy technically to find the right combination (magic mirror + LCD/LED panel) and it's also more expansive than regular TV models.</p>\r\n\r\n<p>We know a lot about this “balance” and now we use different mirror type and different LCD/LED panels for each size for better real performance.</p>\r\n\r\n<p>Of course it's real glass and not acrylic used for our Mirror TVs. So you can be sure it will keep perfect appearance for years.</p>\r\n\r\n<p>For safety concern we only use tempered safety glass for our standard Mirror TVs.</p>\r\n\r\n<h2>WATERPROOF MIRROR TVS FOR BATHROOM</h2>\r\n\r\n<p>Our Bathroom Mirror TVs are perfectly fit any bathroom's interior. You get real glass mirror with all the functions of modern TV. Why is this tv called vanishing mirror tv?&nbsp;We are sure you will enjoy Magic Mirror effect: the screen disappears when it's off and it looks just like a regular mirror. Our TVs can be easily installed but needs professional electrician and tiler, so it's definitely better to schedule the installation when your renovate the Bathroom. There should be a niche in the wall prepared and all the cables are to be lead inside the wall. We provide back box for easy installation and also User Manual and Installation Manual with each Mirror Bathroom TV. But after the installation is done you will see only the mirror on the wall.. amazing, isn't it?</p>\r\n\r\n<p>AVEL Bathroom Mirror TVs have passed IP65 test as a proof of it's dust and waterproof grade and they can be used in wet areas like Bathroom, Pool, Jacuzzi etc.</p>\r\n\r\n<p>Our current line-up of the Mirror TVs for bathroom includes 19 inch, 21.5 inch, 27 inch, 32 inch and 47 inch sizes. You can also choose Digital TV tuner (DVB-T2 (Freeview) digital tuner board for EU / Australia / Russia / AUE / Thailand / Africa etc.). And add Smart Kit to any of our TVs to make it Smart TV.</p>\r\n\r\n<p>For your convenience, we equip our TVs with waterproof IR remote control (IP66 grade) by default.</p>\r\n\r\n<p>We use tempered safety glass for all our standard Mirror Bathroom TVs for safety and we provide full 2 Year Warranty as a confidence in the product quality.</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_file_storage:
+        target_id: '327'
+        target_revision_id: '385'
+  -
+    info: 'Catalog description - Bathroom TVs - Freeview'
+    langcode: en
+    uuid: e2944f4c-5c0f-4030-ae5e-dd5eca8e5b77
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<h2>Next Generation of Bathroom TV with Freeview Are you ready to relax in your bath or shower?</h2>\r\n\r\n<p>Enjoy unlimited entertainment with a smart bathroom TV with Freeview! Take a look at our comprehensive selection of waterproof TVs with a&nbsp;built in Freeview Tuner, suitable for using in the bathroom, sauna room, shower room, swimming pool, and other areas with constant high humidity. Each of them offers superb picture quality, modern design,&nbsp;and great ease of use. Being completely water-resistant with IPX5 waterproof grade, they come with all the advanced features and functions you would expect,&nbsp;plus a whole lot more! With LCD screens that can be used as a mirror while you are not watching sport, news, or any other program, our bathroom TVs with Freeview are a fantastic option for any budget. We have a full range of designs and sizes to match your needs and requirements, from a high- quality yet affordable&nbsp;19'' bathroom TV with Freeview to our favorite premium&nbsp;32'' model, each with tempered safety glass and integrated vibration speakers. Have a good shopping&nbsp;experience!</p>\r\n"
+        summary: ''
+        format: basic_html
+      field_file_storage:
+        target_id: '328'
+        target_revision_id: '386'
+  -
+    info: 'Kitchen TV video slider'
+    langcode: en
+    uuid: a2194deb-c6a2-4d9b-a4f6-4e5d968aa176
+    bundle: photo_video_slider
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_link: null
+      field_media:
+        target_id: '359'
+        target_revision_id: '469'
+      field_title: null
+  -
+    info: 'Mirror TVs video slider'
+    langcode: en
+    uuid: 8573ab49-55e3-4cec-bad9-21c5e6a47e10
+    bundle: photo_video_slider
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_link: null
+      field_media:
+        target_id: '364'
+        target_revision_id: '474'
+      field_title: null
+  -
+    info: 'Catalog description - Waterproof TVs'
+    langcode: en
+    uuid: 7da354c7-70fa-42ff-80c3-cd704d2fae86
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<p><!--[if !supportLists]--><span lang=\"EN-US\"><span>2019&nbsp;</span></span><!--[endif]--><span lang=\"EN-US\">AVEL TVs model range includes 2 series:</span></p>\r\n\r\n<h3><strong><span lang=\"EN-US\">1. In-Wall TVs</span></strong><span lang=\"EN-US\"><span>&nbsp;&nbsp;</span></span></h3>\r\n\r\n<p><span lang=\"EN-US\">This series includes the following screen size: <strong>23.8” / 27” / 32” / 43” / 47” / 55”, 75”</strong> size is being developed and will be launched in Q3. The series includes 3 TV types:</span></p>\r\n\r\n<ul>\r\n\t<li><strong><span lang=\"EN-US\">Mirror TV screen finish</span></strong><span lang=\"EN-US\">. This kind is also called <strong>Magic Mirror TV</strong> due to vanishing screen feature. TV looks like a plain mirror when the screen is off and turns to a TV by pressing a button. Our latest semi-transparent mirror has optimized optical performance (reflectance / transmittance rate), we are pretty sure we find the best possible balance and mirror color. All Mirror TVs are completely waterproof and passed IPX4 test, the certificate was issued accordingly. Small and medium sizes of Mirror TVs are installed in Bathrooms in most of the cases, that’s why we must make sure our TVs are water resistant and can work well in wet and humid environment. IPX4 standard means our TVs are protected against splashing of water from any direction (including the back of the TV and cable connection ports area). Front of our TVs is a plain real mirror, we use special vibration speakers to get rid of holes for the sound from speakers. So, the front of our TVs is completely water resistant and can be installed in a shower or other area where the water can be sprayed on the screen directly. Waterproof ranking will be increased to IP66 when the TV is installed in a wall (recess) and sealed properly. Big size Mirror TVs (43” and up) are often installed in Living rooms, Bedrooms, Terrace and other areas as a premium interior solution that helps to get rid of black square spot of a regular TV. Mirror itself is well known as a space increasing surface and can fit well most of design concepts.</span></li>\r\n\t<li><strong><span lang=\"EN-US\">White Frame screen finish. </span></strong><span lang=\"EN-US\">The second screen finish type is called “White Frame”. We use a special type of <strong>OptiWhite</strong> glass to reach the true white color without a hint of green tone that always exists in a regular glass. All White Frame TVs has <strong>touch control buttons</strong> on the front as a backup of remote control’s functions. White glass will fit well swimming pool or SPA areas and can be used an outstanding in-wall TV without any visible cables. No visible thickness, no dust on the back, no visible cables – these are important advantages of our In-Wall series. White Frame glass of all size AVEL TVs is a <strong>safety tempered glass</strong>, even if it got broken – there will be only small pieces that can not make any harm. That’s why this series can also be used in children’s rooms with no worries about the safety. Despite regular TVs, LED panel of AVEL TVs is protected and can not be easily damaged or broken. Of course, White Frame TVs are water resistant – just like Mirror TV series described above.<br />\r\n\t<!--[endif]--></span></li>\r\n</ul>\r\n\r\n<h3><strong><span lang=\"EN-US\">2. Open Frame TVs</span></strong></h3>\r\n\r\n<p><span lang=\"EN-US\">This series of TVs was specially made to fulfill <strong>customized projects</strong> requests with big size mirrors. Usually a big mirror is ordered locally in the country of destination (where the project is being releasing) – it helps to reduce shipping costs and the risk of mirror damage. TV part includes metal back box, metal frame and the TV itself. Depending on the project specification, the final project can be waterproof (metal frame shall be sealed properly to the customized mirror in this case) or non-waterproof if there is no need (metal frame sealing can be skipped in this case). Big mirrors that are tailor-made to fit the interior precisely with a hidden TV are always unique and amazing projects. We have many examples both in commercial and home interiors. Open Frame TVs can be installed in beauty / hairdressing salons, lobbies, luxury hotels bathrooms; or at home above the fireplace or other location both in classic or modern interior.<span>&nbsp;&nbsp;&nbsp; </span></span></p>\r\n\r\n<p><span lang=\"EN-US\">&nbsp;</span></p>\r\n"
+        summary: ''
+        format: basic_html
+      field_file_storage:
+        target_id: '372'
+        target_revision_id: '500'
+  -
+    info: test
+    langcode: en
+    uuid: a0b9bf05-bebc-480e-8abc-eeac17dd4c49
+    bundle: content_builder
+    revision_id: null
+    rev_id_current: null
+    fields:
+      field_content:
+        target_id: '385'
+        target_revision_id: '532'
+menus:
+  -
+    menu_name: main
+    title: Catalog
+    parent: null
+    uri: 'internal:/catalog'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '1'
+    weight: '-47'
+    langcode: en
+    uuid: 15ac1c66-fac2-4e0a-876d-831bb764ccd9
+  -
+    menu_name: main
+    title: News
+    parent: null
+    uri: 'internal:/news'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-45'
+    langcode: en
+    uuid: 767f99eb-a506-49be-a16f-f1440dba2634
+  -
+    menu_name: main
+    title: 'Where to buy'
+    parent: null
+    uri: 'internal:/where-buy'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-44'
+    langcode: en
+    uuid: 34b22d95-d2d8-4cd7-93df-0f3c55c54256
+  -
+    menu_name: main
+    title: 'Become a Reseller'
+    parent: null
+    uri: 'internal:/become-reseller'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: en
+    uuid: bc3095a8-0f5c-4932-8ce5-5f64feaa49eb
+  -
+    menu_name: main
+    title: Contacts
+    parent: null
+    uri: 'internal:/contacts'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: en
+    uuid: b6f37fb3-db09-4314-8063-0b1f7871093c
+  -
+    menu_name: main
+    title: 'Log in'
+    parent: null
+    uri: 'internal:/user/login'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-43'
+    langcode: en
+    uuid: 2feed0fa-286c-4c2f-ac54-2b88d293c88b
+  -
+    info: 'Change country select'
+    langcode: en
+    uuid: 06351db3-24d0-445f-a0c2-5f41b956f6c2
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<div class=\"country_wrapper\">\r\n  <a class=\"active_country modal-trigger\" href=\"#country-modal\">Select country</a>\r\n</div>"
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '395'
+        target_revision_id: '542'
+  -
+    info: 'Free shipping'
+    langcode: en
+    uuid: 7070b307-ade3-41de-9be2-8b30cf20e235
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: '<img src="/sites/default/files/inline/freeshipping.jpg" />'
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '396'
+        target_revision_id: '543'
+  -
+    info: 'Shipping Information'
+    langcode: en
+    uuid: f22d04b3-21d3-4ac7-8a58-2eb2d84030c3
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        value: "<a href=\"/shipping-information\">Shipping Information</a><br>\r\n<a href=\"/news\">News</a><br>\r\n<a href=\"/articles\">Blog</a>\r\n"
+        summary: ''
+        format: full_html
+      field_file_storage:
+        target_id: '397'
+        target_revision_id: '544'

@@ -1,0 +1,105 @@
+uuid: fb30c746-4267-4f41-936c-742027d6601e
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product
+    - field.storage.commerce_product.field_product_description
+    - paragraphs.paragraphs_type.description
+    - paragraphs.paragraphs_type.document
+    - paragraphs.paragraphs_type.pictures
+    - paragraphs.paragraphs_type.table
+    - paragraphs.paragraphs_type.title
+  module:
+    - entity_reference_revisions
+id: commerce_product.product.field_product_description
+field_name: field_product_description
+entity_type: commerce_product
+bundle: product
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      table: table
+      description: description
+      document: document
+      pictures: pictures
+      title: title
+    target_bundles_drag_drop:
+      about_course:
+        weight: 21
+        enabled: false
+      table:
+        enabled: true
+        weight: 22
+      description:
+        enabled: true
+        weight: 22
+      gallery_html:
+        weight: 22
+        enabled: false
+      gallery_image:
+        weight: 23
+        enabled: false
+      document:
+        enabled: true
+        weight: 24
+      gallery_video:
+        weight: 24
+        enabled: false
+      horizontal_tab:
+        weight: 25
+        enabled: false
+      horizontal_tabs:
+        weight: 26
+        enabled: false
+      image_text:
+        weight: 27
+        enabled: false
+      images:
+        weight: 28
+        enabled: false
+      landing_slide:
+        weight: 30
+        enabled: false
+      landing_slide_with_form:
+        weight: 31
+        enabled: false
+      nested_paragraph:
+        weight: 32
+        enabled: false
+      pictures:
+        enabled: true
+        weight: 33
+      tabs_vertical:
+        weight: 34
+        enabled: false
+      text:
+        weight: 35
+        enabled: false
+      link:
+        weight: 36
+        enabled: false
+      text_image:
+        weight: 36
+        enabled: false
+      title:
+        enabled: true
+        weight: 37
+      user:
+        weight: 38
+        enabled: false
+      video:
+        weight: 39
+        enabled: false
+      vimeo_video:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

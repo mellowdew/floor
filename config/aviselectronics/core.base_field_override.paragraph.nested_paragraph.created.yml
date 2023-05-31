@@ -1,0 +1,18 @@
+uuid: c241e5f4-8f50-4547-a671-77057a068175
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.nested_paragraph
+id: paragraph.nested_paragraph.created
+field_name: created
+entity_type: paragraph
+bundle: nested_paragraph
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

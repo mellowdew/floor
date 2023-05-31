@@ -1,0 +1,32 @@
+uuid: 32827841-3577-4b5e-89a9-990cf08e10cb
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: row
+id: karuselsuvelicennymcentralnymslaidom
+theme: n1_commerce
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:96649b22-d745-455f-b3bb-9ddb30f0ba91'
+settings:
+  id: 'block_content:96649b22-d745-455f-b3bb-9ddb30f0ba91'
+  label: 'Слайдер с увеличенным центральным слайдом'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: default
+visibility:
+  request_path:
+    id: request_path
+    pages: /components
+    negate: false
+    context_mapping: {  }

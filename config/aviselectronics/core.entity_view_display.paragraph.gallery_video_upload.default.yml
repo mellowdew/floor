@@ -1,0 +1,35 @@
+uuid: a3809c0d-b740-40a1-b2ab-6895ff661563
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_video_upload.field_media_video
+    - paragraphs.paragraphs_type.gallery_video_upload
+  module:
+    - ds
+    - file
+id: paragraph.gallery_video_upload.default
+targetEntityType: paragraph
+bundle: gallery_video_upload
+mode: default
+content:
+  field_media_video:
+    weight: 1
+    label: hidden
+    settings:
+      autoplay: true
+      loop: true
+      multiple_file_display_type: tags
+      muted: true
+      width: 1280
+      height: 480
+      controls: false
+    third_party_settings:
+      ds:
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: file_video
+    region: content
+hidden: {  }

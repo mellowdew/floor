@@ -1,0 +1,18 @@
+uuid: 55f31595-7536-4d4b-9cec-455787062fe5
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_store
+id: commerce_store.field_sticky_mode
+field_name: field_sticky_mode
+entity_type: commerce_store
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

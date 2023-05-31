@@ -1,0 +1,8 @@
+uuid: 8e2ce4d5-9765-45d3-8171-787cc9f12ec5
+langcode: ru
+status: true
+dependencies: {  }
+name: Teaser
+format: teaser
+weight: 0
+filters: {  }

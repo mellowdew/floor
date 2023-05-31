@@ -1,0 +1,28 @@
+uuid: 028aa926-ee66-4ae7-b7bb-561b6d0ad875
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - n1_commerce
+id: n1_commerce_menu
+theme: n1_commerce
+region: sidebar_first
+weight: -17
+provider: null
+plugin: 'block_content:9f364d58-bd4d-40f0-a0de-08c3776271b3'
+settings:
+  id: 'block_content:9f364d58-bd4d-40f0-a0de-08c3776271b3'
+  label: Меню
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

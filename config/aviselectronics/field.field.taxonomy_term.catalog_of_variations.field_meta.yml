@@ -1,0 +1,23 @@
+uuid: 399f39b8-46e9-4a7d-a02f-94c368c7a708
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_meta
+    - taxonomy.vocabulary.catalog_of_variations
+  module:
+    - metatag
+id: taxonomy_term.catalog_of_variations.field_meta
+field_name: field_meta
+entity_type: taxonomy_term
+bundle: catalog_of_variations
+label: Meta
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 'a:0:{}'
+default_value_callback: ''
+settings: {  }
+field_type: metatag

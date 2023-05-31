@@ -1,0 +1,23 @@
+uuid: 138512c6-9aa1-43bb-bf3f-3d3572e7e855
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_visibility
+    - paragraphs.paragraphs_type.tabs_vertical
+id: paragraph.tabs_vertical.field_visibility
+field_name: field_visibility
+entity_type: paragraph
+bundle: tabs_vertical
+label: 'Доступно всем'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

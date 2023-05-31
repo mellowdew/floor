@@ -1,0 +1,11 @@
+uuid: 046a8436-0bc3-415e-bb78-b65f86cab812
+langcode: ru
+status: true
+dependencies: {  }
+id: commerce_product
+label: Товар
+enabled: true
+types:
+  - cource
+  - product
+  - product_app

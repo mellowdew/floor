@@ -1,0 +1,10 @@
+uuid: 4da82efb-5fa6-4f56-966c-777ddbb7c20b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.block_with_webform_in_modal
+label: 'Block with webform in modal'
+targetEntityType: block_content
+cache: true

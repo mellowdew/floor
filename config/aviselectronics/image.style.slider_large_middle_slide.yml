@@ -1,0 +1,15 @@
+uuid: 97405d8b-9bca-4852-a3d4-066126aed6b3
+langcode: en
+status: true
+dependencies: {  }
+name: slider_large_middle_slide
+label: 'Slider - large middle slide'
+effects:
+  c302704f-644d-4d51-aac3-ad698d20fc98:
+    uuid: c302704f-644d-4d51-aac3-ad698d20fc98
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 700
+      height: 400
+      anchor: center-center

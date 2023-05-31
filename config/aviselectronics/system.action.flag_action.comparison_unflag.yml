@@ -1,0 +1,13 @@
+uuid: 1fc02820-9978-469f-99cc-3bb5b397c1ff
+langcode: ru
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.comparison_unflag
+label: 'Убрать из сравнения'
+type: commerce_product
+plugin: 'flag_action:comparison_unflag'
+configuration:
+  flag_id: comparison
+  flag_action: unflag

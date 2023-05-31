@@ -1,0 +1,10 @@
+uuid: 3f64d0b9-3c23-4b87-9fe7-780c3bb765a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.simple_carousel
+label: 'Simple carousel'
+targetEntityType: block_content
+cache: true

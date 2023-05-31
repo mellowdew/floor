@@ -1,0 +1,18 @@
+uuid: 730921d4-0b81-4ed2-9772-dae93f7bfc17
+langcode: ru
+status: false
+dependencies:
+  module:
+    - commerce_product
+    - serialization
+    - user
+id: entity.commerce_product
+plugin_id: 'entity:commerce_product'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

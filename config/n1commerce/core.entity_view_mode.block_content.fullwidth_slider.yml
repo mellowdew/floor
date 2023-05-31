@@ -1,0 +1,10 @@
+uuid: 936d10d1-28dc-4ac2-92aa-a8bd371d8cdc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.fullwidth_slider
+label: 'Fullwidth slider'
+targetEntityType: block_content
+cache: true

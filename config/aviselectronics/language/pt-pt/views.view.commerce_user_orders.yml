@@ -1,0 +1,36 @@
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Aplicar
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+      pager:
+        options:
+          tags:
+            previous: '‹ Anterior'
+            next: 'Seguinte ›'
+            first: '« Primeira'
+            last: 'Última »'
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Todos -'
+            offset_label: Deslocamento
+      fields:
+        order_number:
+          label: 'Número do pedido'
+        placed:
+          label: Data
+        state:
+          label: Estado
+      title: Encomendas
+      arguments:
+        uid:
+          exception:
+            title: Todos
+  order_page:
+    display_options:
+      menu:
+        title: Encomendas

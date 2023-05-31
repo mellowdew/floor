@@ -1,0 +1,18 @@
+uuid: 906683cc-1db9-4b76-ba40-f71368cd1849
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+id: app_contact.person_contact.metatag
+field_name: metatag
+entity_type: app_contact
+bundle: person_contact
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

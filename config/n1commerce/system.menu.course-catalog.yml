@@ -1,0 +1,8 @@
+uuid: 59d38583-31d0-474c-ba2b-2b82c1b65803
+langcode: ru
+status: true
+dependencies: {  }
+id: course-catalog
+label: 'Каталог курсов'
+description: ''
+locked: false

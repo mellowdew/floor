@@ -1,0 +1,10 @@
+uuid: 7a81d4b6-4777-43c7-bbce-c4916b110e3f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product_variation.variacia_v_soputstvuusem_tovare
+label: 'Вариация в сопутствующем товаре'
+targetEntityType: commerce_product_variation
+cache: true

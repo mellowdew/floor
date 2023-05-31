@@ -1,0 +1,33 @@
+uuid: e9625089-b466-43ef-bbab-86ec7f8d4262
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.course-catalog
+  module:
+    - block_class
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: katalogkursov
+theme: n1_commerce
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:course-catalog'
+settings:
+  id: 'system_menu_block:course-catalog'
+  label: 'Каталог курсов'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

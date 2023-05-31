@@ -1,0 +1,69 @@
+uuid: 35c4e9a8-1904-4777-a0ad-9229a8a70977
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product
+    - core.entity_view_mode.commerce_product.soputstvuusii_tovar
+    - field.field.commerce_product.product.body
+    - field.field.commerce_product.product.field_3d_model
+    - field.field.commerce_product.product.field_additional_url
+    - field.field.commerce_product.product.field_addon
+    - field.field.commerce_product.product.field_catalog
+    - field.field.commerce_product.product.field_default_view_type
+    - field.field.commerce_product.product.field_image_gallery
+    - field.field.commerce_product.product.field_link_to_video
+    - field.field.commerce_product.product.field_meta
+    - field.field.commerce_product.product.field_old_price
+    - field.field.commerce_product.product.field_product_brand
+    - field.field.commerce_product.product.field_product_description
+    - field.field.commerce_product.product.field_product_manufacturer
+    - field.field.commerce_product.product.field_product_testimonials
+    - field.field.commerce_product.product.field_product_vendor_code
+    - field.field.commerce_product.product.field_related_variations
+    - field.field.commerce_product.product.field_short_description
+id: commerce_product.product.soputstvuusii_tovar
+targetEntityType: commerce_product
+bundle: product
+mode: soputstvuusii_tovar
+content:
+  flag_favorites:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  variations:
+    type: entity_reference_entity_view
+    weight: 1
+    region: content
+    label: hidden
+    settings:
+      view_mode: variacia_v_soputstvuusem_tovare
+      link: false
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  field_3d_model: true
+  field_additional_url: true
+  field_addon: true
+  field_catalog: true
+  field_default_view_type: true
+  field_image_gallery: true
+  field_link_to_video: true
+  field_meta: true
+  field_old_price: true
+  field_product_brand: true
+  field_product_description: true
+  field_product_manufacturer: true
+  field_product_testimonials: true
+  field_product_vendor_code: true
+  field_related_variations: true
+  field_short_description: true
+  flag_comparison: true
+  langcode: true
+  search_api_excerpt: true
+  share_everywhere: true
+  stores: true
+  title: true
+  uid: true

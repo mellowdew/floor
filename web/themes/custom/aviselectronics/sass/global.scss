@@ -1,0 +1,72 @@
+// Base theme scss
+
+/*-- variables  --*/
+$button-raised-background: #f21f02;
+$button-radius: 30px;
+
+@import "../../n1_commerce/sass/global.scss";
+@import "components/color";
+
+
+// n1commerce custom components
+@import "components/product_teaser";
+@import "components/range";
+@import "components/search_block";
+@import "components/vr";
+@import "components/tabs_vertical";
+@import "components/photo_video_slider";
+@import "components/features";
+@import "components/section";
+@import "components/navbar";
+@import "components/footer";
+@import "components/webform_with_map";
+@import "components/breadcrumb";
+@import "components/btn";
+@import "components/change_country_block";
+@import "components/landing";
+
+
+@import "fonts";
+@import "misc";
+
+html {
+  font-family: "Uni Sans";
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+ul {
+  ul {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.48rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    font-size: 1.1rem;
+  }
+}

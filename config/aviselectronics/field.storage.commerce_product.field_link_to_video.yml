@@ -1,0 +1,23 @@
+uuid: e1e85232-c2f6-44d3-9406-3e2ba9bad051
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - file
+id: commerce_product.field_link_to_video
+field_name: field_link_to_video
+entity_type: commerce_product
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

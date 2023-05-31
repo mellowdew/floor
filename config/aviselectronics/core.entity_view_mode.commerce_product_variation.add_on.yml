@@ -1,0 +1,15 @@
+uuid: cb4b01ab-80fc-4ef0-a33c-58a379f7501d
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_pado
+  module:
+    - commerce_product
+_core:
+  default_config_hash: yRdMlB6Gzmjc4A54fn6ct2zQbQqlnZ7KTpPtLqGKhvI
+id: commerce_product_variation.add_on
+label: 'Add On'
+targetEntityType: commerce_product_variation
+cache: true

@@ -1,0 +1,26 @@
+uuid: 78297067-ceb3-4c11-b48c-8ed492b42ecb
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+third_party_settings:
+  paragraph_view_mode:
+    enabled: false
+id: landing_gallery_slider
+label: 'Landing gallery slider'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    enabled: true
+    override_mode: large_middle_slide
+    override_available:
+      fullwidth_slider: fullwidth_slider
+      large_middle_slide: large_middle_slide
+      simple_carousel: simple_carousel
+      default: '0'
+      full: '0'
+      preview: '0'
+      token: '0'
+    override_default: large_middle_slide

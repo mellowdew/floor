@@ -1,0 +1,23 @@
+uuid: f0fcdb6b-18e2-4d5d-83af-3e85d8774688
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+id: product
+label: Product
+type: 'canonical_entities:commerce_product'
+pattern: '[commerce_product:field_catalog:0:entity:url:path]/[commerce_product:title]'
+selection_criteria:
+  42612f15-fefb-4550-96aa-264109ea0987:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: 42612f15-fefb-4550-96aa-264109ea0987
+selection_logic: and
+weight: -5
+relationships: {  }

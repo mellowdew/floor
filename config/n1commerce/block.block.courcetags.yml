@@ -1,0 +1,26 @@
+uuid: 443fe12b-425e-4b47-8e85-503318d4df5f
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.cource_tags
+  module:
+    - block_class
+    - facets
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: courcetags
+theme: n1_commerce
+region: content
+weight: -16
+provider: null
+plugin: 'facet_block:cource_tags'
+settings:
+  id: 'facet_block:cource_tags'
+  label: 'Cource tags'
+  provider: facets
+  label_display: '0'
+visibility: {  }

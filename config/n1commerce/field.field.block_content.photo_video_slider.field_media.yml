@@ -1,0 +1,83 @@
+uuid: 9a297268-8bc5-45fd-91d3-31093be19beb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+    - field.storage.block_content.field_media
+    - paragraphs.paragraphs_type.gallery_html
+    - paragraphs.paragraphs_type.gallery_image
+    - paragraphs.paragraphs_type.gallery_video
+  module:
+    - entity_reference_revisions
+id: block_content.photo_video_slider.field_media
+field_name: field_media
+entity_type: block_content
+bundle: photo_video_slider
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      gallery_image: gallery_image
+      gallery_html: gallery_html
+      gallery_video: gallery_video
+    target_bundles_drag_drop:
+      about_course:
+        weight: 16
+        enabled: false
+      gallery_image:
+        enabled: true
+        weight: 17
+      gallery_html:
+        enabled: true
+        weight: 18
+      gallery_video:
+        enabled: true
+        weight: 18
+      horizontal_tab:
+        weight: 19
+        enabled: false
+      horizontal_tabs:
+        weight: 20
+        enabled: false
+      image_text:
+        weight: 21
+        enabled: false
+      images:
+        weight: 22
+        enabled: false
+      landing_slide:
+        weight: 23
+        enabled: false
+      landing_slide_with_form:
+        weight: 24
+        enabled: false
+      nested_paragraph:
+        weight: 25
+        enabled: false
+      tabs_vertical:
+        weight: 26
+        enabled: false
+      text:
+        weight: 27
+        enabled: false
+      text_image:
+        weight: 28
+        enabled: false
+      user:
+        weight: 29
+        enabled: false
+      vimeo_video:
+        weight: 30
+        enabled: false
+      video:
+        weight: 33
+        enabled: false
+field_type: entity_reference_revisions

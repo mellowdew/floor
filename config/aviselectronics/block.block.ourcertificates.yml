@@ -1,0 +1,35 @@
+uuid: bf4e903c-bf93-48e4-bc68-631e03e818b2
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:photo_video_slider:1fc093e2-eebc-410a-b33b-660c260b2a02'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: bg-bottom-gradient
+id: ourcertificates
+theme: aviselectronics
+region: content
+weight: -15
+provider: null
+plugin: 'block_content:1fc093e2-eebc-410a-b33b-660c260b2a02'
+settings:
+  id: 'block_content:1fc093e2-eebc-410a-b33b-660c260b2a02'
+  label: 'Our certificates'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: simple_carousel
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

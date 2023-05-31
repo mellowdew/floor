@@ -1,0 +1,16 @@
+uuid: 51c36980-2c5e-49cc-bf21-e687650c48dd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.catalog_of_variations
+id: catalog_of_variations
+label: 'Catalog of variations'
+vocabulary: catalog_of_variations
+menu: main
+expanded: true
+depth: 8
+menu_parent: 'main:menu_link_content:1ef3f2a8-894d-41fc-8945-78a1f4e6d2b2'
+description_field_name: null
+use_term_weight_order: null

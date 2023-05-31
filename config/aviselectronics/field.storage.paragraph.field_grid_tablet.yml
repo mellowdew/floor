@@ -1,0 +1,57 @@
+uuid: 5ec826dc-c073-44f0-a3c6-fc1e06ac81a3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_grid_tablet
+field_name: field_grid_tablet
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: m1
+      label: m1
+    -
+      value: m2
+      label: m2
+    -
+      value: m3
+      label: m3
+    -
+      value: m4
+      label: m4
+    -
+      value: m5
+      label: m5
+    -
+      value: m6
+      label: m6
+    -
+      value: m7
+      label: m7
+    -
+      value: m8
+      label: m8
+    -
+      value: m9
+      label: m9
+    -
+      value: m10
+      label: m10
+    -
+      value: m11
+      label: m11
+    -
+      value: m12
+      label: m12
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

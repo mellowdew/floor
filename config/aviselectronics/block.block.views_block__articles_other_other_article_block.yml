@@ -1,0 +1,61 @@
+uuid: 5a3bdaf4-257e-4269-af52-f3674616378c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.articles_other
+  module:
+    - block_class
+    - ctools
+    - request_data_conditions
+    - views
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__articles_other_other_article_block
+theme: aviselectronics
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:articles_other-block_1'
+settings:
+  id: 'views_block:articles_other-block_1'
+  label: 'Read also:'
+  provider: views
+  label_display: visible
+  views_label: 'Read also:'
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

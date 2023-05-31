@@ -1,0 +1,121 @@
+uuid: 6922bdaa-c8f4-4778-80c0-afaecd279cb6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.online
+    - field.field.commerce_store.online.field_color_scheme
+    - field.field.commerce_store.online.field_logo_2d
+    - field.field.commerce_store.online.field_logo_3d
+    - field.field.commerce_store.online.field_logo_3d_scale
+    - field.field.commerce_store.online.field_open_about
+    - field.field.commerce_store.online.field_show_rating
+    - field.field.commerce_store.online.field_sticky_mode
+    - field.field.commerce_store.online.field_store_buttons
+  module:
+    - address
+    - file
+id: commerce_store.online.default
+targetEntityType: commerce_store
+bundle: online
+mode: default
+content:
+  address:
+    type: address_default
+    settings:
+      default_country: site_default
+    weight: 3
+    region: content
+    third_party_settings: {  }
+  billing_countries:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  default_currency:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_color_scheme:
+    weight: 57
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_logo_2d:
+    weight: 51
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_logo_3d:
+    weight: 52
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_logo_3d_scale:
+    weight: 54
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_open_about:
+    weight: 56
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_show_rating:
+    weight: 55
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_sticky_mode:
+    weight: 58
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: boolean_checkbox
+    region: content
+  field_store_buttons:
+    weight: 53
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  mail:
+    type: email_default
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

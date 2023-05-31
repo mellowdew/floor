@@ -1,0 +1,10 @@
+uuid: 0c888ebd-8874-4b9e-8e45-f4615d90648d
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.simple_carousel
+label: 'Simple carousel'
+targetEntityType: paragraph
+cache: true

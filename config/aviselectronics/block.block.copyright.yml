@@ -1,0 +1,25 @@
+uuid: 53319469-128b-413a-86d2-21ac38cbe6d5
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:568921df-26ef-4820-97b8-822910bcc11e'
+  module:
+    - block_content
+  theme:
+    - n1_commerce
+id: copyright
+theme: n1_commerce
+region: copyright
+weight: 0
+provider: null
+plugin: 'block_content:568921df-26ef-4820-97b8-822910bcc11e'
+settings:
+  id: 'block_content:568921df-26ef-4820-97b8-822910bcc11e'
+  label: Copyright
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

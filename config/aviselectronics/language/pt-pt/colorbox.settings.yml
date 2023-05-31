@@ -1,0 +1,5 @@
+custom:
+  text_current: '{current} из {total}'
+  text_previous: '« Anterior'
+  text_next: 'Próximo »'
+  text_close: Fechar

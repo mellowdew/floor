@@ -1,0 +1,164 @@
+uuid: d8496e8c-2d67-4c24-9dcf-0c3c8451a1a9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - search_api
+  config:
+    - field.storage.commerce_product.field_catalog
+    - search_api.server.default_server
+    - core.entity_view_mode.commerce_product_variation.teaser_variation_catalog
+id: catalog_variations_index
+name: 'Catalog variations index'
+description: ''
+read_only: false
+field_settings:
+  rendered_item:
+    label: 'Rendered HTML output'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        anonymous: anonymous
+      view_mode:
+        'entity:commerce_product_variation':
+          product_variation: teaser_variation_catalog
+          product_variation_app: ''
+  type:
+    label: 'Product variation type'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: type
+    type: string
+  status:
+    label: Активно
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: status
+    type: boolean
+  title:
+    label: Заголовок
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: title
+    type: string
+  number:
+    label: 'Цена » Число'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: 'price:number'
+    type: integer
+  field_catalog:
+    label: 'Товар » Товар » Category'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: 'product_id:entity:field_catalog'
+    type: integer
+    dependencies:
+      module:
+        - commerce_product
+      config:
+        - field.storage.commerce_product.field_catalog
+datasource_settings:
+  'entity:commerce_product_variation':
+    bundles:
+      default: false
+      selected:
+        - product_variation
+        - product_variation_app
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  tokenizer:
+    all_fields: false
+    fields: {  }
+    spaces: ''
+    overlap_cjk: 1
+    minimum_word_size: '3'
+    weights:
+      preprocess_index: -45
+      preprocess_query: -45
+  rendered_item: {  }
+  aggregated_field: {  }
+  ignorecase:
+    all_fields: false
+    fields:
+      - rendered_item
+      - type
+      - title
+    weights:
+      preprocess_index: -50
+      preprocess_query: -49
+  stopwords:
+    all_fields: false
+    fields:
+      - rendered_item
+    stopwords:
+      - a
+      - an
+      - and
+      - are
+      - as
+      - at
+      - be
+      - but
+      - by
+      - for
+      - if
+      - in
+      - into
+      - is
+      - it
+      - 'no'
+      - not
+      - of
+      - 'on'
+      - or
+      - s
+      - such
+      - t
+      - that
+      - the
+      - their
+      - then
+      - there
+      - these
+      - they
+      - this
+      - to
+      - was
+      - will
+      - with
+    weights:
+      preprocess_index: -49
+      preprocess_query: -50
+  transliteration:
+    all_fields: false
+    fields: {  }
+    weights:
+      preprocess_index: -48
+      preprocess_query: -48
+  html_filter:
+    all_fields: false
+    fields: {  }
+    title: true
+    alt: true
+    tags:
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+      b: 2
+    weights:
+      preprocess_index: -47
+      preprocess_query: -47
+  hierarchy:
+    fields:
+      field_catalog: taxonomy_term-parent
+    weights:
+      preprocess_index: -45
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+server: default_server

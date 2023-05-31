@@ -1,0 +1,22 @@
+uuid: 7d6b6838-4037-4606-8a7f-c699953d6b0c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.product_variation_app
+id: commerce_product_variation.product_variation_app.status
+field_name: status
+entity_type: commerce_product_variation
+bundle: product_variation_app
+label: Active
+description: 'Whether the variation is active.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

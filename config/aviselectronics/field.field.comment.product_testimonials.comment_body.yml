@@ -1,0 +1,30 @@
+uuid: 90b245e3-82df-480c-a5c8-37af81b08b37
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.product_testimonials
+    - field.storage.comment.comment_body
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    plain_text: plain_text
+    full_html: '0'
+    basic_html: '0'
+    restricted_html: '0'
+    clean: '0'
+    teaser: '0'
+id: comment.product_testimonials.comment_body
+field_name: comment_body
+entity_type: comment
+bundle: product_testimonials
+label: Comment
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

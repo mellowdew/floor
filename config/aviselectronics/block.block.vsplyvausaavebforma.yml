@@ -1,0 +1,35 @@
+uuid: 7f02b2d9-6139-4b66-a5e8-3d68a93f7d2c
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:webform_and_map:09aedce9-f67a-465e-aa9c-a988c441c428'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: row
+id: vsplyvausaavebforma
+theme: n1_commerce
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:09aedce9-f67a-465e-aa9c-a988c441c428'
+settings:
+  id: 'block_content:09aedce9-f67a-465e-aa9c-a988c441c428'
+  label: 'Всплывающая вебформа'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: block_with_webform_in_modal
+visibility:
+  request_path:
+    id: request_path
+    pages: /components
+    negate: false
+    context_mapping: {  }

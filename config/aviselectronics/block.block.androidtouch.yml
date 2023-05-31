@@ -1,0 +1,58 @@
+uuid: 3419c073-af9e-4812-a155-8e449a24b075
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.android_touch
+  module:
+    - block_class
+    - facets
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: androidtouch
+theme: aviselectronics
+region: sidebar_first_colapsible_facets
+weight: -29
+provider: null
+plugin: 'facet_block:android_touch'
+settings:
+  id: 'facet_block:android_touch'
+  label: 'Android Touch'
+  provider: facets
+  label_display: visible
+  block_id: androidtouch
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/catalog/kitchen-tvs\r\n/catalog/kitchen-tvs/*\r\n/taxonomy/term/44/*"
+    negate: false
+    context_mapping: {  }

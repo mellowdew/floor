@@ -1,0 +1,21 @@
+uuid: fe73e0ce-1963-42af-9409-0678b5b3a6e3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.cource
+    - field.storage.commerce_product.stores
+id: commerce_product.cource.stores
+field_name: stores
+entity_type: commerce_product
+bundle: cource
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

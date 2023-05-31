@@ -1,0 +1,29 @@
+uuid: 3f8c951b-9898-4288-9d13-cdbeda5b2c21
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_table_table
+    - paragraphs.paragraphs_type.table
+  module:
+    - tablefield
+id: paragraph.table.field_table_table
+field_name: field_table_table
+entity_type: paragraph
+bundle: table
+label: Table
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  export: 0
+  restrict_rebuild: 1
+  restrict_import: 1
+  lock_values: 0
+  cell_processing: '1'
+  empty_rules:
+    ignore_table_structure: 0
+    ignore_table_header: 0
+field_type: tablefield

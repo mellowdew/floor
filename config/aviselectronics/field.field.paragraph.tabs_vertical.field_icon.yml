@@ -1,0 +1,21 @@
+uuid: 8346dc6d-5b87-4223-b918-78cc38b3df29
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon
+    - paragraphs.paragraphs_type.tabs_vertical
+  module:
+    - options
+id: paragraph.tabs_vertical.field_icon
+field_name: field_icon
+entity_type: paragraph
+bundle: tabs_vertical
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

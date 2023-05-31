@@ -1,0 +1,26 @@
+uuid: b6d48d01-670a-4363-ae0d-fc4812732d51
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.landing_slide.field_slide_content
+    - paragraphs.paragraphs_type.landing_slide
+  module:
+    - text
+id: paragraph.landing_slide.default
+targetEntityType: paragraph
+bundle: landing_slide
+mode: default
+content:
+  field_slide_content:
+    weight: 0
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

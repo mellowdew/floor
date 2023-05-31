@@ -1,0 +1,27 @@
+uuid: 29a8656d-39af-44bb-a46c-fe09e162e56e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_file_storage
+    - paragraphs.paragraphs_type.file_storage
+  module:
+    - file
+id: paragraph.file_storage.field_file_storage
+field_name: field_file_storage
+entity_type: paragraph
+bundle: file_storage
+label: 'File storage'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: inline
+  file_extensions: 'txt pdf doc docx rft zip rar 7z tar gz jpg jpeg png'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

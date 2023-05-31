@@ -1,0 +1,32 @@
+uuid: c08443fa-e2b9-41ee-b849-494282ebc8f7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.horizontal_tabs.field_lesson_content
+    - paragraphs.paragraphs_type.horizontal_tabs
+  module:
+    - paragraphs
+id: paragraph.horizontal_tabs.default
+targetEntityType: paragraph
+bundle: horizontal_tabs
+mode: default
+content:
+  field_lesson_content:
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

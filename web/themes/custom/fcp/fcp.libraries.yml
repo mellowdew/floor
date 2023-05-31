@@ -1,0 +1,112 @@
+global-styling:
+  version: VERSION
+  js:
+    js/global.js: {}
+  css:
+    component:
+      css/style.css: {}
+      css/colors.css: {}
+bootstrap:
+  js:
+    /libraries/popper.js/dist/umd/popper.min.js: { weight: -19 }
+    /libraries/bootstrap/dist/js/bootstrap.min.js: { weight: -20 }
+  css:
+    component:
+      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+  dependencies:
+    - core/popperjs
+bootstrap_cdn:
+  js:
+    //cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js: {}
+  css:
+    component:
+      //cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css: {}
+  dependencies:
+    - core/popperjs
+color.preview:
+  version: VERSION
+  css:
+    theme:
+      color/preview.css: {}
+  js:
+    color/preview.js: {}
+  dependencies:
+    - color/drupal.color
+
+material-icons:
+  version: VERSION
+  css:
+    theme:
+      fonts/material-design-icons-iconfont/material-design-icons.css: {}
+
+jmaterialize-js:
+  version: VERSION
+  js:
+    js/materialize-css/animation.js: {}
+    js/materialize-css/buttons.js: {}
+    js/materialize-css/cards.js: {}
+    js/materialize-css/carousel.js: {}
+    js/materialize-css/character_counter.js: {}
+    js/materialize-css/chips.js: {}
+    js/materialize-css/collapsible.js: {}
+    js/materialize-css/dropdown.js: {}
+    js/materialize-css/forms.js: {}
+    js/materialize-css/velocity.min.js: {}
+    js/materialize-css/global.js: {}
+    js/materialize-css/hammer.min.js: {}
+    js/materialize-css/initial.js: {}
+    js/materialize-css/jquery.easing.1.4.js: {}
+    js/materialize-css/jquery.hammer.js: {}
+    js/materialize-css/materialbox.js: {}
+    js/materialize-css/modal.js: {}
+    js/materialize-css/parallax.js: {}
+    js/materialize-css/pushpin.js: {}
+    js/materialize-css/scrollFire.js: {}
+    js/materialize-css/scrollspy.js: {}
+    js/materialize-css/sideNav.s: {}
+    js/materialize-css/slider.js: {}
+    js/materialize-css/toasts.js: {}
+    js/materialize-css/tooltip.js: {}
+    js/materialize-css/transitions.js: {}
+    js/materialize-css/waves.js: {}
+    js/materialize-hacked/tabs.js: {}
+#    node_modules/materialize-css/js/tabs.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.ui
+
+date_and_time:
+  version: VERSION
+  js:
+    js/materialize-css/date_picker/picker.js: {}
+    js/materialize-css/date_picker/picker.date.js: {}
+    js/materialize-css/date_picker/picker.time.js: {}
+    js/date-time-picker.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.ui
+
+product_gallery:
+  version: VERSION
+  js:
+    js/product-gallery.js: {}
+  dependencies:
+    - slick/slick
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/jquery.once
+    - core/underscore
+
+vr:
+  version: VERSION
+  js:
+    /webvr/common.bundle.js: {preprocess: false}
+    /webvr/viewer.bundle.js: {preprocess: false}
+    /webvr/webvr.bundle.js: {preprocess: false}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.ui
+

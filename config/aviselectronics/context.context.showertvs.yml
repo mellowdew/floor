@@ -1,0 +1,71 @@
+uuid: 58f34913-edc4-4ce9-854a-eb15d436b953
+langcode: en
+status: true
+dependencies:
+  module:
+    - request_data_conditions
+    - system
+name: showertvs
+label: 'Shower TVs'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: /catalog/shower-tvs
+    negate: 0
+    uuid: e0143b1d-fd05-499d-bc47-a7bced66432a
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: f
+        op: not_set
+        value: ''
+    require_all_params: 1
+    negate: 0
+    uuid: 3ddd617a-5d53-4e7d-b486-208dbdf92858
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      eab9c3d4-17c0-4203-8bd7-c47732853d9f:
+        id: 'block_content:7fe22fa2-df46-455c-9098-16f2f2f618ce'
+        label: 'Shower TVs description'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: showertvs
+        uuid: eab9c3d4-17c0-4203-8bd7-c47732853d9f
+      f30fc107-526a-429b-a949-9334575c6ffb:
+        id: 'block_content:01e03483-c4bd-4b1e-9551-274e502a828f'
+        label: landing-shower
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: showertvs
+        uuid: f30fc107-526a-429b-a949-9334575c6ffb
+    id: blocks
+    saved: false
+    uuid: 44980bd4-040b-4bd0-857b-4661d041bdc1
+    include_default_blocks: 1
+weight: -9

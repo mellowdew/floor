@@ -1,0 +1,20 @@
+uuid: 3e344fb4-bfa7-467a-b68a-8c716e0a853c
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - commerce_product
+id: commerce_product.field_product_testimonials
+field_name: field_product_testimonials
+entity_type: commerce_product
+type: comment
+settings:
+  comment_type: product_testimonials
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

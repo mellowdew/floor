@@ -1,0 +1,10 @@
+uuid: 32403409-3d5e-4917-b72a-f848ecfa83dc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.token
+label: Токен
+targetEntityType: profile
+cache: true

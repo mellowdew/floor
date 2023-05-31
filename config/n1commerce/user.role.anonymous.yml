@@ -1,0 +1,30 @@
+uuid: cd820e0f-84ed-42c7-ae8e-88f11435cba9
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Анонимный пользователь'
+weight: 0
+is_admin: false
+permissions:
+  - 'access cart'
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create default commerce_order'
+  - 'flag comparison'
+  - 'flag favorites'
+  - 'search content'
+  - 'unflag comparison'
+  - 'unflag favorites'
+  - 'use text format restricted_html'
+  - 'view any app_button entities'
+  - 'view any details entities'
+  - 'view commerce_product'
+  - 'view commerce_store'
+  - 'view media'
+  - 'view own commerce_order'
+  - 'view style guides'

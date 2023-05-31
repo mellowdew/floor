@@ -1,0 +1,22 @@
+<?php
+
+
+function aviselectronics_preprocess_webform_section(array &$variables) {
+  if ( $variables['title_tag'] == 'h2') {
+    $variables['title_tag'] = 'span';
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function aviselectronics_preprocess_html(&$variables) {
+
+  /** @var \Drupal\Core\Template\Attribute $html_attributes */
+  $html_attributes = $variables['html_attributes'];
+
+  if ($html_attributes->offsetGet('lang') == 'en') {
+    $html_attributes->setAttribute('lang', 'en-US');
+  }
+
+}

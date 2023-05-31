@@ -1,0 +1,29 @@
+uuid: 64714c2a-e848-41f2-bd85-ff3be2d8c106
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:671d6bf0-30c3-42e9-bbab-259846f40e15'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: catalogwheretobuycontactsfooter
+theme: aviselectronics
+region: footer
+weight: -23
+provider: null
+plugin: 'block_content:671d6bf0-30c3-42e9-bbab-259846f40e15'
+settings:
+  id: 'block_content:671d6bf0-30c3-42e9-bbab-259846f40e15'
+  label: 'Catalog | Where to buy | Contacts (footer)'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

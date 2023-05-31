@@ -1,0 +1,10 @@
+uuid: 450fce4d-4451-4f6c-bd54-5b5d62c7d283
+langcode: ru
+status: true
+dependencies: {  }
+id: lesson
+label: Lesson
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

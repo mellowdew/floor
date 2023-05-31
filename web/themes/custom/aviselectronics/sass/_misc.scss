@@ -1,0 +1,255 @@
+nav {
+  @extend .white;
+  * {
+    @extend .avis-grey-text;
+  }
+}
+
+
+.cart-block--summary a {
+  &.cart-block--link {
+    display: inline-block;
+    border: 2px solid #dbd9cc;
+    border-radius: 7px;
+    min-height: 51px;
+    line-height: 26px;
+    padding: 0;
+  }
+  &.btn {
+    @extend .white-text;
+  }
+}
+
+
+.cart-block--summary__count {
+  line-height: 14px;
+  display: inline-block;
+  padding: 0 16px;
+}
+
+.cart-block--summary__icon {
+  display: inline-block; 
+  padding: 7px 8px;
+  background: #dbd9cc;
+  
+  i {
+    @extend .white-text;    
+    font-size: 40px;
+    height: 47px;
+    line-height: 46px;
+
+    &.icon-shopping-cart {
+      width: 33px;
+      height: 33px;
+      background: url('../images/icons/icon-shopping-cart.png') center no-repeat;
+      background-size: contain;
+    } 
+  }
+}
+
+.flag-compare-variation {
+  i {
+    font-size: 0;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    background: url(../images/icons/icon-libra-white.png) no-repeat center;
+    background-size: contain;
+  }
+}
+
+.field--name-field-media-video {
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.slick-slide {
+  margin: 10px;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.slick-gallery-nav-arrows {
+  text-align: center;
+}
+
+.product-main-wrapper {
+  .field--name-field-image {
+    visibility: hidden;
+    height: 300px;
+    overflow: hidden;
+  }
+  .field--name-field-image.slick-initialized {
+    visibility: visible;
+    height: auto;
+    overflow: visible;
+  }
+}
+
+.product-right .field--name-price:not(.geo-restriction-substituted):after {
+    display: inline;
+    content: "Free Shipping by DHL, 3-7 days";
+    font-size: 17px;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+
+.product-right {
+  .field--name-variations {
+    .select-wrapper { 
+      + label {
+        font-size: 14px;
+        color: #F44336;
+      } 
+
+      input.select-dropdown {
+        color: #F44336;
+        font-size: 1.64rem;
+        
+        @media (max-width: 767px) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+  
+
+.field--name-field-product-description,
+.field--name-field-paragraph {
+	.field__item {
+		overflow: hidden;
+	}
+}
+
+#country-modal {
+  .row {
+    margin-bottom: 0;
+    width: 300px;
+    display: inline-block;
+  }
+  .form-radios .form-item {
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.region-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#block-catalogdropdownbutton,
+#block-shippinginformation,
+#block-aviselectronics-cart-2 {
+  flex-grow: 2;
+}
+
+.attribute-widgets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .row {
+    margin: 0;
+    flex-grow: 1;
+    &:nth-child(1) {
+      flex-basis: 100%;
+      flex-grow: 2;
+    }
+  }
+}
+
+.table-border {
+  td, th {
+    border: 1px solid #d0d0d0;
+  }
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid #d0d0d0;
+  
+  table {
+    display: table;
+  }
+}
+
+form {
+  .form-select {
+    .select-dropdown {
+      list-style: none;
+      padding: 0;
+      
+      li {
+        list-style: none;
+      }
+    }
+  }
+}
+
+.breadcrumb-wrapper {
+  ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      display: inline-block;
+      
+      .breadcrumb {
+        @extend .black-text;
+        display: inline-block;
+        cursor: pointer;
+
+        &:before {
+          @extend .cyan-text.text-lighten-1;
+          display: inline-block;
+          font-size: 18px;
+          line-height: 27px;
+        }
+        
+        &:hover {
+          @extend .cyan-text.text-lighten-1;
+        }
+      }
+      
+      &:last-child {
+        .breadcrumb {
+          @extend .cyan-text.text-lighten-1;
+        }
+      }
+      
+      &:first-child {
+        .breadcrumb {
+          &:before {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+#drupal-modal a {
+  color: #039be5;
+  text-decoration: underline;
+}
+
+.webform-submission-contact-form-add-form {
+  .g-recaptcha {
+    transform: scale(0.83);
+    transform-origin: top left;
+    @media (max-width: 375px) {
+      transform: scale(0.75);
+      transform-origin: top left;
+    }
+  }
+}

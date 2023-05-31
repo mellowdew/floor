@@ -1,0 +1,35 @@
+uuid: 344335f2-0b95-46f9-a65b-7e426883b665
+langcode: ru
+status: true
+dependencies:
+  module:
+    - image_effects
+name: product_picture_gallery
+label: 'Product picture 225 x 300'
+effects:
+  2d780d0a-29fc-4ea3-baaf-b4e0bf5836f4:
+    uuid: 2d780d0a-29fc-4ea3-baaf-b4e0bf5836f4
+    id: image_effects_set_canvas
+    weight: -9
+    data:
+      canvas_size: exact
+      exact:
+        width: '300'
+        height: '225'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''
+  637a1473-d25b-4ecf-be29-4f6fe66430ca:
+    uuid: 637a1473-d25b-4ecf-be29-4f6fe66430ca
+    id: image_scale
+    weight: -10
+    data:
+      width: 300
+      height: 225
+      upscale: false

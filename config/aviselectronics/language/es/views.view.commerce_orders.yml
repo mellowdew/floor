@@ -1,0 +1,58 @@
+label: Pedidos
+display:
+  default:
+    display_title: Máster
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtro
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Elementos por página'
+            items_per_page_options_all_label: '- Todo -'
+            offset_label: Desplazamiento
+          tags:
+            previous: '‹ anterior'
+            next: 'siguiente ›'
+            first: '« primero'
+            last: 'última »'
+      fields:
+        commerce_order_bulk_form:
+          action_title: 'Con selección'
+        order_number:
+          label: Nº
+        placed:
+          label: Fecha
+        type:
+          label: Tipo
+        store_id:
+          label: Tienda
+        uid:
+          label: Cliente
+        mail:
+          label: 'Correo electrónico'
+        state:
+          label: Estado
+        operations:
+          label: Operaciones
+      filters:
+        order_number:
+          expose:
+            label: 'Número de pedido'
+        type:
+          expose:
+            label: Tipo
+        state:
+          expose:
+            label: Estado
+      title: Pedidos
+  page_1:
+    display_title: Página
+    display_options:
+      menu:
+        title: Pedidos
+      tab_options:
+        title: Pedidos

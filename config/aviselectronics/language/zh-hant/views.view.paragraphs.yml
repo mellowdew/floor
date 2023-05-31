@@ -1,0 +1,36 @@
+display:
+  default:
+    display_options:
+      exposed_form:
+        options:
+          submit_button: 套用
+          reset_button_label: 重設
+          exposed_sorts_label: 排序依據
+          sort_asc_label: 遞增
+          sort_desc_label: 遞減
+      pager:
+        options:
+          expose:
+            items_per_page_label: 每頁的項目數
+            items_per_page_options_all_label: '- 全部 -'
+            offset_label: 位移
+      fields:
+        uid:
+          label: 作者為
+        created:
+          label: 發表於
+        parent_id:
+          label: 上層
+        status:
+          label: 已發表
+        type:
+          label: 類型
+        nothing:
+          label: 動作
+          alter:
+            text: 刪除
+            alt: 刪除
+      filters:
+        type:
+          expose:
+            label: 類型

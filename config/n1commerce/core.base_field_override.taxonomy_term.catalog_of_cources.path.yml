@@ -1,0 +1,20 @@
+uuid: 5d3b6398-6abc-461a-b3e3-5c64e3a6bf59
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog_of_cources
+  module:
+    - path
+id: taxonomy_term.catalog_of_cources.path
+field_name: path
+entity_type: taxonomy_term
+bundle: catalog_of_cources
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

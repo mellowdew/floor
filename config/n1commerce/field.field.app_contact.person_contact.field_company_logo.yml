@@ -1,0 +1,38 @@
+uuid: 6c7c933b-f3ef-4764-8d15-c8cbe03d70d1
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+    - field.storage.app_contact.field_company_logo
+  module:
+    - image
+id: app_contact.person_contact.field_company_logo
+field_name: field_company_logo
+entity_type: app_contact
+bundle: person_contact
+label: 'Company logo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: scantukan/contact/person-contact/company-logo
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 300x300
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

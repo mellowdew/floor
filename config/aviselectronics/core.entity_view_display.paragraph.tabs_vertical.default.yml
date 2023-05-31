@@ -1,0 +1,53 @@
+uuid: 0adc7e36-8a0c-4039-90dc-4645c22e0ccd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tabs_vertical.field_icon
+    - field.field.paragraph.tabs_vertical.field_lesson_content
+    - field.field.paragraph.tabs_vertical.field_title
+    - field.field.paragraph.tabs_vertical.field_visibility
+    - paragraphs.paragraphs_type.tabs_vertical
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.tabs_vertical.default
+targetEntityType: paragraph
+bundle: tabs_vertical
+mode: default
+content:
+  field_icon:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_lesson_content:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_visibility:
+    weight: 3
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
+hidden: {  }

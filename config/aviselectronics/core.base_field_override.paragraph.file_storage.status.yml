@@ -1,0 +1,22 @@
+uuid: fb64d303-3415-4ef8-92a0-29a2f0256b82
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.file_storage
+id: paragraph.file_storage.status
+field_name: status
+entity_type: paragraph
+bundle: file_storage
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

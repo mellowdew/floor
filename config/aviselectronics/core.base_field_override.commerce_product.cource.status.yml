@@ -1,0 +1,22 @@
+uuid: 24780922-01f6-45d8-bcec-2eaca6edc3dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.cource
+id: commerce_product.cource.status
+field_name: status
+entity_type: commerce_product
+bundle: cource
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

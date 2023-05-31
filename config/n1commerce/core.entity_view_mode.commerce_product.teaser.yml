@@ -1,0 +1,10 @@
+uuid: e2e890e4-41db-4284-b4e9-018c8f7e6315
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.teaser
+label: Анонс
+targetEntityType: commerce_product
+cache: true

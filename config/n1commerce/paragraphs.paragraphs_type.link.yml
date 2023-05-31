@@ -1,0 +1,9 @@
+uuid: 20191a24-280e-44be-92b9-50cc92567a84
+langcode: ru
+status: true
+dependencies: {  }
+id: link
+label: Ссылка
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,54 @@
+uuid: 4b520f6c-8d14-4f89-83db-da7788ce032f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1d7540dd-dff3-4a43-8784-3730b48b11fc'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: 'hide-on-med-and-down col left-align'
+id: wheretobuycontacts
+theme: aviselectronics
+region: header
+weight: -24
+provider: null
+plugin: 'block_content:1d7540dd-dff3-4a43-8784-3730b48b11fc'
+settings:
+  id: 'block_content:1d7540dd-dff3-4a43-8784-3730b48b11fc'
+  label: 'Where to buy | Contacts'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

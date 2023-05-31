@@ -1,0 +1,21 @@
+uuid: e140038b-6e4c-4d03-a93e-c5a8a355bd89
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.photo_video_slider
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.photo_video_slider.field_title
+field_name: field_title
+entity_type: block_content
+bundle: photo_video_slider
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

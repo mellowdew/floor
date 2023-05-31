@@ -1,0 +1,9 @@
+uuid: 010d759b-e0de-434c-8dba-09fdb7870e00
+langcode: ru
+status: true
+dependencies: {  }
+id: document
+label: Document
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

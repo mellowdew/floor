@@ -1,0 +1,34 @@
+uuid: b26b7c5d-ff9c-43c4-853b-3aade358dd41
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.full
+    - field.field.paragraph.video.field_video
+    - paragraphs.paragraphs_type.video
+  module:
+    - ds
+    - video_embed_field
+id: paragraph.video.full
+targetEntityType: paragraph
+bundle: video
+mode: full
+content:
+  field_video:
+    weight: 0
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: video_embed_field_video
+    region: content
+hidden: {  }

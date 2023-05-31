@@ -1,0 +1,842 @@
+taxonomies:
+  catalog:
+    -
+      vid: catalog
+      tid: '3'
+      langcode: ru
+      name: Кепки
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 477d6018-e14d-4dc9-a19a-aa03622b4417
+    -
+      vid: catalog
+      tid: '4'
+      langcode: ru
+      name: Куртки
+      description__value: null
+      description__format: null
+      weight: '5'
+      parent: '0'
+      uuid: f590feba-7784-4b8c-b4f5-638d50f041c7
+    -
+      vid: catalog
+      tid: '5'
+      langcode: ru
+      name: Мебель
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: abea2edc-6259-42ba-903f-16b008376886
+    -
+      vid: catalog
+      tid: '6'
+      langcode: ru
+      name: Футболки
+      description__value: null
+      description__format: null
+      weight: '1'
+      parent: '0'
+      uuid: e6f623da-d71c-4080-8847-0ecb1f43cbaa
+    -
+      vid: catalog
+      tid: '7'
+      langcode: ru
+      name: Шорты
+      description__value: null
+      description__format: null
+      weight: '4'
+      parent: '0'
+      uuid: 62aaf553-8a09-4720-ab3c-4abf7d745eb5
+  catalog_of_cources:
+    -
+      vid: catalog_of_cources
+      tid: '37'
+      langcode: en
+      name: '10 мерок'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f2d900bd-f967-48b2-b1ca-da9c2d31e0d2
+    -
+      vid: catalog_of_cources
+      tid: '38'
+      langcode: en
+      name: Брюки
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b60ed8a1-b6be-41c6-b25c-271667ed3e30
+    -
+      vid: catalog_of_cources
+      tid: '36'
+      langcode: en
+      name: Платья
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 8b271eb4-c35b-446e-9032-df34abcbd0b4
+    -
+      vid: catalog_of_cources
+      tid: '39'
+      langcode: en
+      name: Юбки
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 45d04229-571f-4a2e-bc8e-01cf6b0ab53c
+  cource_tags:
+    -
+      vid: cource_tags
+      tid: '43'
+      langcode: en
+      name: 'category 1'
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bfa1434c-e136-4e06-a5e3-1bcc7e55337a
+  font_classification:
+    -
+      vid: font_classification
+      tid: '8'
+      langcode: ru
+      name: display
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: d800ff8f-100c-4541-889e-b388637f61d4
+    -
+      vid: font_classification
+      tid: '9'
+      langcode: ru
+      name: handwriting
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: f05937fa-480a-4cd8-be30-343531322e0c
+    -
+      vid: font_classification
+      tid: '10'
+      langcode: ru
+      name: monospace
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 1e7e3773-6ced-4f44-bec0-d4c8bc194f85
+    -
+      vid: font_classification
+      tid: '11'
+      langcode: ru
+      name: sans-serif
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: b5249a4b-b4ed-4ccc-90f4-84b9fd531b66
+    -
+      vid: font_classification
+      tid: '12'
+      langcode: ru
+      name: serif
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 75cee91e-cf1c-439a-bc76-f320fead46bf
+  font_designer: {  }
+  font_foundry: {  }
+  font_tags: {  }
+  icons: {  }
+  languages_supported:
+    -
+      vid: languages_supported
+      tid: '13'
+      langcode: ru
+      name: arabic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 6b88fdda-0264-4dec-9895-4f64aad0af50
+    -
+      vid: languages_supported
+      tid: '14'
+      langcode: ru
+      name: bengali
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e2618c2e-719a-438e-83cc-e6d1553af134
+    -
+      vid: languages_supported
+      tid: '15'
+      langcode: ru
+      name: cyrillic
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bb85f10c-b816-4293-8936-faf65218d191
+    -
+      vid: languages_supported
+      tid: '16'
+      langcode: ru
+      name: cyrillic-ext
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4ab2cce1-3b92-48a6-a463-b06733071cc8
+    -
+      vid: languages_supported
+      tid: '17'
+      langcode: ru
+      name: devanagari
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c08695f7-97e4-4328-a132-a88b9c155bca
+    -
+      vid: languages_supported
+      tid: '18'
+      langcode: ru
+      name: English
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c9ec5977-9f02-48fa-a0b6-4f12a5a32b28
+    -
+      vid: languages_supported
+      tid: '19'
+      langcode: ru
+      name: greek
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: bda04f3b-810d-49f2-8fea-ee5432268ccc
+    -
+      vid: languages_supported
+      tid: '20'
+      langcode: ru
+      name: greek-ext
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: a0de0e0a-e123-4044-b857-0d731c54b34a
+    -
+      vid: languages_supported
+      tid: '21'
+      langcode: ru
+      name: gujarati
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7c9f876d-19ca-4b76-9209-f9e41077f01c
+    -
+      vid: languages_supported
+      tid: '22'
+      langcode: ru
+      name: gurmukhi
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ec343d20-11b2-4176-b5f1-47ed63f45cac
+    -
+      vid: languages_supported
+      tid: '23'
+      langcode: ru
+      name: hebrew
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e92fbf40-c2bb-431b-94d7-d0fd3a7fa97f
+    -
+      vid: languages_supported
+      tid: '24'
+      langcode: ru
+      name: kannada
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 85af8710-1f97-4767-b44f-208c022656eb
+    -
+      vid: languages_supported
+      tid: '25'
+      langcode: ru
+      name: khmer
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ccbd3ebc-f729-423a-b7f1-b148f38e630f
+    -
+      vid: languages_supported
+      tid: '26'
+      langcode: ru
+      name: latin
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 7f77f37b-fa4a-4e31-a695-b60c320383d2
+    -
+      vid: languages_supported
+      tid: '27'
+      langcode: ru
+      name: latin-ext
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 5153a4a2-f2fe-4263-b961-9ac09b0be52c
+    -
+      vid: languages_supported
+      tid: '28'
+      langcode: ru
+      name: malayalam
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 76270aab-41f4-4b80-b9bc-05c19bd7a576
+    -
+      vid: languages_supported
+      tid: '29'
+      langcode: ru
+      name: myanmar
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 0bae215c-eabd-4bbb-9295-d8e1c8686b66
+    -
+      vid: languages_supported
+      tid: '30'
+      langcode: ru
+      name: oriya
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 4da74628-518f-49c0-b029-79313ab519d6
+    -
+      vid: languages_supported
+      tid: '31'
+      langcode: ru
+      name: sinhala
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 2e48ad33-f8d7-4c92-8522-4beac2cdde8f
+    -
+      vid: languages_supported
+      tid: '32'
+      langcode: ru
+      name: tamil
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: e1c71224-caa8-47f3-af2e-a763b284fc6a
+    -
+      vid: languages_supported
+      tid: '33'
+      langcode: ru
+      name: telugu
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: ed9da216-5f97-4c3e-b326-b628af44ca94
+    -
+      vid: languages_supported
+      tid: '34'
+      langcode: ru
+      name: thai
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: c88fca05-1477-4e6d-a92f-43d86781a4d4
+    -
+      vid: languages_supported
+      tid: '35'
+      langcode: ru
+      name: vietnamese
+      description__value: null
+      description__format: null
+      weight: '0'
+      parent: '0'
+      uuid: 76680e0f-b47e-4eec-be25-73317003927d
+  tags: {  }
+blocks:
+  -
+    info: Меню
+    langcode: ru
+    uuid: 9f364d58-bd4d-40f0-a0de-08c3776271b3
+    bundle: basic
+    fields:
+      body:
+        value: "<ul class=\"section table-of-contents\">\r\n\t<li><a href=\"#n1commerce\">N1Commerce</a></li>\r\n        <li><a href=\"#vrar\">VR/AR</a></li>\r\n\t<li><a href=\"#release\">Реализовано</a></li>\r\n\t<li><a href=\"#laws\">Законы</a></li>\r\n\t<li><a href=\"#seo\">SEO</a></li>\r\n\t<li><a href=\"#technology\">Технологии</a></li>\r\n\t<li><a href=\"#better\">Преимущества</a></li>\r\n\t<li><a href=\"#aboutus\">О нас</a></li>\r\n</ul>"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд 2'
+    langcode: ru
+    uuid: 2963959f-0bfc-4086-bad6-bf26e5effa66
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row content\">\r\n<div class=\"slide-1-title col-sm-12\">\r\n<h1>В N1Commerce уже реализовано:</h1>\r\n</div>\r\n\r\n<div class=\"col-sm-8\">\r\n<ul>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> многоуровневый каталог товаров с возможностью настройки любых фильтров и сортировок;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> двусторонняя интеграция с 1С: Предприятие, МойСклад, Класс 365 и других сервисов с помощью протокола CommerceML;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> интеграция с PayPal и другими платежными системами;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> выгрузка для Яндекс.Маркета и Google Merchant;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> интеграция с соц.сетями, возможность настройки выгрузки товаров для магазинов Вконтакте, Facebook;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> возможность масштабирования бизнеса - несколько магазинов в одном, работа с партнерскими программами;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> 100+ языков и возможность интеграции автоматического перевода описаний товаров;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> интеграция с Apache Solr и Apache Mahout для удобного поиска и рекомендаций товаров;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> гибкая настройка дизайна: адаптивная тема оформления HTML5, CSS3 на базе Bootstrap, Material UI;</li>\r\n\t<li><span class=\"glyphicon glyphicon-ok\"></span> визуальный редактор контента и удобно настроенный аккаунт контент-менеджера.</li>\r\n</ul>\r\n</div>\r\n\r\n<div class=\"col-sm-4\"><img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/catalog.png\" /></div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд 1'
+    langcode: ru
+    uuid: 06dbae58-69f7-4bfe-a956-d23e00861cc3
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row content\">\r\n<div class=\"col-sm-6\"><img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/box.png\" /></div>\r\n\r\n<div class=\"col-sm-6\">\r\n<div class=\"slide-1-title\">\r\n<h1>N1Commerce — первая платформа для выхода на новые рынки *</h1>\r\n</div>\r\n\r\n<p>Мы делаем интернет-магазины уже 12 лет. За это время мы накопили огромный опыт и знания, которые мы воплотили в инструмент по созданию систем электронной коммерции, автоматизации бизнеса и веб-сервисов&nbsp; N1Commerce.</p>\r\n\r\n<p class=\"lead\">N1Commerce — это весь необходимый функционал для успешного интернет-магазина.</p>\r\n\r\n<p class=\"lead\">&nbsp;</p>\r\n* — первая по количеству свободно распространяемых переводов пользовательского интерфейса, расширений, доступных под лицензией GPL.</div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд 3'
+    langcode: ru
+    uuid: e0bac6df-167b-4382-920c-6fe43a909d23
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row content\">\r\n<div class=\"col-sm-6 col-sm-offset-6\">\r\n<div class=\"slide-1-title\">\r\n<h1>Законы</h1>\r\n</div>\r\n\r\n<p class=\"list-title\">Платформа включает все требования к интернет-магазинам необходимые для соблюдения новых законов РФ:</p>\r\n\r\n<ul class=\"list\">\r\n\t<li>152-ФЗ «О персональных данных»;</li>\r\n\t<li>54-ФЗ «О применении контрольно-кассовой техники».</li>\r\n</ul>\r\n\r\n<p class=\"list-title\">Возможность размещения на сайте необходимых документов:</p>\r\n\r\n<ul class=\"list\">\r\n\t<li>политика компании в отношении персональных данных;</li>\r\n\t<li>соглашение на использование персональных данных;</li>\r\n\t<li>публичная оферта;</li>\r\n\t<li>пользовательское соглашение об использовании сайта;</li>\r\n\t<li>соглашение на использование cookies.</li>\r\n</ul>\r\n\r\n<p class=\"list-title\">Возможность интеграции с фискальными сервисами:</p>\r\n\r\n<ul class=\"list\">\r\n\t<li>отсутствие необходимости обслуживать кассу — о ней заботится сисадмин в ЦОД, 24/7;</li>\r\n\t<li>автоматическое пробитие фискального чека в момент оплаты;</li>\r\n\t<li>автоматическая отправка чека Опературу Фискальных Данных;</li>\r\n\t<li>просмотр всех кассовых операций в режиме онлайн.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд 4'
+    langcode: ru
+    uuid: 5cb57d65-c015-4df2-af14-24faae69f0e2
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row content\">\r\n<div class=\"col-sm-6\">\r\n<div class=\"slide-1-title\">\r\n<h1 class=\"title\">N1Commerce + SEO = ТОП10</h1>\r\n</div>\r\n\r\n<p>Торговые площадки, сделанные на N1Commerce, максимально оптимизированы под продвижения в поисковых системах. Это не сайты-конструкторы или шаблонные витрины маркетплейсов, а полноценные самостоятельные интернет-магазины с четкой структурой и красивым кодом. И поисковики это ценят!</p>\r\n\r\n<ul class=\"list\">\r\n\t<li>гибкие настройки индексации страниц,</li>\r\n\t<li>мета-теги,</li>\r\n\t<li>ЧПУ и \"хлебные крошки\",</li>\r\n\t<li>умная настройка индексации фильтров каталога под огромный пул низкоконкурентных запросов,</li>\r\n\t<li>микроразметка Schema.org,</li>\r\n\t<li>чек-листы по коммерческим факторам для интернет-магазинов,</li>\r\n\t<li>интеграция со всеми соц.сетями: виджеты авторизации, комментариев, лайков, постинг,</li>\r\n\t<li>интеграция YouTube,</li>\r\n\t<li>удобная аналитика и инструменты повышения продаж: Google Analytics и Яндекс Метрика для интернет-магазинов, A/B тестирования, Facebook tracking pixel.</li>\r\n</ul>\r\n</div>\r\n\r\n<div class=\"col-sm-6\"><img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/bg4.jpg\" /></div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд 5'
+    langcode: ru
+    uuid: e18c3550-e040-45a5-bfef-4624b7e28080
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row content\">\r\n<div class=\"col-sm-6 text-center\"><img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/drupal_8_logo.svg\" /></div>\r\n\r\n<div class=\"col-sm-6\">\r\n<div class=\"slide-1-title\">\r\n<h1 class=\"title\">Технологии N1Commerce</h1>\r\n</div>\r\n\r\n<p>Платформа N1Commerce собрана на базе Drupal: система управления контентом с открытым исходным кодом. На Drupal создано более 1 500 000 сайтов по всему миру.</p>\r\n\r\n<p>Сайты на Drupal легко доработать под любой функционал и собственный дизайн. Drupal — это 37000+ готовых модулей, 2400+ дизайн-шаблонов, более 1 млн. человек в сообществе разработчиков.</p>\r\n\r\n<p>Наша команда оказывает услуги разработки, внедрения и поддержки Drupal-проектов любой сложности.</p>\r\n</div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд 6'
+    langcode: ru
+    uuid: 6adadd9b-5577-4530-9423-95975e568149
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row slide-1-title\">\r\n<div class=\"col-sm-12 text-center\">\r\n<h1 class=\"title\">Лучше чем</h1>\r\n</div>\r\n</div>\r\n\r\n<div class=\"row content\">\r\n<div class=\"col-sm-4\">\r\n<div class=\"best-wrapper\">\r\n<img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/sl6-1.svg\" />\r\n<p class=\"title-list\">конструктор:</p>\r\n\r\n<ul class=\"list\">\r\n\t<li>вы не привязаны ни к кому — сами распоряжаетесь своим сайтом: включаете, отключаете, дублируете, меняете домен и хостинг;</li>\r\n\t<li>поисковики «не любят» конструкторы, спросите у любого сеошника!</li>\r\n\t<li>легко доработать любой нестандартный функционал.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-sm-4\">\r\n<div class=\"best-wrapper\">\r\n<img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/sl6-2.svg\" />\r\n<p class=\"title-list\">другие CMS:</p>\r\n\r\n<ul class=\"list\">\r\n\t<li>самая популярная среди посещаемых сайтов;</li>\r\n\t<li>ориентирована на большие проекты, а не на блоги или сайты-визитки;</li>\r\n\t<li>37 000+ готовых модулей для любых нужд.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-sm-4\">\r\n<div class=\"best-wrapper\">\r\n<img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/sl6-3.svg\" />\r\n<p class=\"title-list\">самопис:</p>\r\n\r\n<ul class=\"list\">\r\n\t<li>не нужно тратить время на разработку стандартного функционала;</li>\r\n\t<li>огромное сообщество разработчиков. У вас не будет проблем с поддержкой и доработкой сайта.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд 7'
+    langcode: ru
+    uuid: 19d46944-ba04-49d9-afec-f742cb7612b4
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row content\">\r\n<div class=\"col-sm-12 text-center\">\r\n<div class=\"slide-1-title\">\r\n<h1 class=\"title\">Почему нам стоит доверять:</h1>\r\n</div>\r\n</div>\r\n\r\n\r\n<div class=\"col-sm-6 clearfix\" style=\"margin-bottom:20px\">\r\n<div class=\"col-sm-6 col-xs-6 text-center\">\r\n<div class=\"icon-wrapper\">\r\n<div class=\"icon\">12 лет</div>\r\n\r\n<p>опыта разработки<br>интернет-магазинов</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-sm-6  col-xs-6 text-center\">\r\n<div class=\"icon-wrapper\">\r\n<div class=\"icon\">200+</div>\r\n\r\n<p>успешных проектов</p>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-sm-6\" style=\"margin-bottom:20px\">\r\n<div class=\"col-sm-6 col-xs-6 text-center\">\r\n<div class=\"icon-wrapper\">\r\n<div class=\"icon\"><span class=\"glyphicon glyphicon-wrench\"></span></div>\r\n\r\n<p>использование новейших разработок</p>\r\n</div>\r\n</div>\r\n\r\n<div class=\"col-sm-6  col-xs-6 text-center\">\r\n<div class=\"icon-wrapper\">\r\n<div class=\"icon\"><span class=\"glyphicon glyphicon-briefcase\"></span></div>\r\n\r\n<p>постоянный штат сотрудников и никаких фрилансеров</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n\r\n\r\n<div class=\"row\">\r\n  <div class=\"col-sm-6  text-center\">\r\n      <a href=\"https://initlab.ru\" title=\"Перейти на initlab.ru\"><img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/initlab.svg\" /></a>\r\n  </div>\r\n  <div class=\"col-sm-6  text-center drupal-coder-logo\">\r\n    <a href=\"https://drupal-coder.ru\" title=\"Перейти на drupal-coder.ru\" ><span>drupal</span><span>coder</span></a>\r\n  </div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: Кнопки
+    langcode: ru
+    uuid: a27a1602-ab8b-48ad-8ba2-b8f73d1fb0da
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row buttons\">\r\n<div class=\"col-sm-9 col-xs-6 \">\r\n<p><a href=\"/ru/contact/otpravit_zaavku\" role=\"button\" class=\"use-ajax contact-form btn btn-primary btn-lg active\" data-dialog-type=\"modal\">Рассчитать цену</a><span class=\"tel\">Тел. <a href=\"tel:88002222673\">8 800 222-26-73</a><span class=\"small-text\"> (звонок по России бесплатный)</span></span></p>\r\n</div>\r\n\r\n<div class=\"col-sm-3 col-xs-6 text-right\">\r\n<p><a class=\"btn btn-primary btn-lg active\" href=\"/catalog-index\" role=\"button\">Демо</a><span class=\"mob-tel\"><a href=\"tel:88002222673\"><span class=\"glyphicon glyphicon-earphone\"></span></a></span></p>\r\n</div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Код метрики'
+    langcode: ru
+    uuid: 4c6b31f3-b601-43e0-a7f2-eb86adb30de7
+    bundle: basic
+    fields:
+      body:
+        value: "<!-- Yandex.Metrika counter -->\r\n<script type=\"text/javascript\">\r\n    (function (d, w, c) {\r\n        (w[c] = w[c] || []).push(function() {\r\n            try {\r\n                w.yaCounter44782690 = new Ya.Metrika({\r\n                    id:44782690,\r\n                    clickmap:true,\r\n                    trackLinks:true,\r\n                    accurateTrackBounce:true,\r\n                    webvisor:true,\r\n                    trackHash:true\r\n                });\r\n            } catch(e) { }\r\n        });\r\n\r\n        var n = d.getElementsByTagName(\"script\")[0],\r\n            s = d.createElement(\"script\"),\r\n            f = function () { n.parentNode.insertBefore(s, n); };\r\n        s.type = \"text/javascript\";\r\n        s.async = true;\r\n        s.src = \"https://mc.yandex.ru/metrika/watch.js\";\r\n\r\n        if (w.opera == \"[object Opera]\") {\r\n            d.addEventListener(\"DOMContentLoaded\", f, false);\r\n        } else { f(); }\r\n    })(document, window, \"yandex_metrika_callbacks\");\r\n</script>\r\n<!-- /Yandex.Metrika counter -->"
+        summary: ''
+        format: restricted_html
+  -
+    info: 'Метрики код'
+    langcode: ru
+    uuid: b9d0bde4-82dc-44ed-8d3e-93c13d072f28
+    bundle: basic
+    fields:
+      body:
+        value: "<!-- Yandex.Metrika counter --><script type=\"text/javascript\">\r\n    (function (d, w, c) {\r\n        (w[c] = w[c] || []).push(function() {\r\n            try {\r\n                w.yaCounter44782690 = new Ya.Metrika({\r\n                    id:44782690,\r\n                    clickmap:true,\r\n                    trackLinks:true,\r\n                    accurateTrackBounce:true,\r\n                    webvisor:true,\r\n                    trackHash:true\r\n                });\r\n            } catch(e) { }\r\n        });\r\n\r\n        var n = d.getElementsByTagName(\"script\")[0],\r\n            s = d.createElement(\"script\"),\r\n            f = function () { n.parentNode.insertBefore(s, n); };\r\n        s.type = \"text/javascript\";\r\n        s.async = true;\r\n        s.src = \"https://mc.yandex.ru/metrika/watch.js\";\r\n\r\n        if (w.opera == \"[object Opera]\") {\r\n            d.addEventListener(\"DOMContentLoaded\", f, false);\r\n        } else { f(); }\r\n    })(document, window, \"yandex_metrika_callbacks\");\r\n</script><!-- /Yandex.Metrika counter -->"
+        summary: ''
+        format: full_html
+  -
+    info: 'Метрический код'
+    langcode: ru
+    uuid: a0fb08e3-01cf-41bf-bdea-fbbfa82cac77
+    bundle: basic
+    fields:
+      body:
+        value: "<!-- Yandex.Metrika counter -->\r\n<script type=\"text/javascript\">\r\n    (function (d, w, c) {\r\n        (w[c] = w[c] || []).push(function() {\r\n            try {\r\n                w.yaCounter44782690 = new Ya.Metrika({\r\n                    id:44782690,\r\n                    clickmap:true,\r\n                    trackLinks:true,\r\n                    accurateTrackBounce:true,\r\n                    webvisor:true,\r\n                    trackHash:true\r\n                });\r\n            } catch(e) { }\r\n        });\r\n\r\n        var n = d.getElementsByTagName(\"script\")[0],\r\n            s = d.createElement(\"script\"),\r\n            f = function () { n.parentNode.insertBefore(s, n); };\r\n        s.type = \"text/javascript\";\r\n        s.async = true;\r\n        s.src = \"https://mc.yandex.ru/metrika/watch.js\";\r\n\r\n        if (w.opera == \"[object Opera]\") {\r\n            d.addEventListener(\"DOMContentLoaded\", f, false);\r\n        } else { f(); }\r\n    })(document, window, \"yandex_metrika_callbacks\");\r\n</script>\r\n<!-- /Yandex.Metrika counter -->"
+        summary: ''
+        format: full_html
+  -
+    info: 'Мега меню - разделы'
+    langcode: ru
+    uuid: 8f5aea04-3324-4369-bc9a-d7832ae90be0
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row\">\r\n<div class=\"col-md-4 megamenu-wrapper\">\r\n<h5>Новинки</h5>\r\n<ul>\r\n<li><a href=\"/catalog-index\">Футболки</a>\r\n<li><a href=\"/catalog-index\">Кепки</a>\r\n<li><a href=\"/catalog-index\">Куртки</a>\r\n<li><a href=\"/catalog-index\">Шорты</a>\r\n</ul>\r\n</div>\r\n<div class=\"col-md-4 megamenu-wrapper\">\r\n<h5>Распродажа</h5>\r\n<ul>\r\n<li><a href=\"/catalog-index\">Футболки</a>\r\n<li><a href=\"/catalog-index\">Кепки</a>\r\n<li><a href=\"/catalog-index\">Куртки</a>\r\n<li><a href=\"/catalog-index\">Шорты</a>\r\n</ul>\r\n</div>\r\n<div class=\"col-md-4 megamenu-wrapper\">\r\n<h5>Выбор редакции</h5>\r\n<ul>\r\n<li><a href=\"/catalog-index\">Футболки</a>\r\n<li><a href=\"/catalog-index\">Кепки</a>\r\n<li><a href=\"/catalog-index\">Куртки</a>\r\n<li><a href=\"/catalog-index\">Шорты</a>\r\n</ul>\r\n</div>\r\n</div>\r\n\r\n<div class=\"row\">\r\n<div class=\"col-md-4 megamenu-wrapper\">\r\n<h5>Мужские</h5>\r\n<ul>\r\n<li><a href=\"/catalog-index\">Футболки</a>\r\n<li><a href=\"/catalog-index\">Кепки</a>\r\n<li><a href=\"/catalog-index\">Куртки</a>\r\n<li><a href=\"/catalog-index\">Шорты</a>\r\n</ul>\r\n</div>\r\n<div class=\"col-md-4 megamenu-wrapper\">\r\n<h5>Женские</h5>\r\n<ul>\r\n<li><a href=\"/catalog-index\">Футболки</a>\r\n<li><a href=\"/catalog-index\">Кепки</a>\r\n<li><a href=\"/catalog-index\">Куртки</a>\r\n<li><a href=\"/catalog-index\">Шорты</a>\r\n</ul>\r\n</div>\r\n<div class=\"col-md-4 megamenu-wrapper\">\r\n<h5>Детские</h5>\r\n<ul>\r\n<li><a href=\"/catalog-index\">Футболки</a>\r\n<li><a href=\"/catalog-index\">Кепки</a>\r\n<li><a href=\"/catalog-index\">Куртки</a>\r\n<li><a href=\"/catalog-index\">Шорты</a>\r\n</ul>\r\n</div>\r\n</div>"
+        summary: ''
+        format: full_html
+  -
+    info: 'Слайд "Scantukan"'
+    langcode: ru
+    uuid: 73bc09c0-12bf-4ffc-8d46-82ce4bc9370b
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"row content\">\r\n<div class=\"slide-1-title col-sm-12\">\r\n<h1>Бэк-офис для внедрения VR/AR</h1>\r\n</div>\r\n\r\n<div class=\"col-sm-6\">\r\n<p>Новая реальность уже в городе, а вы еще не в теме? Установите приложение Scantukan, найдите метку с туканом, сканируйте и отправляйтесь в дополненную реальность. Узнайте, что подготовил для вас магазин: видеообзор о товаре, 3d-модель в натуральную величину, а может специальную скидку \"для избранных\".\r\n</p>\r\n<p>Какие преимущества вы получаете?</p>\r\n\r\n<ul class=\"list\">\r\n  <li>Увеличение продаж. Приложение увеличивает вовлеченность клиентов и конверсию, за счет повышения осведомленности клиента о товаре. &nbsp;</li>\r\n   <li>Упрощение взаимодействия с покупателями. Ваши клиенты в интерактивной форме могут получить всю необходимую информацию о товаре, посмотреть характеристики, почитать отзывы, посмотреть галерею фотографий и многое другое. И все это без помощи продавца-консультанта. </li>\r\n   <li>Экономия торговой площади. Приложение позволяет выводить галерею фотографий или реалистичную модель товара в дополненной реальности. Это дает возможность продемонстрировать огромное количество товаров на небольшой торговой площади.</li>\r\n   <li>Повышение эффективности работы консультанта. Работники торгового зала могут оперативно предоставлять всю необходимую информацию при консультировании покупателей. &nbsp;</li>\r\n   <li>Следование трендам современных технологий. Ведущие издания, такие как «Forbes», «The Village» прогнозируют активный рост популярности технологии дополненной и виртуальной реальности в 2017 - 2018 годах. Портал «Ведомости» прогнозирует рост развития технологий дополненной и виртуальной реальности в 20 раз к 2020 году.&nbsp;</li>\r\n</ul>\r\n\r\n</div>\r\n\r\n<div class=\"col-sm-6\"><img rel=\"rucommerce\" src=\"/themes/custom/n1commerce/images/scantukan.svg\" /></div>\r\n</div>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Рассчитать цену'
+    langcode: ru
+    uuid: 91414c00-d8d9-4d3c-823a-7e7be95c94db
+    bundle: basic
+    fields:
+      body:
+        value: "<div class=\"fixed-action-btn\">\r\n  <a class=\"btn-floating blue\" href=\"tel:88002222673\" onclick=\"Materialize.toast('8 800 222-26-73 (звонок по России бесплатный)', 4000)\"><i class=\"material-icons\">phone</i></a>\r\n</div>\r\n          "
+        summary: ''
+        format: full_html
+  -
+    info: Copyright
+    langcode: ru
+    uuid: 568921df-26ef-4820-97b8-822910bcc11e
+    bundle: basic
+    fields:
+      body:
+        value: 'Powered by <a href="https://N1Commerce.ru">N1Commerce</a>'
+        summary: ''
+        format: full_html
+  -
+    info: Контакты
+    langcode: ru
+    uuid: cc061ed2-1433-4606-a279-0a1c222d98d3
+    bundle: basic
+    fields:
+      body:
+        value: "<a href=\"tel:890024509034\" class=\"btn-floating btn-tiny red text-white\"><i class=\"material-icons tiny\">local_phone</i></a> <a href=\"tel:890024509034\">8 900 245 090 34</a><br />\r\n<a href=\"mailto:irinapaukshte@gmail.com\" class=\"btn-floating btn-tiny red text-white\"><i class=\"material-icons tiny\">mail_outline</i></a> <a href=\"mailto:irinapaukshte@gmail.com\">irinapaukshte@gmail.com</a>\r\n"
+        summary: ''
+        format: full_html
+  -
+    info: 'Catalog dropdown button'
+    langcode: en
+    uuid: c1e67e73-8f56-47f5-b70e-495e6376c45c
+    bundle: basic
+    fields:
+      body:
+        value: '<a class="dropdown-button" href="#!" data-activates="block-views-block-catalog-index-navigation-block-1-2">Dropdown<i class="material-icons right">arrow_drop_down</i></a>'
+        summary: ''
+        format: full_html
+  -
+    info: 'Block with webform and map'
+    langcode: en
+    uuid: b1052983-c1ba-472e-8fe2-da8c4f50953d
+    bundle: webform_and_map
+    fields:
+      body:
+        value: 'Block with webform and map'
+        summary: ''
+        format: full_html
+      field_location:
+        lat: '7.6058087498035'
+        lng: '28.990322174366'
+        lat_sin: '0.13235688080234'
+        lat_cos: '0.99120212676541'
+        lng_rad: '0.50597657315662'
+        data: null
+      field_webform:
+        target_id: contact_form
+        default_data: ''
+        status: open
+        open: ''
+        close: ''
+  -
+    info: 'Fullwidth slider'
+    langcode: en
+    uuid: 392f1ee0-d065-4980-80eb-a318839e5463
+    bundle: photo_video_slider
+    fields:
+      field_link: null
+      field_media:
+        target_id: '11'
+        target_revision_id: '11'
+      field_title: null
+menus:
+  -
+    menu_name: main
+    title: 'Все товары'
+    parent: 'menu_link_content:1704b2e9-6d15-48ab-bca3-3aa87bf4de98'
+    uri: 'internal:/catalog/all'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: ru
+    uuid: c44d42b9-dbc5-42ea-b666-5e4cc9c70c3f
+    attributes: null
+  -
+    menu_name: main
+    title: Кепки
+    parent: 'menu_link_content:1704b2e9-6d15-48ab-bca3-3aa87bf4de98'
+    uri: 'internal:/catalog/caps'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: ru
+    uuid: 99fbd475-e160-4b51-858b-d16367f89f4a
+    attributes: null
+  -
+    menu_name: main
+    title: Футболки
+    parent: 'menu_link_content:1704b2e9-6d15-48ab-bca3-3aa87bf4de98'
+    uri: 'internal:/catalog/t-shirts'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-47'
+    langcode: ru
+    uuid: a8a111ba-d751-4ac9-922a-7df6cb57f5f4
+    attributes: null
+  -
+    menu_name: main
+    title: Шорты
+    parent: 'menu_link_content:1704b2e9-6d15-48ab-bca3-3aa87bf4de98'
+    uri: 'internal:/catalog/shorts'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-46'
+    langcode: ru
+    uuid: 44539ca7-7a6a-4c83-bdb2-deef59e901b2
+    attributes: null
+  -
+    menu_name: main
+    title: Куртки
+    parent: 'menu_link_content:1704b2e9-6d15-48ab-bca3-3aa87bf4de98'
+    uri: 'internal:/catalog/jackets'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: ru
+    uuid: 7d1599f1-1e7d-4d16-b51d-f983dc0e2cb3
+    attributes: null
+  -
+    menu_name: main
+    title: Каталог
+    parent: null
+    uri: 'internal:/catalog/all'
+    link_title: ''
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '-48'
+    langcode: ru
+    uuid: 1704b2e9-6d15-48ab-bca3-3aa87bf4de98
+    attributes: null
+  -
+    menu_name: account
+    title: 'Моя учётная запись'
+    parent: null
+    uri: 'internal:/user'
+    link_title: ''
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '-49'
+    langcode: ru
+    uuid: 3e5260dc-70c9-4e64-ad8c-10d3e467042e
+    attributes: null
+  -
+    menu_name: account
+    title: 'Enter account'
+    parent: null
+    uri: 'internal:/user/login'
+    link_title: ''
+    description: null
+    enabled: '0'
+    expanded: '0'
+    weight: '-47'
+    langcode: ru
+    uuid: 83bb83da-23a9-4a9d-9b26-f60327b29e24
+    attributes: null
+  -
+    menu_name: account
+    title: Registration
+    parent: null
+    uri: 'internal:/user/register'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-48'
+    langcode: ru
+    uuid: c035c383-8ba8-4728-a9e9-0990bad9e0bd
+    attributes: null
+  -
+    menu_name: main
+    title: 'About project'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: ru
+    uuid: 23d62eb6-c05c-45b4-87b9-89dca728ef00
+    attributes: null
+  -
+    menu_name: main
+    title: FAQ
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: ru
+    uuid: a81e1a7d-6f48-4bc7-8506-89eee83f9985
+    attributes: null
+  -
+    menu_name: footer
+    title: Help
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: ru
+    uuid: a7d11244-264a-4ad6-b850-8c05b74182b2
+    attributes: null
+  -
+    menu_name: footer
+    title: FAQ
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: ru
+    uuid: 08a1c3df-b37e-4930-8b4b-9e4603ee406a
+    attributes: null
+  -
+    menu_name: footer
+    title: 'About project'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: ru
+    uuid: 86d5f38a-f79a-487e-919a-4a42a5b19bc1
+    attributes: null
+  -
+    menu_name: footer-right
+    title: 'End-user license agreement'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-50'
+    langcode: en
+    uuid: cfa7b2ea-b1bc-4d23-b5b3-24584d46aaf3
+    attributes: null
+  -
+    menu_name: footer-right
+    title: 'System requriments'
+    parent: null
+    uri: 'internal:/'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '-49'
+    langcode: en
+    uuid: f921133d-76ff-4fcd-a849-e3d542b31824
+    attributes: null
+  -
+    menu_name: account
+    title: Login
+    parent: null
+    uri: 'internal:#block-userlogin'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 0455d1f9-5a9a-4bd9-9453-a4067802d998
+    attributes:
+      class: 'waves-effect waves-light btn modal-trigger'
+  -
+    menu_name: account
+    title: Logout
+    parent: null
+    uri: 'internal:/user/logout'
+    link_title: ''
+    description: null
+    enabled: '1'
+    expanded: '0'
+    weight: '0'
+    langcode: en
+    uuid: 18d87561-e5b9-4969-8609-56227be0fee3
+    attributes: null

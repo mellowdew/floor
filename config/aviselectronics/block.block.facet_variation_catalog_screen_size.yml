@@ -1,0 +1,58 @@
+uuid: 12a86f47-a8b3-4886-86d0-94d6cc93c602
+langcode: en
+status: true
+dependencies:
+  config:
+    - facets.facet.variation_catalog_screen_size
+  module:
+    - block_class
+    - facets
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: facet_variation_catalog_screen_size
+theme: aviselectronics
+region: sidebar_first_colapsible_facets
+weight: -32
+provider: null
+plugin: 'facet_block:variation_catalog_screen_size'
+settings:
+  id: 'facet_block:variation_catalog_screen_size'
+  label: 'Screen size'
+  provider: facets
+  label_display: visible
+  block_id: facet_variation_catalog_screen_size
+visibility:
+  request_path:
+    id: request_path
+    pages: "/catalog\r\n/catalog/*\r\n/taxonomy/term/*"
+    negate: false
+    context_mapping: {  }
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

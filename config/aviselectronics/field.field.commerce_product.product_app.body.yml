@@ -1,0 +1,23 @@
+uuid: 38426703-987f-4bbd-9531-700242816ff6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product_app
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.product_app.body
+field_name: body
+entity_type: commerce_product
+bundle: product_app
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

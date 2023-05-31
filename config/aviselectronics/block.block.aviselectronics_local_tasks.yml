@@ -1,0 +1,22 @@
+uuid: 83ffcbfc-5c46-4659-8733-6cae316695db
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - aviselectronics
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: aviselectronics_local_tasks
+theme: aviselectronics
+region: content
+weight: -32
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

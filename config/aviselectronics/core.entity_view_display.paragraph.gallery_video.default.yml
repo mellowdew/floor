@@ -1,0 +1,35 @@
+uuid: aa6a5266-cc6a-4f59-b7b6-917d2ddeb73e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.gallery_video.field_gallery_video
+    - image.style.slider_large_middle_slide
+    - paragraphs.paragraphs_type.gallery_video
+  module:
+    - ds
+    - video_embed_field
+id: paragraph.gallery_video.default
+targetEntityType: paragraph
+bundle: gallery_video
+mode: default
+content:
+  field_gallery_video:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: slider_large_middle_slide
+      link_image_to: ''
+      responsive: true
+      width: 520
+      height: 292
+      autoplay: false
+    third_party_settings:
+      ds:
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: video_embed_field_lazyload
+    region: content
+hidden: {  }

@@ -1,0 +1,228 @@
+uuid: d8496e8c-2d67-4c24-9dcf-0c3c8451a1a9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.commerce_product_variation.attribute_screen_finish
+    - field.storage.commerce_product_variation.attribute_screen_size
+    - field.storage.commerce_product.field_catalog
+    - field.storage.commerce_product_variation.field_weight
+    - field.storage.commerce_product_variation.field_publish
+    - field.storage.commerce_product_variation.attribute_smart_tv
+    - field.storage.commerce_product_variation.attribute_screen_mirroring
+    - field.storage.commerce_product_variation.attribute_facade_width
+    - search_api.server.default_server
+    - core.entity_view_mode.commerce_product_variation.teaser_variation_catalog
+  module:
+    - commerce_product
+    - search_api
+id: catalog_variations_index
+name: 'Catalog variations index'
+description: ''
+read_only: false
+field_settings:
+  attribute_facade_width:
+    label: 'Facade Width'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: attribute_facade_width
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.attribute_facade_width
+  attribute_screen_finish:
+    label: 'Screen Finish'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: attribute_screen_finish
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.attribute_screen_finish
+  attribute_screen_mirroring:
+    label: 'Android Touch'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: attribute_screen_mirroring
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.attribute_screen_mirroring
+  attribute_screen_size:
+    label: 'Screen size'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: attribute_screen_size
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.attribute_screen_size
+  attribute_smart_tv:
+    label: 'Smart TV'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: attribute_smart_tv
+    type: integer
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.attribute_smart_tv
+  field_catalog:
+    label: 'Товар » Товар » Category'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: 'product_id:entity:field_catalog'
+    type: integer
+    dependencies:
+      module:
+        - commerce_product
+      config:
+        - field.storage.commerce_product.field_catalog
+  field_publish:
+    label: 'Publish in catalog'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: field_publish
+    type: boolean
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.field_publish
+  field_weight:
+    label: Weight
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: field_weight
+    type: decimal
+    dependencies:
+      config:
+        - field.storage.commerce_product_variation.field_weight
+  number:
+    label: 'Price » Number'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: 'price:number'
+    type: integer
+  rendered_item:
+    label: 'Rendered HTML output'
+    property_path: rendered_item
+    type: text
+    configuration:
+      roles:
+        anonymous: anonymous
+      view_mode:
+        'entity:commerce_product_variation':
+          product_variation: teaser_variation_catalog
+          product_variation_app: ''
+  status:
+    label: Активно
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: status
+    type: boolean
+  title:
+    label: Title
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: title
+    type: string
+  type:
+    label: 'Product variation type'
+    datasource_id: 'entity:commerce_product_variation'
+    property_path: type
+    type: string
+datasource_settings:
+  'entity:commerce_product_variation':
+    bundles:
+      default: false
+      selected:
+        - product_variation
+        - product_variation_app
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  add_url: {  }
+  aggregated_field: {  }
+  hierarchy:
+    fields:
+      field_catalog: taxonomy_term-parent
+    weights:
+      preprocess_index: -45
+  html_filter:
+    all_fields: false
+    fields: {  }
+    title: true
+    alt: true
+    tags:
+      b: 2
+      h1: 5
+      h2: 3
+      h3: 2
+      strong: 2
+    weights:
+      preprocess_index: -47
+      preprocess_query: -47
+  ignorecase:
+    all_fields: false
+    fields:
+      - rendered_item
+      - title
+      - type
+    weights:
+      preprocess_index: -50
+      preprocess_query: -49
+  rendered_item: {  }
+  stopwords:
+    all_fields: false
+    fields:
+      - rendered_item
+    stopwords:
+      - a
+      - an
+      - and
+      - are
+      - as
+      - at
+      - be
+      - but
+      - by
+      - for
+      - if
+      - in
+      - into
+      - is
+      - it
+      - 'no'
+      - not
+      - of
+      - 'on'
+      - or
+      - s
+      - such
+      - t
+      - that
+      - the
+      - their
+      - then
+      - there
+      - these
+      - they
+      - this
+      - to
+      - was
+      - will
+      - with
+    weights:
+      preprocess_index: -49
+      preprocess_query: -50
+  tokenizer:
+    all_fields: false
+    fields: {  }
+    spaces: ''
+    overlap_cjk: 1
+    minimum_word_size: '3'
+    weights:
+      preprocess_index: -45
+      preprocess_query: -45
+  transliteration:
+    all_fields: false
+    fields: {  }
+    weights:
+      preprocess_index: -48
+      preprocess_query: -48
+tracker_settings:
+  default:
+    indexing_order: fifo
+options:
+  index_directly: true
+  cron_limit: 50
+  track_changes_in_references: true
+server: default_server

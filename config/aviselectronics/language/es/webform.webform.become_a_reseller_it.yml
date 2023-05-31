@@ -1,0 +1,2 @@
+elements: "name:\n  '#title': Nombre\ncountry:\n  '#title': País\ne_mail:\n  '#title': 'Dirección de correo electrónico'\nwebsite:\n  '#title': 'Sitio Web'\nmessage:\n  '#title': Mensaje\nactions:\n  '#submit__label': ENVIAR\n"
+title: 'BECOME A RESELLER ES'

@@ -1,0 +1,26 @@
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtro
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Todos -'
+            offset_label: Deslocamento
+      fields:
+        langcode:
+          label: Idioma
+        redirect_404_operations:
+          label: Operações
+      filters:
+        langcode:
+          expose:
+            label: Idioma
+  page_1:
+    display_title: Página

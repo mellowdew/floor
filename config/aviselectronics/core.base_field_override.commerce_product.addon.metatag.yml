@@ -1,0 +1,18 @@
+uuid: 0d9c1a71-6925-44df-bda6-87723f33da73
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.addon
+id: commerce_product.addon.metatag
+field_name: metatag
+entity_type: commerce_product
+bundle: addon
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

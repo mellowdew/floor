@@ -1,0 +1,20 @@
+uuid: ef7fc72a-ed10-4426-a699-33bf1dcf831d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog
+  module:
+    - text
+id: taxonomy_term.catalog.description
+field_name: description
+entity_type: taxonomy_term
+bundle: catalog
+label: Описание
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

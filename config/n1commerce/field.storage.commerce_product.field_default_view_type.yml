@@ -1,0 +1,36 @@
+uuid: a3d60726-efdc-4826-914c-b5dff7d24a81
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - options
+id: commerce_product.field_default_view_type
+field_name: field_default_view_type
+entity_type: commerce_product
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: ar
+      label: 'Дополненная реальность'
+    -
+      value: promotion
+      label: Акция
+    -
+      value: characteristics
+      label: Характеристики
+    -
+      value: overlay
+      label: 'Дополненная реальность + кнопки'
+    -
+      value: gallery
+      label: Галерея
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

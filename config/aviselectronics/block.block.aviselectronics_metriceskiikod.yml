@@ -1,0 +1,30 @@
+uuid: 9e86e867-6c1d-42cd-85fb-77bba87a3d6d
+langcode: ru
+status: false
+dependencies:
+  module:
+    - user
+  theme:
+    - aviselectronics
+id: aviselectronics_metriceskiikod
+theme: aviselectronics
+region: copyright
+weight: -33
+provider: null
+plugin: 'block_content:a0fb08e3-01cf-41bf-bdea-fbbfa82cac77'
+settings:
+  id: 'block_content:a0fb08e3-01cf-41bf-bdea-fbbfa82cac77'
+  label: 'Метрический код'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      anonymous: anonymous
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

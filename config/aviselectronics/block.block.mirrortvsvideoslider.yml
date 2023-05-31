@@ -1,0 +1,60 @@
+uuid: 05ac9f17-2d08-48a0-a955-50ad8deb7033
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:photo_video_slider:8573ab49-55e3-4cec-bad9-21c5e6a47e10'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: mirrortvsvideoslider
+theme: aviselectronics
+region: content
+weight: -29
+provider: null
+plugin: 'block_content:8573ab49-55e3-4cec-bad9-21c5e6a47e10'
+settings:
+  id: 'block_content:8573ab49-55e3-4cec-bad9-21c5e6a47e10'
+  label: 'Mirror TVs video slider'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: fullwidth_slider
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/catalog/bathroom-tvs\r\n/catalog/shower-tvs\r\n/catalog/mirror-televisions"
+    negate: false
+    context_mapping: {  }

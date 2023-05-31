@@ -1,0 +1,22 @@
+uuid: 64713c39-b0de-4766-9d45-912a693f0774
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.addon
+id: commerce_product.addon.status
+field_name: status
+entity_type: commerce_product
+bundle: addon
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

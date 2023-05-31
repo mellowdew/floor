@@ -1,0 +1,11 @@
+uuid: 3c6270d4-8b7a-4b99-8b1c-ca49b12ae207
+langcode: en
+status: true
+dependencies: {  }
+id: cource
+label: Cource
+description: ''
+variationType: lesson
+injectVariationFields: true
+traits: {  }
+locked: false

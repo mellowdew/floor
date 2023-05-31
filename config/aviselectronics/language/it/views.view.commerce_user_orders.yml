@@ -1,0 +1,39 @@
+display:
+  default:
+    display_title: Principale
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Applica
+          reset_button_label: Ripristina
+          exposed_sorts_label: 'Ordina per'
+          sort_desc_label: Disc
+      pager:
+        options:
+          tags:
+            previous: '‹ Precedente'
+            next: 'Seguente ›'
+            first: '« Prima'
+            last: 'Ultima »'
+          expose:
+            items_per_page_label: 'Voci per pagina'
+            items_per_page_options_all_label: '- Tutto -'
+            offset_label: Scostamento
+      fields:
+        order_number:
+          label: 'Numero d''ordine'
+        placed:
+          label: Data
+        total_price__number:
+          label: Totale
+        state:
+          label: Stato
+      title: Ordini
+      arguments:
+        uid:
+          exception:
+            title: Tutti
+  order_page:
+    display_options:
+      menu:
+        title: Ordini

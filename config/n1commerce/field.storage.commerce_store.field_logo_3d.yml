@@ -1,0 +1,23 @@
+uuid: 7cd5a42d-8e5b-4b2a-9bfa-7e7faf7f78b4
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_store
+    - file
+id: commerce_store.field_logo_3d
+field_name: field_logo_3d
+entity_type: commerce_store
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,13 @@
+uuid: 8d9f0ad5-6c53-4169-841c-d648920bb8ee
+langcode: ru
+status: true
+dependencies:
+  module:
+    - flag
+id: flag_action.compare_variation_flag
+label: 'Add to compare'
+type: commerce_product_variation
+plugin: 'flag_action:compare_variation_flag'
+configuration:
+  flag_id: compare_variation
+  flag_action: flag

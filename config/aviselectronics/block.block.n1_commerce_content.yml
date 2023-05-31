@@ -1,0 +1,22 @@
+uuid: 5c4ec333-ad47-4dd3-a920-5aefabd6bd87
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - n1_commerce
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: n1_commerce_content
+theme: n1_commerce
+region: content
+weight: -12
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

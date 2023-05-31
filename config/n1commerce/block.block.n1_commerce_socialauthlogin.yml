@@ -1,0 +1,26 @@
+uuid: 8b43a8ad-1c2f-4296-9a13-0d0b8a50a4e1
+langcode: ru
+status: true
+dependencies:
+  module:
+    - social_auth
+    - system
+  theme:
+    - n1_commerce
+id: n1_commerce_socialauthlogin
+theme: n1_commerce
+region: footer
+weight: -16
+provider: null
+plugin: social_auth_login
+settings:
+  id: social_auth_login
+  label: 'Войти через:'
+  provider: social_auth
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/user/login\r\n/ru/user/login"
+    negate: false
+    context_mapping: {  }

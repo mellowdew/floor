@@ -1,0 +1,41 @@
+uuid: 3ee143fd-f9e0-457f-ae21-c1758b501f19
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.fullwidth_slider
+    - field.field.paragraph.slider.field_slider_slide
+    - paragraphs.paragraphs_type.slider
+  module:
+    - slick_paragraphs
+id: paragraph.slider.fullwidth_slider
+targetEntityType: paragraph
+bundle: slider
+mode: fullwidth_slider
+content:
+  field_slider_slide:
+    type: slick_paragraphs_vanilla
+    weight: 0
+    label: hidden
+    settings:
+      optionset: fullwidth_slider
+      skin: ''
+      view_mode: fullwidth_slider
+      cache: 0
+      current_view_mode: fullwidth_slider
+      override: false
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      skin_arrows: ''
+      skin_dots: ''
+      style: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

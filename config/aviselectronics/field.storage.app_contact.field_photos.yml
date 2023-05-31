@@ -1,0 +1,30 @@
+uuid: d2c941cf-31ab-4549-a90a-d86fc2b7f97f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - eck
+    - file
+    - image
+id: app_contact.field_photos
+field_name: field_photos
+entity_type: app_contact
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

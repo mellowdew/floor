@@ -1,0 +1,79 @@
+uuid: acdb02ce-a52e-4596-a986-ca0ccf5715f3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_contact.person_contact
+    - field.field.app_contact.person_contact.field_company_logo
+    - field.field.app_contact.person_contact.field_email
+    - field.field.app_contact.person_contact.field_phone
+    - field.field.app_contact.person_contact.field_photos
+    - field.field.app_contact.person_contact.field_position
+    - field.field.app_contact.person_contact.field_site_url
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+id: app_contact.person_contact.default
+targetEntityType: app_contact
+bundle: person_contact
+mode: default
+content:
+  field_company_logo:
+    weight: 3
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_email:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_phone:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photos:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_position:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_site_url:
+    weight: 2
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

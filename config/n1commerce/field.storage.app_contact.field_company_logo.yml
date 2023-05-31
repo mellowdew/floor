@@ -1,0 +1,30 @@
+uuid: cf4cc5ce-1e72-4bf0-8e32-1b11ee88cf17
+langcode: ru
+status: true
+dependencies:
+  module:
+    - eck
+    - file
+    - image
+id: app_contact.field_company_logo
+field_name: field_company_logo
+entity_type: app_contact
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

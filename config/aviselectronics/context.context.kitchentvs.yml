@@ -1,0 +1,71 @@
+uuid: 95fe3e8d-73f7-402b-87fc-c82abfcd6744
+langcode: en
+status: true
+dependencies:
+  module:
+    - request_data_conditions
+    - system
+name: kitchentvs
+label: 'Kitchen TVs'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: true
+disabled: false
+conditions:
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: f
+        op: not_set
+        value: ''
+    require_all_params: 1
+    negate: 0
+    uuid: f13f29e1-411d-4bd4-8754-5a053b9032e8
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /catalog/kitchen-tvs
+    negate: 0
+    uuid: 224872b6-5dbe-4ae5-86cb-3b7f53739da3
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      dbfe8459-237b-4c0c-a02d-179d0f4a6e65:
+        id: 'block_content:b960d742-568b-4789-bb0e-e43bcd73430b'
+        label: 'Kitchen TVs'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: kitchentvs
+        uuid: dbfe8459-237b-4c0c-a02d-179d0f4a6e65
+      e75d7090-3b55-442f-8857-0d123e7f39b5:
+        id: 'block_content:f59cabad-828c-46ef-90b4-7b1a6a3a1454'
+        label: 'landing - kitchen'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: kitchentvs
+        uuid: e75d7090-3b55-442f-8857-0d123e7f39b5
+    id: blocks
+    saved: false
+    uuid: 13549849-cb6f-4c97-aaeb-6e38629fcdd1
+    include_default_blocks: 1
+weight: -6

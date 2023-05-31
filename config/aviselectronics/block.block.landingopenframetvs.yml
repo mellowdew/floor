@@ -1,0 +1,60 @@
+uuid: f9d777c9-6165-4d02-8141-56f047c290da
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_builder:423089fc-460b-49de-a38c-e9422e8600c6'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: landingopenframetvs
+theme: aviselectronics
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:423089fc-460b-49de-a38c-e9422e8600c6'
+settings:
+  id: 'block_content:423089fc-460b-49de-a38c-e9422e8600c6'
+  label: 'landing - open-frame-tvs'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /catalog/open-frame-tvs
+    negate: false
+    context_mapping: {  }

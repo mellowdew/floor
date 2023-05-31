@@ -1,0 +1,31 @@
+uuid: f33a9928-b176-4f51-abc1-1a44ec61ca7d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.title.field_title_tag
+    - field.field.paragraph.title.field_title_title
+    - paragraphs.paragraphs_type.title
+id: paragraph.title.default
+targetEntityType: paragraph
+bundle: title
+mode: default
+content:
+  field_title_tag:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_title_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

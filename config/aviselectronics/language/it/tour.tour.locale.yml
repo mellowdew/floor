@@ -1,0 +1,26 @@
+label: Traduzione
+tips:
+  locale-overview:
+    label: 'Traduzione dell''interfaccia utente'
+    body: 'На данной странице вы можете перевести пользовательский интерфейс или изменить существующий перевод. Если вы изначально установили сайт на Английском, перед началом использования этой страницы, вам необходимо добавить другой язык на странице <a href="[site:url]admin/config/regional/language">Языки</a>.'
+  locale-language:
+    label: 'Lingua di traduzione'
+    body: 'Scegli la lingua in cui vuoi tradurre.'
+  locale-search:
+    label: Cerca
+    body: 'Inserisci la parola o la frase specifica che si desidera tradurre, è anche possibile scrivere solo una parte di una parola.'
+  locale-filter:
+    label: 'Filtra la ricerca'
+    body: 'Вы можете искать непереведённые строки, если вы хотите перевести что-нибудь ещё непереведённое. Если вы хотите изменить существующий перевод, вы можете искать только переведённые строки.'
+  locale-submit:
+    label: 'Applicare i criteri di ricerca'
+    body: 'Per applicare il criterio di ricerca, fai click sul pulsante <em>Filtra</em>.'
+  locale-translate:
+    label: Traduci
+    body: 'Вы можете написать свой собственный вариант перевода в текстовых полях правой колонки. Попробуйте выяснить, в каком контексте будет использоваться текст для того, чтобы перевести его как можно точнее.'
+  locale-validate:
+    label: 'Convalida la traduzione'
+    body: 'После завершения ваших переводов нажмите кнопку <em>Сохранить переводы</em>. Необходимо сохранять переводы каждый раз перед изменением страницы или выполнением нового поиска.'
+  locale-continue:
+    label: Продолжение
+    body: 'Выполненные здесь переводы будут использоваться в пользовательском интерфейсе сайта. Если их необходимо использовать на другом сайте или отредактировать во внешнем редакторе переводов, <a href="[site:url]admin/config/regional/translate/export">экспортируйте их</a> в po-файл, а затем <a href="[site:url]admin/config/regional/translate/import">импортируйте их</a>.'

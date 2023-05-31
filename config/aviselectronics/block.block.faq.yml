@@ -1,0 +1,62 @@
+uuid: e13828f4-3ed1-48a3-bf06-4f843ab55556
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dad3faeb-adaf-41e3-ab95-36791057419a'
+  module:
+    - block_class
+    - block_content
+    - ctools
+    - request_data_conditions
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: faq
+theme: aviselectronics
+region: content
+weight: -16
+provider: null
+plugin: 'block_content:dad3faeb-adaf-41e3-ab95-36791057419a'
+settings:
+  id: 'block_content:dad3faeb-adaf-41e3-ab95-36791057419a'
+  label: FAQ
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:commerce_product':
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      commerce_product: '@commerce_product.product_route_context:commerce_product'
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

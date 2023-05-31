@@ -1,0 +1,17 @@
+
+$avis_colors: (
+  "avis-grey": #333333,
+  "avis-cyan": #58c3c9,
+  "avis-red": #f21f02
+) !default;
+
+// Color Classes
+
+@each $color, $color_value in $avis_colors {
+  .#{$color} {
+    background-color: $color_value !important;
+  }
+  .#{$color}-text {
+    color: $color_value !important;
+  }
+}

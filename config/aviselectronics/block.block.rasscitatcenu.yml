@@ -1,0 +1,31 @@
+uuid: 596dadc2-2567-4a62-843d-2660c6bd5bef
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:91414c00-d8d9-4d3c-823a-7e7be95c94db'
+  module:
+    - block_content
+    - system
+  theme:
+    - n1_commerce
+id: rasscitatcenu
+theme: n1_commerce
+region: content
+weight: -15
+provider: null
+plugin: 'block_content:91414c00-d8d9-4d3c-823a-7e7be95c94db'
+settings:
+  id: 'block_content:91414c00-d8d9-4d3c-823a-7e7be95c94db'
+  label: 'Рассчитать цену'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,27 @@
+uuid: 0f67aced-77f4-4827-9079-f8ecbc248612
+langcode: ru
+status: true
+dependencies:
+  config:
+    - contact.form.otpravit_zaavku
+    - field.storage.contact_message.field_attach_technical_task
+  module:
+    - file
+id: contact_message.otpravit_zaavku.field_attach_technical_task
+field_name: field_attach_technical_task
+entity_type: contact_message
+bundle: otpravit_zaavku
+label: 'Прикрепить ТЗ'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt xlsx doc docx'
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

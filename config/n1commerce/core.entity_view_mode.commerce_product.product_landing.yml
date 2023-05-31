@@ -1,0 +1,10 @@
+uuid: a6757dfc-1a72-4726-b806-be69c6bec7a4
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.product_landing
+label: 'Product landing'
+targetEntityType: commerce_product
+cache: true

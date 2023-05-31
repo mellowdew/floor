@@ -1,0 +1,10 @@
+uuid: db555e19-9426-4d26-bd67-510a501f6480
+langcode: ru
+status: true
+dependencies: {  }
+id: product_variation
+label: 'Вариация товара'
+orderItemType: default
+generateTitle: true
+traits: {  }
+locked: false

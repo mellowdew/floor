@@ -1,0 +1,13 @@
+uuid: 9acd8108-dbb9-4d75-82f5-0b113d9835b3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  title: 'Waterproof TV Full HD LED for best price - AVEL Waterproof TVs USA'
+  keywords: 'waterproof TV, waterproof television, AVEL TVs'
+  canonical_url: '[site:url]'
+  description: 'AVEL is the best choice to order your personal waterproof television wherever you want: bathroom, kitchen or pool. AVEL Waterproof TVs - easy embeddable and smart looking!'

@@ -1,0 +1,31 @@
+uuid: dd79e517-3ca7-4986-8cec-340e171663c3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_class
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: aviselectronics_content
+theme: aviselectronics
+region: content
+weight: -26
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

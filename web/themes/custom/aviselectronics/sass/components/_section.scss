@@ -1,0 +1,258 @@
+section {
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1;
+
+    .large {
+      font-size: 42px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .title-wrapper {
+      display: inline-block;
+      padding-left: 10px;
+    }
+  }
+
+  .description {
+    font-size: 15px;
+    color: #343434;
+
+    p {
+      margin-bottom: 35px;
+      margin-top: 25px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+
+  .without-margin {
+    margin: 0;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .link-wrapper {
+    margin: auto;
+  }
+
+  i {
+    display: inline-block;
+
+    &.icon-certificate {
+      width: 64px;
+      height: 64px;
+      background: url('../images/icons/icon-certificate.png') center no-repeat;
+      background-size: contain;
+      vertical-align: top;
+    }
+  }
+}
+
+#block-aboutfactory {
+  padding-top: 45px;
+  margin-bottom: 20px;
+
+  .row-1 {
+    .column-1 {
+      float: right;
+      line-height: 1;
+
+      img {
+        display: block;
+      }
+    }
+
+    .column-2 {
+      margin-right: 500px;
+    }
+  }
+
+  .row-2 {
+    img {
+      display: block;
+    }
+
+    .column-1 {
+      float: left;
+      font-size: 0;
+
+      .wrapper {
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .text-wrapper {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        text-transform: uppercase;
+        max-width: 100%;
+        transition: max-width 1.5s;
+
+        &.hide-text {
+          max-width: 0;
+        } 
+
+        .text {
+          display: inline-block;
+          vertical-align: middle;
+          padding: 0 30px;
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 1;
+
+          .large {
+            font-size: 36px;
+          }
+        }
+
+        &:before {
+          content: "";
+          display: inline-block;
+          height: 100%;
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .column-3 {
+      float: right;
+
+      .wrapper {
+        min-width: 235px;
+        min-height: 200px;
+        position: relative;
+      }
+
+      .link {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+
+        a {
+          font-size: 32px;
+          line-height: 1.2;
+          color: #5ac3c9;
+          text-decoration: underline;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .column-2 {
+      float: right;
+
+      .wrapper {
+        display: inline-block;
+      }
+
+      .img-wrapper {
+        float: left;
+        position: relative;
+
+        .text-wrapper {
+          position: absolute;
+          display: block;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background: rgba(242, 31, 2, 0.8);
+
+          .text {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #fff;
+            line-height: 1.2;
+            padding: 0 15px;
+
+            .title {
+              font-size: 17px;
+              text-transform: initial;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom, #e6e5e0 0%,#fefefe 25%,#ffffff 80%,#e7e7df 100%);
+  padding: 50px 0;
+}
+
+.bg-bottom-gradient {
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(252,252,252,1) 69%,rgba(241,242,237,1) 77%,rgba(232,233,227,1) 88%,rgba(230,229,224,1) 100%);
+  padding: 50px 0;
+}
+
+@media (max-width: 1250px) {
+  #block-aboutfactory {
+    .row-2 {
+      .column-2 {
+        .img-wrapper {
+          &:first-of-type {
+            display: none;  
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$medium-and-down} {
+  #block-aboutfactory {
+    .column-1,
+    .column-2 {
+      width: 100%;
+      text-align: center;
+      margin: 20px 0;
+
+      img {
+        margin: auto;
+      }
+
+      &.description {
+        text-align: left;
+      }
+    }
+
+    .column-3 {
+      width: 100%;
+    }
+
+    .row-2 {
+      .column-2 {
+        .img-wrapper {
+          &:first-of-type {
+            display: initial;  
+          }
+        }
+      }
+    }
+  }
+}

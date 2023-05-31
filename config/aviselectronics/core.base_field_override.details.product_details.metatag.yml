@@ -1,0 +1,18 @@
+uuid: d45dc6e1-c78c-47c4-bf49-0f1004ec3b20
+langcode: en
+status: true
+dependencies:
+  config:
+    - eck.eck_type.details.product_details
+id: details.product_details.metatag
+field_name: metatag
+entity_type: details
+bundle: product_details
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

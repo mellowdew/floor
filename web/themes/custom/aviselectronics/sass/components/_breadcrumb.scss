@@ -1,0 +1,12 @@
+
+.block-system-breadcrumb-block {
+  .breadcrumb {
+    @extend .black-text;
+
+    &:last-child,
+    &:hover,
+    &:before {
+      @extend .cyan-text.text-lighten-1;
+    }
+  }
+}

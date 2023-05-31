@@ -1,0 +1,12 @@
+uuid: 48064d36-0a25-45e3-aabc-80be70d4bfa9
+langcode: ru
+status: true
+dependencies: {  }
+id: product
+label: Товар
+description: ''
+variationType: product_variation
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

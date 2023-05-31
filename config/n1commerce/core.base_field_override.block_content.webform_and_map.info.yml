@@ -1,0 +1,18 @@
+uuid: 30f3a50a-453d-4e3d-9c7e-3bc9be983b5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_and_map
+id: block_content.webform_and_map.info
+field_name: info
+entity_type: block_content
+bundle: webform_and_map
+label: 'Описание блока'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

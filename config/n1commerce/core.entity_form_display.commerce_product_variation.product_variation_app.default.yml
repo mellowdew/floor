@@ -1,0 +1,43 @@
+uuid: 51589fe9-9ec7-49ee-a881-b7df49651ad3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.product_variation_app
+  module:
+    - commerce_price
+id: commerce_product_variation.product_variation_app.default
+targetEntityType: commerce_product_variation
+bundle: product_variation_app
+mode: default
+content:
+  price:
+    type: commerce_price_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  sku:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    region: content
+hidden:
+  created: true
+  langcode: true
+  status: true
+  uid: true

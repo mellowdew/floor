@@ -1,0 +1,58 @@
+uuid: 98a5f6ce-1baa-4319-b0bb-1d91459fc8cb
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:content_builder:b99e3a33-d5d3-434c-a549-87349ead8e1e'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: ikonkikitchensplashback
+theme: aviselectronics
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:b99e3a33-d5d3-434c-a549-87349ead8e1e'
+settings:
+  id: 'block_content:b99e3a33-d5d3-434c-a549-87349ead8e1e'
+  label: 'landing kitchen splashback'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions:
+      -
+        name: 'Request Path'
+        op: equals
+        value: /catalog/kitchen-tvs/splashback-tv
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

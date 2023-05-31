@@ -1,0 +1,66 @@
+{#
+/**
+ * @file
+ *
+ * Default template for product variations.
+ *
+ * Available variables:
+ * - attributes: HTML attributes for the wrapper.
+ * - product_variation: The rendered product variation fields.
+ *   Use 'product_variation' to print them all, or print a subset such as
+ *   'product_variation.title'. Use the following code to exclude the
+ *   printing of a given field:
+ *   @code
+ *   {{ product_variation|without('title') }}
+ *   @endcode
+ * - product_variation_entity: The product variation entity.
+ * - url: The product URL.
+ *
+ * @ingroup themeable
+ */
+#}
+<article{{ attributes.addClass("commerce-product-vatiation-teaser-variation-catalog") }} itemprop="itemListElement" itemtype="http://schema.org/Product" itemscope>
+  <div class="card hoverable">
+    {% if (product_variation.field_image) %}
+      <div class="card-image">
+        <link itemprop="image" href="{{ url('<front>') }}{{ file_url(product_variation_entity.field_image.0.entity.uri.0.value) }}" />
+        <a href="{{ product_url }}?v={{ product_variation_entity.id }}">
+          {{ product_variation.field_image[0] }}
+        </a>
+        <ul class="card-action-buttons">
+          {% if product_variation.price['#items'].0.number != 0 %}
+            <li>{{product_variation.commerce_variation_cart_form}}</li>
+          {% endif %}
+          <li>{{product_variation.flag_compare_variation}}</li>
+          <li>{{product_variation.flag_favorite_variation}}</li>
+        </ul>
+      </div>
+    {% endif %}
+    <div class="card-content">
+      <span class="card-title" itemprop="name"><a href="{{ product_url }}?v={{ product_variation_entity.id }}">{{ product_variation_entity.product_id.entity.title.value }}</a></span>
+      <link itemprop="url"  href="{{ product_url }}?v={{ product_variation_entity.id }}" />
+      <div itemprop="description">{{ product_variation.field_short_description }}</div>
+      <div itemprop="brand" itemtype="http://schema.org/Brand" itemscope>
+        <meta itemprop="name" content="{{ product_variation_entity.product_id.entity.field_product_brand.0.value }}" />
+      </div>
+    </div>
+    <div class="card-action" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+      {% if product_variation.price['#items'].0.number != 0 %}
+        {{- product_variation.field_old_price -}}
+        {{- product_variation.price -}}
+        <span itemprop="priceCurrency" content="{{ product_variation.price['#items'].0.currency_code }}"></span>
+        <link itemprop="url"  href="{{ product_url }}?v={{ product_variation_entity.id }}" />
+        <link itemprop="availability" href="http://schema.org/InStock" />
+        <span itemprop="price" content="{{ product_variation.price['#items'].0.number }}"></span>
+      {% else %}
+        <div class="geo-restriction-substituted field field--name-price field--type-commerce-price field--label-hidden field__item">
+          <a class="modal-trigger" href="#block-sendinquiry">{{ 'Send Inquiry'|t }}</a>
+          <a class="modal-trigger" href="/where-buy">{{ 'Where to buy'|t }}</a>
+          <span class="product--out-of-stock" itemprop="price" content="0">0</span>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</article>
+
+

@@ -1,0 +1,35 @@
+uuid: a63cd424-bc1b-44e6-bfdf-b45ccdb6d752
+langcode: ru
+status: true
+dependencies:
+  module:
+    - image_effects
+name: product_medium_and_up
+label: 'Product - medium and up'
+effects:
+  8a2a497d-4b19-405e-aa94-5055e8a7e518:
+    uuid: 8a2a497d-4b19-405e-aa94-5055e8a7e518
+    id: image_scale
+    weight: 1
+    data:
+      width: 350
+      height: 350
+      upscale: false
+  bd1111cf-3dbe-47b1-8834-84609131df6a:
+    uuid: bd1111cf-3dbe-47b1-8834-84609131df6a
+    id: image_effects_set_canvas
+    weight: 2
+    data:
+      canvas_size: exact
+      exact:
+        width: '350'
+        height: '350'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''

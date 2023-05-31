@@ -1,0 +1,21 @@
+uuid: 96f9a469-3d79-4319-a223-5d189fd5ef0a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_and_map
+    - field.storage.block_content.field_location
+  module:
+    - geolocation
+id: block_content.webform_and_map.field_location
+field_name: field_location
+entity_type: block_content
+bundle: webform_and_map
+label: Location
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

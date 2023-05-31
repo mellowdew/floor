@@ -1,0 +1,16 @@
+uuid: 0e172fae-998e-4c93-9b0c-ddd311edb4b0
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalog_of_variations
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.catalog_of_variations
+target_entity_type_id: taxonomy_term
+target_bundle: catalog_of_variations
+default_langcode: en
+language_alterable: true

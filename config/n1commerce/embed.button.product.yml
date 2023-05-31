@@ -1,0 +1,21 @@
+uuid: bb6b6fc6-20cd-4a9e-89f1-bf7d3cc1d60f
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.cource
+  module:
+    - commerce_product
+    - entity_embed
+label: Product
+id: product
+type_id: entity
+type_settings:
+  entity_type: commerce_product
+  bundles:
+    - cource
+  display_plugins:
+    - 'view_mode:commerce_product.teaser'
+  entity_browser: ''
+  entity_browser_settings: null
+icon_uuid: null

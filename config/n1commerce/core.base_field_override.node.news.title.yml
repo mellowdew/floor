@@ -1,0 +1,18 @@
+uuid: ccce757b-6515-4494-885e-472239ecdc63
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news.title
+field_name: title
+entity_type: node
+bundle: news
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

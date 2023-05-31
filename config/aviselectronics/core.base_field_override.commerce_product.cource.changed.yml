@@ -1,0 +1,18 @@
+uuid: 5f4022ae-c7f7-4f2f-b6e0-6747520725f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.cource
+id: commerce_product.cource.changed
+field_name: changed
+entity_type: commerce_product
+bundle: cource
+label: Changed
+description: 'The time when the product was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

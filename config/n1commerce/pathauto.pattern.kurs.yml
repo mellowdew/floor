@@ -1,0 +1,23 @@
+uuid: ca0ec5e7-a672-4ad7-9527-f20f896efe21
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+id: kurs
+label: Курс
+type: 'canonical_entities:commerce_product'
+pattern: 'cource/[commerce_product:product_id]'
+selection_criteria:
+  3a79f7f1-48f8-4e30-b204-eee353879d38:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      cource: cource
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: 3a79f7f1-48f8-4e30-b204-eee353879d38
+selection_logic: and
+weight: -5
+relationships: {  }

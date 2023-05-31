@@ -1,0 +1,23 @@
+uuid: d66dcf7f-6570-4182-a878-3dba3f50f00e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grid_mobile
+    - paragraphs.paragraphs_type.grid
+  module:
+    - options
+id: paragraph.grid.field_grid_mobile
+field_name: field_grid_mobile
+entity_type: paragraph
+bundle: grid
+label: Mobile
+description: "Mobile Devices \r\n<= 600px"
+required: false
+translatable: false
+default_value:
+  -
+    value: s12
+default_value_callback: ''
+settings: {  }
+field_type: list_string

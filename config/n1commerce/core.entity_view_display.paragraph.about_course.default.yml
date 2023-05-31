@@ -1,0 +1,52 @@
+uuid: 076cdd59-9e6d-443e-b8b4-14c547d48eae
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_course.field_duration_h
+    - field.field.paragraph.about_course.field_duration_min
+    - field.field.paragraph.about_course.field_level
+    - field.field.paragraph.about_course.field_price
+    - paragraphs.paragraphs_type.about_course
+  module:
+    - options
+id: paragraph.about_course.default
+targetEntityType: paragraph
+bundle: about_course
+mode: default
+content:
+  field_duration_h:
+    weight: 0
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_duration_min:
+    weight: 1
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_level:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_price:
+    weight: 3
+    label: hidden
+    settings:
+      thousand_separator: ' '
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: 7f87c273-ee05-42cf-9fb2-4bfba904cf63
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.product_app
+    - field.storage.commerce_product.field_model_3d_scale
+id: commerce_product.product_app.field_model_3d_scale
+field_name: field_model_3d_scale
+entity_type: commerce_product
+bundle: product_app
+label: 'Scale-фактор 3D модели'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: !!float 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

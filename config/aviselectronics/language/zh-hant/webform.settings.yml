@@ -1,0 +1,11 @@
+settings:
+  default_submit_button_label: 提交
+  default_reset_button_label: 重設
+  default_wizard_start_label: 開始
+  default_wizard_confirmation_label: 完成
+  default_preview_next_button_label: 預覽
+  default_preview_label: 預覽
+element:
+  default_more_title: 更多
+test:
+  names: "first_name:\n  - John\n  - Paul\n  - Ringo\n  - George\nlast_name:\n  - Lennon\n  - McCartney\n  - Starr\n  - Harrison\naddress:\n  - '10 Main Street'\n  - '11 Brook Alley Road. APT 1'\nzip:\n  - '11111'\n  - '12345'\n  - 12345-6789\nphone:\n  - 123-456-7890\n  - 098-765-4321\nfax:\n  - 123-456-7890\n  - 098-765-4321\ncity:\n  - Springfield\n  - Pleasantville\n  - 'Hill Valley'\nurl:\n  - 'http://example.com'\n  - 'http://test.com'\ndefault:\n  - Loremipsum\n  - Oratione\n  - Dixisset\npostal_code:\n  - '11111'\n  - '12345'\n  - 12345-6789"

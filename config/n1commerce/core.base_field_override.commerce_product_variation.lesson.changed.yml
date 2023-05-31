@@ -1,0 +1,18 @@
+uuid: a63f10ba-7290-40a2-8d4e-7d5d9798aaea
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.lesson
+id: commerce_product_variation.lesson.changed
+field_name: changed
+entity_type: commerce_product_variation
+bundle: lesson
+label: Changed
+description: 'The time when the variation was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

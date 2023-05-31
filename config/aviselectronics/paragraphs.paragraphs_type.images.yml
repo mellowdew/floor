@@ -1,0 +1,11 @@
+uuid: 45fc2665-4416-4662-a5b9-32f539b45240
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: DGb4aV39gpvoK2px2xeeK4MOLA2FxH4Leq0UZ0en9Fo
+id: images
+label: Изображения
+icon_uuid: null
+description: 'Use <em>Images</em> for adding one or multiple images.'
+behavior_plugins: {  }

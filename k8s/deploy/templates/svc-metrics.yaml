@@ -1,0 +1,24 @@
+{{- if .Values.metrics.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "drupal.fullname" . }}-metrics
+  labels:
+    app: {{ template "drupal.fullname" . }}
+    chart: {{ template "drupal.chart" . }}
+    release: "{{ .Release.Name }}"
+    heritage: "{{ .Release.Service }}"
+spec:
+  type: {{ .Values.metrics.service.type }}
+  {{- if (or (eq .Values.metrics.service.type "LoadBalancer") (eq .Values.metrics.service.type "NodePort")) }}
+  externalTrafficPolicy: {{ .Values.metrics.service.externalTrafficPolicy | quote }}
+  {{- end }}
+  ports:
+    - name: metrics
+      port: {{ .Values.metrics.service.port }}
+      {{- if (and (eq .Values.metrics.service.type "NodePort") (not (empty .Values.metrics.service.nodePorts.http)))}}
+      nodePort: {{ .Values.metrics.service.nodePorts.http }}
+      {{- end }}
+  selector:
+    app: {{ template "drupal.fullname" . }}
+{{- end }}

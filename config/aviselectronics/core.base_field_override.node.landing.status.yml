@@ -1,0 +1,22 @@
+uuid: f5f66aac-ff8a-412c-986d-44d21fc4ba83
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.landing
+id: node.landing.status
+field_name: status
+entity_type: node
+bundle: landing
+label: 'Статус публикации'
+description: 'A boolean indicating the published state.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

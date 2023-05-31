@@ -1,0 +1,43 @@
+uuid: 22102a26-8634-46bc-bc4c-cf2fe8e1f411
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.preview
+    - field.field.paragraph.landing_slide.field_slide_content
+    - paragraphs.paragraphs_type.landing_slide
+  module:
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+    regions:
+      ds_content:
+        - field_slide_content
+id: paragraph.landing_slide.preview
+targetEntityType: paragraph
+bundle: landing_slide
+mode: preview
+content:
+  field_slide_content:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

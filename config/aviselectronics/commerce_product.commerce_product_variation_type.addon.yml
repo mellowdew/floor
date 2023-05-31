@@ -1,0 +1,10 @@
+uuid: f848f497-5bbc-4247-9d2c-712b4cc0d0ce
+langcode: en
+status: true
+dependencies: {  }
+id: addon
+label: Addon
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

@@ -1,0 +1,23 @@
+uuid: d8fcadac-2c24-430a-80e9-599ea9c240fc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_grid_tablet
+    - paragraphs.paragraphs_type.grid
+  module:
+    - options
+id: paragraph.grid.field_grid_tablet
+field_name: field_grid_tablet
+entity_type: paragraph
+bundle: grid
+label: Tablet
+description: "Tablet Devices \r\n> 600px"
+required: false
+translatable: false
+default_value:
+  -
+    value: m12
+default_value_callback: ''
+settings: {  }
+field_type: list_string

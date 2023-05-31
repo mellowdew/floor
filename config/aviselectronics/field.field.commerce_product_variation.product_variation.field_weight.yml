@@ -1,0 +1,25 @@
+uuid: 947f5a02-4245-4df8-bae0-440dd59cec3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.product_variation
+    - field.storage.commerce_product_variation.field_weight
+id: commerce_product_variation.product_variation.field_weight
+field_name: field_weight
+entity_type: commerce_product_variation
+bundle: product_variation
+label: Weight
+description: 'The value is used for sorting by weight in catalog'
+required: false
+translatable: false
+default_value:
+  -
+    value: !!float 0
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

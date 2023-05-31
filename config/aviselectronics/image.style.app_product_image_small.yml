@@ -1,0 +1,15 @@
+uuid: 6fecb02c-2637-4a8f-ae91-3a254ab90804
+langcode: ru
+status: true
+dependencies: {  }
+name: app_product_image_small
+label: 'Уменьшенное изображение товара для приложения'
+effects:
+  fc52e98a-95c9-4661-8e37-395b7ac265b3:
+    uuid: fc52e98a-95c9-4661-8e37-395b7ac265b3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 512
+      height: 384
+      anchor: center-center

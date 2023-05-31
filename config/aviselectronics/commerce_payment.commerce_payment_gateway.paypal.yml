@@ -1,0 +1,22 @@
+uuid: ba3e5e2c-e773-4545-94c5-f12469756558
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal
+label: Paypal
+weight: null
+plugin: paypal_express_checkout
+configuration:
+  api_username: sales_api1.aviselectronics.com
+  api_password: AR7MS7RY3QVE847N
+  shipping_prompt: shipping_skip
+  signature: AJ14-a6Aqvk1Cu4BM-KI5-BQThUUAYnkW1gYUDOk1lEK82L2ullNYfTM
+  solution_type: Mark
+  display_label: PayPal
+  mode: live
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

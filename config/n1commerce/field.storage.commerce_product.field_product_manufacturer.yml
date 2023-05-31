@@ -1,0 +1,21 @@
+uuid: 0e434579-a025-4b40-8742-46f75138cc65
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: commerce_product.field_product_manufacturer
+field_name: field_product_manufacturer
+entity_type: commerce_product
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

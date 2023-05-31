@@ -1,0 +1,34 @@
+.country_wrapper {
+  text-align: center;
+  width: 115px;
+  overflow: hidden;
+  white-space: nowrap;
+
+  #block-changecountryselect-2 & {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  &:before {
+    background: url('../images/icons/icon-geo.jpg') no-repeat 0 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 26px;
+    height: 30px;
+    content: "";
+  }
+  a {
+    border-bottom: 1px dashed;
+    height: 18px;
+    display: inline-block;
+    margin-top: 4px;
+    padding: 0;
+    text-overflow: ellipsis;
+    max-width: calc(100% - 26px);
+    overflow: hidden;
+  }
+}
+
+#block-changecountryselect {
+  font-size: 14.5px;
+}

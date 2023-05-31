@@ -1,0 +1,7 @@
+version: lite
+edition: country
+license_key: ''
+db_auto_update: true
+bin_file_custom_path: ''
+_core:
+  default_config_hash: Vm3j8tHkDlV6smqCxS0ibYccpK7_A5nDL-uHsHieyMM

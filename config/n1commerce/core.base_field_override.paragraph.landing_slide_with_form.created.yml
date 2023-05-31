@@ -1,0 +1,18 @@
+uuid: f6af3a3e-e48a-4016-8cf0-ff9307c9e998
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.landing_slide_with_form
+id: paragraph.landing_slide_with_form.created
+field_name: created
+entity_type: paragraph
+bundle: landing_slide_with_form
+label: 'Authored on'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

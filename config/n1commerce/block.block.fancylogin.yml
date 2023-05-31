@@ -1,0 +1,49 @@
+uuid: e749865a-80d1-4a41-ab68-90c491a6cb5a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - fancy_login
+    - request_data_conditions
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: fancylogin
+theme: n1_commerce
+region: header
+weight: 0
+provider: null
+plugin: fancy_login_login_block
+settings:
+  id: fancy_login_login_block
+  label: 'Fancy Login'
+  provider: fancy_login
+  label_display: '0'
+visibility:
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }

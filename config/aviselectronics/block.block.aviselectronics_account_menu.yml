@@ -1,0 +1,31 @@
+uuid: 24bfbaf6-c5e3-4d73-9f70-d7a95f64643a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - block_class
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: dropdown-content
+_core:
+  default_config_hash: R2K_qX0ZUMbUL6ie_-S9tZVjvqmlWKlscikgeRv9vhw
+id: aviselectronics_account_menu
+theme: aviselectronics
+region: header
+weight: -18
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

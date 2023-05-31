@@ -1,0 +1,17 @@
+uuid: d3469213-cdfd-4bb0-8a8e-1e6236458041
+langcode: ru
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_cart
+      - commerce_product
+      - commerce_variation_cart_form
+  module:
+    - commerce_order
+_core:
+  default_config_hash: u--mTnS-vYPf2RaezDnxj9Sl0GFgFSi4fgzVPPlCMM0
+id: commerce_order_item.variation_cart_form
+label: 'Variation cart form'
+targetEntityType: commerce_order_item
+cache: true

@@ -1,0 +1,54 @@
+label: Encomendas
+display:
+  default:
+    display_title: Principal
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtro
+          reset_button_label: Reiniciar
+          exposed_sorts_label: 'Ordenar por'
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Itens por página'
+            items_per_page_options_all_label: '- Todos -'
+            offset_label: Deslocamento
+          tags:
+            previous: '‹ anterior'
+            next: 'seguinte ›'
+            first: '« primeira'
+            last: 'última »'
+      fields:
+        commerce_order_bulk_form:
+          action_title: 'Com a seleção'
+        placed:
+          label: Data
+        type:
+          label: Tipo
+        store_id:
+          label: Loja
+        uid:
+          label: Cliente
+        state:
+          label: Estado
+        operations:
+          label: Operações
+      filters:
+        order_number:
+          expose:
+            label: 'Número do pedido'
+        type:
+          expose:
+            label: Tipo
+        state:
+          expose:
+            label: Estado
+      title: Encomendas
+  page_1:
+    display_title: Página
+    display_options:
+      menu:
+        title: Encomendas
+      tab_options:
+        title: Encomendas

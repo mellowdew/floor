@@ -1,0 +1,32 @@
+uuid: 3a425d7a-8f6a-4691-90e2-f164c56dbcb6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - facets.facet.variation_catalog_price
+  module:
+    - block_class
+    - facets
+    - system
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: facet_variation_catalog_price
+theme: n1_commerce
+region: sidebar_first_colapsible_facets
+weight: -20
+provider: null
+plugin: 'facet_block:variation_catalog_price'
+settings:
+  id: 'facet_block:variation_catalog_price'
+  label: Цена
+  provider: facets
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: "/catalog-variations\r\n/catalog-variations/*"
+    negate: false
+    context_mapping: {  }

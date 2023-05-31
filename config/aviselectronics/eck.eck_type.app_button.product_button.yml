@@ -1,0 +1,9 @@
+uuid: 785cb486-dc90-4d28-a162-4c1f9389c496
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_entity_type.app_button
+name: 'Product button'
+type: product_button
+description: ''

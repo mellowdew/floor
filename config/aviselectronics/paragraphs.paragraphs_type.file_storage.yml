@@ -1,0 +1,9 @@
+uuid: df598d55-a03f-4fc6-b836-9dfda47b684b
+langcode: ru
+status: true
+dependencies: {  }
+id: file_storage
+label: 'File storage'
+icon_uuid: null
+description: 'Upload files here if you want to use them inline in content.'
+behavior_plugins: {  }

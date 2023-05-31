@@ -1,0 +1,23 @@
+uuid: d2bc2309-3820-47d6-ac5e-3c08b2a7065e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - eck.eck_type.app_button.product_button
+    - field.field.app_button.product_button.field_button_action
+id: app_button.product_button.default
+targetEntityType: app_button
+bundle: product_button
+mode: default
+content:
+  title:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_button_action: true
+  langcode: true

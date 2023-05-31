@@ -1,0 +1,95 @@
+uuid: 3ad693ab-2c2d-4a45-bfa7-7b831c94171a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.webform_and_map
+    - field.field.block_content.webform_and_map.body
+    - field.field.block_content.webform_and_map.field_location
+    - field.field.block_content.webform_and_map.field_webform
+  module:
+    - field_group
+    - geolocation
+    - text
+    - webform
+third_party_settings:
+  field_group:
+    group_form_wrapper:
+      children:
+        - group_card
+      parent_name: ''
+      weight: 0
+      format_type: html_element
+      format_settings:
+        label: 'Form wrapper '
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+        id: ''
+        classes: container
+      label: 'Form wrapper '
+    group_card:
+      children:
+        - group_card_content
+      parent_name: group_form_wrapper
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: card
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: Card
+    group_card_content:
+      children:
+        - body
+        - field_webform
+      parent_name: group_card
+      weight: 20
+      format_type: html_element
+      format_settings:
+        id: ''
+        classes: card-content
+        element: div
+        show_label: false
+        label_element: h3
+        attributes: ''
+        effect: none
+        speed: fast
+      label: 'Card content'
+id: block_content.webform_and_map.default
+targetEntityType: block_content
+bundle: webform_and_map
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_location:
+    weight: 21
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
+    region: content
+  field_webform:
+    weight: 1
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true

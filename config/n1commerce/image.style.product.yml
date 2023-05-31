@@ -1,0 +1,35 @@
+uuid: fe8bf298-81f1-442a-82d1-6753e0d826cc
+langcode: ru
+status: true
+dependencies:
+  module:
+    - image_effects
+name: product
+label: 'Product - large and up'
+effects:
+  eea15f44-4332-4ae2-ba0e-f35b5e2cf4bd:
+    uuid: eea15f44-4332-4ae2-ba0e-f35b5e2cf4bd
+    id: image_scale
+    weight: 1
+    data:
+      width: 220
+      height: 220
+      upscale: false
+  ace31deb-10b2-4cb6-8987-7c4a6a264d45:
+    uuid: ace31deb-10b2-4cb6-8987-7c4a6a264d45
+    id: image_effects_set_canvas
+    weight: 2
+    data:
+      canvas_size: exact
+      exact:
+        width: '220'
+        height: '220'
+        placement: center-center
+        x_offset: 0
+        y_offset: 0
+      relative:
+        left: 0
+        right: 0
+        top: 0
+        bottom: 0
+      canvas_color: ''

@@ -1,0 +1,16 @@
+uuid: 33cc09bb-2f98-476c-8b57-d34c4356525c
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cource_tags
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: taxonomy_term.cource_tags
+target_entity_type_id: taxonomy_term
+target_bundle: cource_tags
+default_langcode: current_interface
+language_alterable: false

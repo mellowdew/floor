@@ -1,0 +1,38 @@
+uuid: c0cb1fbd-8e2d-4592-9869-dd76f9310d71
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.recently_viewed_products
+  module:
+    - block_class
+    - ctools
+    - views
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__recently_viewed_products_block_1
+theme: n1_commerce
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:recently_viewed_products-block_1'
+settings:
+  id: 'views_block:recently_viewed_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:commerce_product':
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      cource: cource
+      product: product
+      product_app: product_app
+    negate: false
+    context_mapping:
+      commerce_product: '@commerce_product.product_route_context:commerce_product'

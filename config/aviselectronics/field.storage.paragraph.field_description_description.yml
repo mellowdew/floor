@@ -1,0 +1,19 @@
+uuid: c05e1748-dfd2-4f08-92b5-85b17c4f9209
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_description_description
+field_name: field_description_description
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

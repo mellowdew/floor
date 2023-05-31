@@ -1,0 +1,9 @@
+uuid: f56bcb1b-99b5-4b7e-9945-d72339373aef
+langcode: en
+status: true
+dependencies: {  }
+name: 'Catalog of variations'
+vid: catalog_of_variations
+description: ''
+hierarchy: 0
+weight: 0

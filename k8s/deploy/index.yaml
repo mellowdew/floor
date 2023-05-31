@@ -1,0 +1,55 @@
+apiVersion: v1
+entries:
+  mariadb:
+  - apiVersion: v1
+    appVersion: 10.3.21
+    created: "2020-05-20T14:00:28.489889256+03:00"
+    description: Fast, reliable, scalable, and easy to use open-source relational
+      database system. MariaDB Server is intended for mission-critical, heavy-load
+      production systems as well as for embedding into mass-deployed software. Highly
+      available MariaDB cluster.
+    digest: 2352d61572407d0d032141d1484e715392893a5710f3318c05ad828d09f459e8
+    home: https://mariadb.org
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/bitnami-docker-mariadb
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - charts/mariadb-7.3.1.tgz
+    version: 7.3.1
+  memcached:
+  - apiVersion: v1
+    appVersion: 1.5.20
+    created: "2020-05-20T14:00:28.49057763+03:00"
+    description: Free & open source, high-performance, distributed memory object caching
+      system.
+    digest: 369188df2530971b50deb6a6b6b0e2fae98bbfe6653cd53aa25e8d21851342e0
+    home: http://memcached.org/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/2/27/Memcached.svg/1024px-Memcached.svg.png
+    keywords:
+    - memcached
+    - cache
+    maintainers:
+    - email: gtaylor@gc-taylor.com
+      name: gtaylor
+    - email: o.with@sportradar.com
+      name: olemarkus
+    - email: k.aasan@sportradar.com
+      name: kennethaasan
+    name: memcached
+    sources:
+    - https://github.com/docker-library/memcached
+    urls:
+    - charts/memcached-3.2.1.tgz
+    version: 3.2.1
+generated: "2020-05-20T14:00:28.453828784+03:00"

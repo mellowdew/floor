@@ -1,0 +1,9 @@
+uuid: 1a61eb20-fb87-465b-afcb-8719e3b11a23
+langcode: ru
+status: true
+dependencies: {  }
+id: pictures
+label: Pictures
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

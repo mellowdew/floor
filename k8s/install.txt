@@ -1,0 +1,6 @@
+helm upgrade --install aviselectronics --namespace=aviselectronics k8s/deploy/ --set-string image.tag=
+
+
+kubectl create secret generic basic-auth --from-file=auth -n dev-aviselectronics
+helm upgrade --install aviselectronics --namespace=dev-aviselectronics k8s/deploy/ -f k8s/deploy/values-dev.yaml  --set-string image.tag=
+

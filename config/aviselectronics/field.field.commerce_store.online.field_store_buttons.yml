@@ -1,0 +1,29 @@
+uuid: 61827f89-4883-47da-b3f0-c6b04a082232
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.online
+    - eck.eck_type.app_button.product_button
+    - field.storage.commerce_store.field_store_buttons
+id: commerce_store.online.field_store_buttons
+field_name: field_store_buttons
+entity_type: commerce_store
+bundle: online
+label: Кнопки
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:app_button'
+  handler_settings:
+    target_bundles:
+      product_button: product_button
+    sort:
+      field: title
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

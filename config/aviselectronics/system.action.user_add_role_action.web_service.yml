@@ -1,0 +1,14 @@
+uuid: 27e82668-5c66-4c83-9b4c-2a4439fad88a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.web_service
+  module:
+    - user
+id: user_add_role_action.web_service
+label: 'Назначить роль Веб-сервис выбранным пользователям'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: web_service

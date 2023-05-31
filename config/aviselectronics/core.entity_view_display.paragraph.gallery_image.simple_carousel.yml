@@ -1,0 +1,77 @@
+uuid: fdced137-2894-47ea-8829-a0e708801e9f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.simple_carousel
+    - field.field.paragraph.gallery_image.field_gallery_image
+    - paragraphs.paragraphs_type.gallery_image
+  module:
+    - blazy
+    - ds
+id: paragraph.gallery_image.simple_carousel
+targetEntityType: paragraph
+bundle: gallery_image
+mode: simple_carousel
+content:
+  field_gallery_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: simple_slider
+      thumbnail_style: ''
+      responsive_image_style: ''
+      media_switch: colorbox
+      box_style: ''
+      box_caption: ''
+      box_caption_custom: ''
+      ratio: ''
+      sizes: ''
+      breakpoints:
+        xs:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        sm:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        md:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        lg:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+        xl:
+          image_style: ''
+          width: ''
+          breakpoint: ''
+      current_view_mode: simple_carousel
+      background: false
+      caption:
+        title: '0'
+        alt: '0'
+      iframe_lazy: true
+      icon: ''
+      layout: ''
+      view_mode: ''
+      cache: 0
+      optionset: default
+      skin: ''
+      style: ''
+      box_media_style: ''
+      grid: 0
+      grid_header: ''
+      grid_medium: 0
+      grid_small: 0
+    third_party_settings:
+      ds:
+        ft:
+          id: reset
+          settings:
+            lb: ''
+    type: blazy
+    region: content
+hidden: {  }

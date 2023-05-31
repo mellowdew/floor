@@ -1,0 +1,60 @@
+uuid: e48028a4-6c1a-4c2a-aac9-9d0ff676eea8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.catalog_description
+  module:
+    - block_class
+    - request_data_conditions
+    - system
+    - views
+  theme:
+    - n1_commerce
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__catalog_description_block_1
+theme: n1_commerce
+region: content
+weight: -19
+provider: null
+plugin: 'views_block:catalog_description-block_1'
+settings:
+  id: 'views_block:catalog_description-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: "/catalog\r\n/catalog/*"
+    negate: false
+    context_mapping: {  }

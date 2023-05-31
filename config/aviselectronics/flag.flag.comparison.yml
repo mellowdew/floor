@@ -1,0 +1,29 @@
+uuid: 1fea4b92-b661-4913-b443-0a6e30a62869
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: comparison
+label: Comparison
+bundles: {  }
+entity_type: commerce_product
+global: false
+weight: 0
+flag_short: '<span class="btn btn-floating waves-effect waves-light green"><i class="material-icons">compare</i></span>'
+flag_long: 'Добавить товар к сравнению'
+flag_message: 'Товар добавлен к сравнению'
+unflag_short: '<span class="btn btn-floating waves-effect waves-light grey"><i class="material-icons">compare</i></span>'
+unflag_long: 'Удалить товар из сравнения'
+unflag_message: 'Товар был удален из сравнения'
+unflag_denied_text: ''
+flag_type: 'entity:commerce_product'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

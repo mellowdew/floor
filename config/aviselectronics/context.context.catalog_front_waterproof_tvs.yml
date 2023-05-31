@@ -1,0 +1,43 @@
+uuid: 1c191312-1719-4292-a92d-7093ddf73e75
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+name: catalog_front_waterproof_tvs
+label: 'Catalog front - Waterproof TVs'
+group: 'Catalog descriptions'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    pages: /catalog
+    negate: 0
+    uuid: 85793482-8541-49e0-b5cd-1801b8ba5b57
+    context_mapping: {  }
+reactions:
+  blocks:
+    blocks:
+      cab98966-f4a8-4a57-accf-991fe30dfa31:
+        id: 'block_content:6500717b-3900-4123-989e-8cf88acbd8d5'
+        label: 'landing - catalog'
+        provider: block_content
+        label_display: 0
+        status: true
+        info: ''
+        view_mode: full
+        region: content
+        weight: '0'
+        context_mapping: {  }
+        theme: aviselectronics
+        css_class: ''
+        unique: 0
+        context_id: catalog_front_waterproof_tvs
+        uuid: cab98966-f4a8-4a57-accf-991fe30dfa31
+    id: blocks
+    saved: false
+    uuid: 5df4a29b-a971-450e-8c87-f92e3b02c99b
+    include_default_blocks: 1
+weight: -5

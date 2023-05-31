@@ -1,0 +1,30 @@
+uuid: 0c002436-b49f-457f-96eb-ac68dd6f9f41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_product_faq_heading
+    - paragraphs.paragraphs_type.product_faq
+  module:
+    - allowed_formats
+    - text
+third_party_settings:
+  allowed_formats:
+    full_html: '0'
+    basic_html: '0'
+    restricted_html: '0'
+    plain_text: '0'
+    clean: '0'
+    teaser: '0'
+id: paragraph.product_faq.field_product_faq_heading
+field_name: field_product_faq_heading
+entity_type: paragraph
+bundle: product_faq
+label: 'FAQ Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

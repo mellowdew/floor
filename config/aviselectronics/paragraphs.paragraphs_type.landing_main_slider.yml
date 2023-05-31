@@ -1,0 +1,16 @@
+uuid: 8bcc13b4-f2db-4c5a-a9bc-a6592e4e4693
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs_viewmode
+id: landing_main_slider
+label: 'Landing main slider'
+icon_uuid: null
+description: ''
+behavior_plugins:
+  paragraphs_viewmode_behavior:
+    override_mode: default
+    override_available:
+      default: Default
+    override_default: default

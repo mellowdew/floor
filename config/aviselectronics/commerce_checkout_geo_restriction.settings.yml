@@ -1,0 +1,9 @@
+invert: {  }
+restrict:
+  - '1'
+substitutions:
+  1:
+    value: "<a class=\"modal-trigger\" href=\"#block-sendinquiry\">Send Inquiry</a>\r\n<a class=\"modal-trigger\" href=\"/where-buy\">Where to buy</a>"
+    format: full_html
+_core:
+  default_config_hash: LyNiGAc_0wczQnMQK9E9TSEKJtJ6eYVBnOzrl73yRsM

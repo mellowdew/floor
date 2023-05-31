@@ -1,0 +1,16 @@
+uuid: b8924259-1c5f-4287-82d4-9ad5fd667a2e
+langcode: en
+status: true
+dependencies: {  }
+name: user_p
+label: 'User Photo'
+effects:
+  1b7e050a-7fa4-41d0-a524-f46635c416f3:
+    uuid: 1b7e050a-7fa4-41d0-a524-f46635c416f3
+    id: image_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center
+pipeline: ''

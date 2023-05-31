@@ -1,0 +1,70 @@
+uuid: a49434a2-8ad9-42d7-a6ce-7ed2513eea36
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recently_viewed_products
+  module:
+    - block_class
+    - ctools
+    - request_data_conditions
+    - user
+    - views
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__recently_viewed_products_block_1_2
+theme: aviselectronics
+region: content
+weight: -13
+provider: null
+plugin: 'views_block:recently_viewed_products-block_1'
+settings:
+  id: 'views_block:recently_viewed_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:commerce_product':
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      commerce_product: '@commerce_product.product_route_context:commerce_product'
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

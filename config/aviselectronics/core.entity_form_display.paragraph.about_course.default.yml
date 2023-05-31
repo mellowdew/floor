@@ -1,0 +1,46 @@
+uuid: 6bcf586f-2ca9-4bc8-a63d-184e0a27515c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.about_course.field_duration_h
+    - field.field.paragraph.about_course.field_duration_min
+    - field.field.paragraph.about_course.field_level
+    - field.field.paragraph.about_course.field_price
+    - paragraphs.paragraphs_type.about_course
+id: paragraph.about_course.default
+targetEntityType: paragraph
+bundle: about_course
+mode: default
+content:
+  field_duration_h:
+    weight: 0
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_duration_min:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_level:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_price:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

@@ -1,0 +1,103 @@
+uuid: ac723bf7-eb82-4ef0-b875-d71c8e5a0701
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.product_variation
+    - core.entity_view_mode.commerce_product_variation.cart
+    - field.field.commerce_product_variation.product_variation.attribute_screen_finish
+    - field.field.commerce_product_variation.product_variation.attribute_screen_mirroring
+    - field.field.commerce_product_variation.product_variation.attribute_screen_size
+    - field.field.commerce_product_variation.product_variation.field_image
+    - field.field.commerce_product_variation.product_variation.field_old_price
+    - field.field.commerce_product_variation.product_variation.field_publish
+    - field.field.commerce_product_variation.product_variation.field_short_description
+    - field.field.commerce_product_variation.product_variation.field_weight
+  module:
+    - commerce_price
+    - commerce_variation_cart_form
+    - image
+third_party_settings:
+  commerce_variation_cart_form:
+    combine: 0
+id: commerce_product_variation.product_variation.cart
+targetEntityType: commerce_product_variation
+bundle: product_variation
+mode: cart
+content:
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  flag_compare_variation:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  flag_favorite_variation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  flag_flag_favorites:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  flag_variation_favorites:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  list_price:
+    label: above
+    type: commerce_price_default
+    weight: -1
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+  price:
+    label: above
+    type: commerce_price_default
+    weight: 3
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      display_currency_code: false
+    third_party_settings: {  }
+  sku:
+    label: hidden
+    type: string
+    weight: 2
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  title:
+    label: hidden
+    type: string
+    weight: 1
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  attribute_facade_width: true
+  attribute_screen_finish: true
+  attribute_screen_mirroring: true
+  attribute_screen_size: true
+  attribute_smart_tv: true
+  commerce_variation_cart_form: true
+  field_old_price: true
+  field_publish: true
+  field_short_description: true
+  field_weight: true
+  langcode: true
+  product_id: true

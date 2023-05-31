@@ -1,0 +1,27 @@
+uuid: dd3aac6b-01f2-42df-977d-6c1d82e25406
+langcode: ru
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - n1_commerce
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: n1_commerce_powered
+theme: n1_commerce
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

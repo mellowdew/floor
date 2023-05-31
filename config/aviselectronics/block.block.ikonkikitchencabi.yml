@@ -1,0 +1,60 @@
+uuid: 1e07fdd3-c232-47aa-9f1f-3a015ca6c120
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:306d69b3-b87e-4367-b681-757b5187a669'
+  module:
+    - block_class
+    - block_content
+    - request_data_conditions
+    - system
+  theme:
+    - aviselectronics
+third_party_settings:
+  block_class:
+    classes: ''
+id: ikonkikitchencabi
+theme: aviselectronics
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:306d69b3-b87e-4367-b681-757b5187a669'
+settings:
+  id: 'block_content:306d69b3-b87e-4367-b681-757b5187a669'
+  label: 'Иконки kitchen cabi'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  session_values:
+    id: session_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  http_headers:
+    id: http_headers
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  url_query_parameters:
+    id: url_query_parameters
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  cookie_values:
+    id: cookie_values
+    conditions: {  }
+    require_all_params: 1
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: /catalog/kitchen-tvs/cabinet-door-tv
+    negate: false
+    context_mapping: {  }
