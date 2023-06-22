@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function fcp_slider_theme() {
+  return [
+    'fcp_slider' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
+
+function fcp_slider_preprocess_fcp_slider(array &$variables) {
+
+}

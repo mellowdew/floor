@@ -1,0 +1,31 @@
+<div{{ attributes}}>
+  {% if content %}
+  <div class="cart-block--summary">
+    <a class="cart-block--link cart-dropdown" 
+    data-activates="cart-dropdown" href="{{ url }}">
+      <span class="cart-block--summary__icon">
+      <i class="icon-shopping-cart"></i></span>
+      <span class="cart-block--summary__count">{{ count }}</span>
+    </a>
+  </div>
+  <div class="cart-block--contents dropdown-content" id="cart-dropdown" >
+    <div class="cart-block--contents__inner">
+      <div class="cart-block--contents__items">
+        {{ content }}
+      </div>
+      <div class="cart-block--contents__links">
+        <span class="waves-effect waves-light btn" href="{{ url }}" >
+        {{ links }}</span>
+        
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="cart-block--summary">
+    <a class="cart-block--link" href="{{ url }}">
+      <span class="cart-block--summary__icon">
+      <i class="icon-shopping-cart"></i></span>
+    </a>
+  </div>
+  {% endif %}
+</div>

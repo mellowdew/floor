@@ -29,6 +29,7 @@
 %}
 
 <article itemscope itemtype="http://schema.org/Product" {{ attributes.addClass(wrapperClasses) }}>
+<div class="container">
   <div class="row">
     <div class="product-main-wrapper s12 l6 col">
       <div class="product-gallery">
@@ -84,6 +85,7 @@
         </h5>
 
         <div itemprop="description">
+        <h5 Описание </h5>
           {{ product.variation_field_short_description }}
           {{ product.field_short_description }}
           <a href="#" class="product__details">
@@ -112,10 +114,18 @@
       </div>
     </div>
   </div>
+  </div>
   <div class="row">
-    {{- product.body -}}
-    {{- product.field_product_description -}}
-    {{- product.field_product_testimonials -}}
+    <div class = "col-6" >
+    <h3 style="width:100%;">Описание</h3>
+    {{- product.body -}} 
+    </div>
+    
+   <div class = "col-6" >
+       <h3 style="width:100%;">Характеристики</h3>
+       {{- product.field_product_description -}} 
+       </div>
+   <div class = "col-6" > {{- product.field_product_testimonials -}}</div>
   </div>
 </article>
 

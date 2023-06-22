@@ -7,6 +7,15 @@
 
 use Drupal\Core\Form\FormStateInterface;
 
+use \Drupal\block_content;
+
+use \Drupal\Core\Block\BlockPluginInterface;
+use Drupal\file\Entity\File;
+
+use \Drupal\Core\Entity\EntityManager;
+use Drupal\commerce_product\Entity\Product;
+use Drupal\image\Entity\ImageStyle;
+
 /**
  * Implements hook_form_system_theme_settings_alter() for settings form.
  *
@@ -32,3 +41,40 @@ function fcp_form_system_theme_settings_alter(&$form, FormStateInterface $form_s
     'bg-transparent' => t('Transparent'),
   ];
 }
+
+function fcp_preprocess_block__bannernaglavnoystranice(&$variables)
+{
+
+  $bid = 78;
+  $block = \Drupal\block_content\Entity\BlockContent::load($bid);
+  $slides = $block->get('field_banner_slides')->getValue();
+
+  foreach ($slides as $arr => $key) {
+
+    $file = \Drupal\file\Entity\File::load($key["target_id"]);
+    $path = $file->getFileUri();
+    $style = ImageStyle::load('banner_image');
+    $image_url = $style->buildUrl($path);
+    $variables["slides"][$arr] = $image_url;
+  }
+    
+}
+
+function fcp_preprocess_block__rekomendaciikpokupke(&$variables) {
+  $variables["sasAS"] = "DASSDASD";
+
+  $bid = 79; 
+  $block = \Drupal\block_content\Entity\BlockContent::load($bid);
+
+  $original_message = $block->get('field_recs')->getValue();
+
+  $variables["recs"] = $original_message;
+
+  foreach ($original_message as $arr => $key) {
+
+  }
+
+}
+
+
+

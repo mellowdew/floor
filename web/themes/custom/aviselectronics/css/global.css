@@ -1596,7 +1596,7 @@
 .white, nav {
   background-color: #FFFFFF !important; }
 
-.white-text, .path-frontpage .breadcrumb, header nav #block-catalogdropdownbutton .dropdown-button, .cart-block--summary a.btn, .cart-block--summary a.btn-large, .cart-block--summary__icon i {
+.white-text, .path-frontpage .breadcrumb, z nav #block-catalogdropdownbutton .dropdown-button, .cart-block--summary a.btn, .cart-block--summary a.btn-large, .cart-block--summary__icon i {
   color: #FFFFFF !important; }
 
 .transparent {

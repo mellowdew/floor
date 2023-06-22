@@ -1,0 +1,7 @@
+name: fcp_slider
+description: fcp_slider
+package: my
+type: module
+core_version_requirement: ^8.9 || ^9
+libraries:
+  - fcp_slider/fcp_slider_lib

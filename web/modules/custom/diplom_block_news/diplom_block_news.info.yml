@@ -1,0 +1,7 @@
+name: diplom_block_news
+description: diplom_block_news
+package: my
+type: module
+core_version_requirement: ^8.9 || ^9
+libraries:
+  - diplom_block_news/diplom_block_news_lib

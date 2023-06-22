@@ -1,0 +1,12 @@
+fcp_slider_lib:
+  version: 1.x
+  css:
+    theme:
+      css/style.css: {}
+  js:
+    js/js.js: {}
+
+      
+slick:
+  js:
+    /libraries/slick/slick/slick.min.js: { }

@@ -18,6 +18,7 @@ regions:
   secondary_menu: 'Secondary menu'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+  line: "Line"
   highlighted: Highlighted
   featured_top: 'Featured top'
   breadcrumb: Breadcrumb

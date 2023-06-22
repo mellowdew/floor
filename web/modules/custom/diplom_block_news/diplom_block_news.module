@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_theme().
+ */
+function diplom_block_news_theme() {
+  return [
+    'diplom_block_news' => [
+      'variables' => [
+        'data' => [],
+      ],
+    ],
+  ];
+}
+
+function diplom_block_news_preprocess_diplom_block_news(array &$variables) {
+    
+  }
